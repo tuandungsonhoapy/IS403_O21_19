@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.8)  8 JUN 2024 00:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.8)  9 JUN 2024 16:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**e:/Nam3_Ky2/DataAnalysis/Project/IS403_O21_19/Latex/Report.tex
-(e:/Nam3_Ky2/DataAnalysis/Project/IS403_O21_19/Latex/Report.tex
+**e:/Nam3_Ky2/DataAnalysis/newProject/IS403_O21_19/Latex/Report.tex
+(e:/Nam3_Ky2/DataAnalysis/newProject/IS403_O21_19/Latex/Report.tex
 LaTeX2e <2024-06-01>
 L3 programming layer <2024-05-08>
 (E:\Miktek\tex/latex/base\article.cls
@@ -686,14 +686,14 @@ Package rerunfilecheck Info: File `Report.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  13207 strings out of 473938
- 198323 string characters out of 5743772
+ 198350 string characters out of 5743772
  1929893 words of memory out of 5000000
  35840 multiletter control sequences out of 15000+600000
  566619 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,14n,79p,400b,452s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,14n,79p,403b,452s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <E:/Miktek/fonts/type1/vntex/vnr/vnbx12.pfb><E:/Miktek/fonts/type1/vntex/vnr/vnr10.pfb><E:/Miktek/fonts/type1/vntex/vnr/vnr12.pfb>
-Output written on Report.pdf (1 page, 34121 bytes).
+Output written on Report.pdf (1 page, 34133 bytes).
 PDF statistics:
  26 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)

@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1717783168.2703 "e:/Nam3_Ky2/DataAnalysis/Project/IS403_O21_19/Latex/Report.tex" "Report.pdf" "Report" 1717783169.34685 0
+["pdflatex"] 1717926671.68238 "e:/Nam3_Ky2/DataAnalysis/newProject/IS403_O21_19/Latex/Report.tex" "Report.pdf" "Report" 1717926673.26498 0
   "C:/Users/Le Anh Tuan Dung/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1717781110 88371 b965f57369ed322039596060d18f4416 ""
   "C:/Users/Le Anh Tuan Dung/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1717780993 24246741 416af881053189231c56be630475a5d6 ""
   "E:/Miktek/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -103,10 +103,10 @@
   "E:/Miktek/tex/latex/vntex/vietnam.sty" 1368738347 2477 91784aa2c9213f74609391e3cae65a13 ""
   "E:/Miktek/tex/latex/vntex/vncaps.tex" 1368738347 3273 a55ebdb07413d2fea580f210e3c0b252 ""
   "E:/Miktek/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "Report.aux" 1717783169 265 fe7f9f6ff3978c5b241a2ddd1014c3a3 "pdflatex"
-  "Report.out" 1717783169 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "Report.tex" 1717783166 1183 443d22edfb1e8ca5af891cebf0decefc ""
-  "e:/Nam3_Ky2/DataAnalysis/Project/IS403_O21_19/Latex/Report.tex" 1717783166 1183 443d22edfb1e8ca5af891cebf0decefc ""
+  "Report.aux" 1717926672 265 fe7f9f6ff3978c5b241a2ddd1014c3a3 "pdflatex"
+  "Report.out" 1717926672 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "Report.tex" 1717926668 1183 443d22edfb1e8ca5af891cebf0decefc ""
+  "e:/Nam3_Ky2/DataAnalysis/newProject/IS403_O21_19/Latex/Report.tex" 1717926668 1183 443d22edfb1e8ca5af891cebf0decefc ""
   (generated)
   "Report.aux"
   "Report.log"
