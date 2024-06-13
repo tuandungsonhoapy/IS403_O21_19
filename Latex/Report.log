@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.8)  9 JUN 2024 00:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.8)  13 JUN 2024 18:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -583,7 +583,341 @@ Package: titling 2009/09/04 v2.1d maketitle typesetting
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count314
 \l__pdf_internal_box=\box104
-) (Report.aux)
+) (Report.aux
+
+LaTeX Warning: Label `fig:1' multiply defined.
+
+
+LaTeX Warning: Label `fig:2' multiply defined.
+
+
+LaTeX Warning: Label `fig:1' multiply defined.
+
+
+LaTeX Warning: Label `fig:2' multiply defined.
+
+
+LaTeX Warning: Label `fig:1' multiply defined.
+
+
+LaTeX Warning: Label `fig:2' multiply defined.
+
+
+LaTeX Warning: Label `fig:1' multiply defined.
+
+
+LaTeX Warning: Label `fig:2' multiply defined.
+
+
+LaTeX Warning: Label `fig:3' multiply defined.
+
+
+LaTeX Warning: Label `fig:1' multiply defined.
+
+
+LaTeX Warning: Label `fig:2' multiply defined.
+
+
+LaTeX Warning: Label `fig:3' multiply defined.
+
+
+LaTeX Warning: Label `fig:1' multiply defined.
+
+
+LaTeX Warning: Label `fig:2' multiply defined.
+
+
+LaTeX Warning: Label `fig:3' multiply defined.
+
+
+LaTeX Warning: Label `fig:1' multiply defined.
+
+
+LaTeX Warning: Label `fig:2' multiply defined.
+
+
+LaTeX Warning: Label `fig:3' multiply defined.
+
+
+LaTeX Warning: Label `fig:1' multiply defined.
+
+
+LaTeX Warning: Label `fig:2' multiply defined.
+
+
+LaTeX Warning: Label `fig:3' multiply defined.
+
+
+LaTeX Warning: Label `fig:1' multiply defined.
+
+
+LaTeX Warning: Label `fig:2' multiply defined.
+
+
+LaTeX Warning: Label `fig:3' multiply defined.
+
+
+LaTeX Warning: Label `fig:1' multiply defined.
+
+
+LaTeX Warning: Label `fig:2' multiply defined.
+
+
+LaTeX Warning: Label `fig:3' multiply defined.
+
+
+LaTeX Warning: Label `fig:1' multiply defined.
+
+
+LaTeX Warning: Label `fig:2' multiply defined.
+
+
+LaTeX Warning: Label `fig:3' multiply defined.
+
+
+LaTeX Warning: Label `fig:1' multiply defined.
+
+
+LaTeX Warning: Label `fig:2' multiply defined.
+
+
+LaTeX Warning: Label `fig:3' multiply defined.
+
+
+LaTeX Warning: Label `fig:1' multiply defined.
+
+
+LaTeX Warning: Label `fig:2' multiply defined.
+
+
+LaTeX Warning: Label `fig:3' multiply defined.
+
+
+LaTeX Warning: Label `fig:1' multiply defined.
+
+
+LaTeX Warning: Label `fig:2' multiply defined.
+
+
+LaTeX Warning: Label `fig:3' multiply defined.
+
+
+LaTeX Warning: Label `fig:1' multiply defined.
+
+
+LaTeX Warning: Label `fig:2' multiply defined.
+
+
+LaTeX Warning: Label `fig:3' multiply defined.
+
+
+LaTeX Warning: Label `fig:1' multiply defined.
+
+
+LaTeX Warning: Label `fig:2' multiply defined.
+
+
+LaTeX Warning: Label `fig:3' multiply defined.
+
+
+LaTeX Warning: Label `fig:1' multiply defined.
+
+
+LaTeX Warning: Label `fig:2' multiply defined.
+
+
+LaTeX Warning: Label `fig:3' multiply defined.
+
+
+LaTeX Warning: Label `fig:1' multiply defined.
+
+
+LaTeX Warning: Label `fig:2' multiply defined.
+
+
+LaTeX Warning: Label `fig:3' multiply defined.
+
+
+LaTeX Warning: Label `fig:1' multiply defined.
+
+
+LaTeX Warning: Label `fig:2' multiply defined.
+
+
+LaTeX Warning: Label `fig:3' multiply defined.
+
+
+LaTeX Warning: Label `fig:1' multiply defined.
+
+
+LaTeX Warning: Label `fig:2' multiply defined.
+
+
+LaTeX Warning: Label `fig:3' multiply defined.
+
+
+LaTeX Warning: Label `fig:1' multiply defined.
+
+
+LaTeX Warning: Label `fig:2' multiply defined.
+
+
+LaTeX Warning: Label `fig:3' multiply defined.
+
+
+LaTeX Warning: Label `fig:1' multiply defined.
+
+
+LaTeX Warning: Label `fig:2' multiply defined.
+
+
+LaTeX Warning: Label `fig:3' multiply defined.
+
+
+LaTeX Warning: Label `fig:1' multiply defined.
+
+
+LaTeX Warning: Label `fig:2' multiply defined.
+
+
+LaTeX Warning: Label `fig:3' multiply defined.
+
+
+LaTeX Warning: Label `fig:1' multiply defined.
+
+
+LaTeX Warning: Label `fig:2' multiply defined.
+
+
+LaTeX Warning: Label `fig:3' multiply defined.
+
+
+LaTeX Warning: Label `fig:1' multiply defined.
+
+
+LaTeX Warning: Label `fig:2' multiply defined.
+
+
+LaTeX Warning: Label `fig:3' multiply defined.
+
+
+LaTeX Warning: Label `fig:1' multiply defined.
+
+
+LaTeX Warning: Label `fig:2' multiply defined.
+
+
+LaTeX Warning: Label `fig:3' multiply defined.
+
+
+LaTeX Warning: Label `fig:1' multiply defined.
+
+
+LaTeX Warning: Label `fig:2' multiply defined.
+
+
+LaTeX Warning: Label `fig:3' multiply defined.
+
+
+LaTeX Warning: Label `fig:1' multiply defined.
+
+
+LaTeX Warning: Label `fig:2' multiply defined.
+
+
+LaTeX Warning: Label `fig:3' multiply defined.
+
+
+LaTeX Warning: Label `fig:1' multiply defined.
+
+
+LaTeX Warning: Label `fig:2' multiply defined.
+
+
+LaTeX Warning: Label `fig:3' multiply defined.
+
+
+LaTeX Warning: Label `fig:1' multiply defined.
+
+
+LaTeX Warning: Label `fig:2' multiply defined.
+
+
+LaTeX Warning: Label `fig:3' multiply defined.
+
+
+LaTeX Warning: Label `fig:1' multiply defined.
+
+
+LaTeX Warning: Label `fig:2' multiply defined.
+
+
+LaTeX Warning: Label `fig:3' multiply defined.
+
+
+LaTeX Warning: Label `fig:1' multiply defined.
+
+
+LaTeX Warning: Label `fig:2' multiply defined.
+
+
+LaTeX Warning: Label `fig:3' multiply defined.
+
+
+LaTeX Warning: Label `fig:1' multiply defined.
+
+
+LaTeX Warning: Label `fig:2' multiply defined.
+
+
+LaTeX Warning: Label `fig:3' multiply defined.
+
+
+LaTeX Warning: Label `fig:1' multiply defined.
+
+
+LaTeX Warning: Label `fig:2' multiply defined.
+
+
+LaTeX Warning: Label `fig:3' multiply defined.
+
+
+LaTeX Warning: Label `fig:1' multiply defined.
+
+
+LaTeX Warning: Label `fig:2' multiply defined.
+
+
+LaTeX Warning: Label `fig:3' multiply defined.
+
+
+LaTeX Warning: Label `fig:1' multiply defined.
+
+
+LaTeX Warning: Label `fig:2' multiply defined.
+
+
+LaTeX Warning: Label `fig:3' multiply defined.
+
+
+LaTeX Warning: Label `fig:1' multiply defined.
+
+
+LaTeX Warning: Label `fig:2' multiply defined.
+
+
+LaTeX Warning: Label `fig:3' multiply defined.
+
+
+LaTeX Warning: Label `fig:1' multiply defined.
+
+
+LaTeX Warning: Label `fig:2' multiply defined.
+
+
+LaTeX Warning: Label `fig:3' multiply defined.
+
+)
 \openout1 = `Report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
@@ -672,30 +1006,846 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 40.
  (E:\Miktek\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
+) [1
 
-[1
+{C:/Users/Le Anh Tuan Dung/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+Overfull \hbox (3.20276pt too wide) in paragraph at lines 91--103
+ [][] 
+ []
 
-{C:/Users/Le Anh Tuan Dung/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (Report.aux)
+<Image/DatasetImg/SONY_Boxplot.png, id=68, 367.3725pt x 296.307pt>
+File: Image/DatasetImg/SONY_Boxplot.png Graphic file (type png)
+<use Image/DatasetImg/SONY_Boxplot.png>
+Package pdftex.def Info: Image/DatasetImg/SONY_Boxplot.png  used on input line 109.
+(pdftex.def)             Requested size: 108.04164pt x 87.13852pt.
+<Image/DatasetImg/SONY_LineChart.png, id=70, 461.47406pt x 348.55219pt>
+File: Image/DatasetImg/SONY_LineChart.png Graphic file (type png)
+<use Image/DatasetImg/SONY_LineChart.png>
+Package pdftex.def Info: Image/DatasetImg/SONY_LineChart.png  used on input line 116.
+(pdftex.def)             Requested size: 108.04164pt x 81.60129pt.
+<Image/DatasetImg/SAMSUNG_Boxplot.png, id=71, 373.99725pt x 299.31825pt>
+File: Image/DatasetImg/SAMSUNG_Boxplot.png Graphic file (type png)
+<use Image/DatasetImg/SAMSUNG_Boxplot.png>
+Package pdftex.def Info: Image/DatasetImg/SAMSUNG_Boxplot.png  used on input line 126.
+(pdftex.def)             Requested size: 108.04164pt x 86.46666pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
+[]\T5/cmr/m/n/10 H¼nh 3: []SAMSUNG
+ []
+
+<Image/DatasetImg/SAMSUNG_LineChart.png, id=72, 372.1905pt x 262.581pt>
+File: Image/DatasetImg/SAMSUNG_LineChart.png Graphic file (type png)
+<use Image/DatasetImg/SAMSUNG_LineChart.png>
+Package pdftex.def Info: Image/DatasetImg/SAMSUNG_LineChart.png  used on input line 133.
+(pdftex.def)             Requested size: 108.04164pt x 76.22266pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--134
+[]\T5/cmr/m/n/10 H¼nh 4: []SAMSUNG
+ []
+
+<Image/DatasetImg/LG_Boxplot.png, id=73, 363.15675pt x 295.70474pt>
+File: Image/DatasetImg/LG_Boxplot.png Graphic file (type png)
+<use Image/DatasetImg/LG_Boxplot.png>
+Package pdftex.def Info: Image/DatasetImg/LG_Boxplot.png  used on input line 143.
+(pdftex.def)             Requested size: 108.04164pt x 87.97212pt.
+<Image/DatasetImg/LG_LineChart.png, id=74, 365.56575pt x 277.035pt>
+File: Image/DatasetImg/LG_LineChart.png Graphic file (type png)
+<use Image/DatasetImg/LG_LineChart.png>
+Package pdftex.def Info: Image/DatasetImg/LG_LineChart.png  used on input line 150.
+(pdftex.def)             Requested size: 108.04164pt x 81.87679pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--159
+
+ []
+
+[2
+pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.163     \end{equation}
+                        
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.163     \end{equation}
+                        
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.163     \end{equation}
+                        
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.163     \end{equation}
+                        
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.163     \end{equation}
+                        
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.163     \end{equation}
+                        
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.163     \end{equation}
+                         <./Image/DatasetImg/SONY_Boxplot.png> <./Image/DatasetImg/SONY_LineChart.png> <./Image/DatasetImg/SAMSUNG_Boxplot.png> <./Image/DatasetImg/SAMSUNG_LineChart.png> <./Image/DatasetImg/LG_Boxplot.png> <./Image/DatasetImg/LG_LineChart.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 173--175
+
+ []
+
+[3]
+<Image/ARIMA/30_6_4_LG_Arima.png, id=108, 437.13312pt x 266.49562pt>
+File: Image/ARIMA/30_6_4_LG_Arima.png Graphic file (type png)
+<use Image/ARIMA/30_6_4_LG_Arima.png>
+Package pdftex.def Info: Image/ARIMA/30_6_4_LG_Arima.png  used on input line 231.
+(pdftex.def)             Requested size: 70.46037pt x 42.95328pt.
+<Image/ARIMA/30_7_3_LG_Arima.png, id=109, 429.605pt x 264.99pt>
+File: Image/ARIMA/30_7_3_LG_Arima.png Graphic file (type png)
+<use Image/ARIMA/30_7_3_LG_Arima.png>
+Package pdftex.def Info: Image/ARIMA/30_7_3_LG_Arima.png  used on input line 237.
+(pdftex.def)             Requested size: 70.46037pt x 43.45863pt.
+<Image/ARIMA/30_8_2_LG_Arima.png, id=110, 432.61626pt x 264.99pt>
+File: Image/ARIMA/30_8_2_LG_Arima.png Graphic file (type png)
+<use Image/ARIMA/30_8_2_LG_Arima.png>
+Package pdftex.def Info: Image/ARIMA/30_8_2_LG_Arima.png  used on input line 243.
+(pdftex.def)             Requested size: 70.46037pt x 43.15942pt.
+<Image/ARIMA/60_6_4_LG_Arima.png, id=111, 421.575pt x 266.49562pt>
+File: Image/ARIMA/60_6_4_LG_Arima.png Graphic file (type png)
+<use Image/ARIMA/60_6_4_LG_Arima.png>
+Package pdftex.def Info: Image/ARIMA/60_6_4_LG_Arima.png  used on input line 254.
+(pdftex.def)             Requested size: 70.46037pt x 44.53917pt.
+<Image/ARIMA/60_7_3_LG_Arima.png, id=112, 413.04312pt x 269.50688pt>
+File: Image/ARIMA/60_7_3_LG_Arima.png Graphic file (type png)
+<use Image/ARIMA/60_7_3_LG_Arima.png>
+Package pdftex.def Info: Image/ARIMA/60_7_3_LG_Arima.png  used on input line 260.
+(pdftex.def)             Requested size: 70.46037pt x 45.97182pt.
+<Image/ARIMA/60_8_2_LG_Arima.png, id=113, 441.14813pt x 272.51813pt>
+File: Image/ARIMA/60_8_2_LG_Arima.png Graphic file (type png)
+<use Image/ARIMA/60_8_2_LG_Arima.png>
+Package pdftex.def Info: Image/ARIMA/60_8_2_LG_Arima.png  used on input line 266.
+(pdftex.def)             Requested size: 70.46037pt x 43.52478pt.
+<Image/ARIMA/90_6_4_LG_Arima.png, id=114, 407.02063pt x 257.96375pt>
+File: Image/ARIMA/90_6_4_LG_Arima.png Graphic file (type png)
+<use Image/ARIMA/90_6_4_LG_Arima.png>
+Package pdftex.def Info: Image/ARIMA/90_6_4_LG_Arima.png  used on input line 277.
+(pdftex.def)             Requested size: 70.46037pt x 44.65623pt.
+<Image/ARIMA/90_7_3_LG_Arima.png, id=115, 393.47pt x 260.975pt>
+File: Image/ARIMA/90_7_3_LG_Arima.png Graphic file (type png)
+<use Image/ARIMA/90_7_3_LG_Arima.png>
+Package pdftex.def Info: Image/ARIMA/90_7_3_LG_Arima.png  used on input line 283.
+(pdftex.def)             Requested size: 70.46037pt x 46.73056pt.
+<Image/ARIMA/90_8_2_LG_Arima.png, id=116, 398.99063pt x 259.46938pt>
+File: Image/ARIMA/90_8_2_LG_Arima.png Graphic file (type png)
+<use Image/ARIMA/90_8_2_LG_Arima.png>
+Package pdftex.def Info: Image/ARIMA/90_8_2_LG_Arima.png  used on input line 289.
+(pdftex.def)             Requested size: 70.46037pt x 45.81956pt.
+<Image/ARIMA/30_6_4_SONY_Arima.png, id=117, 390.45876pt x 259.46938pt>
+File: Image/ARIMA/30_6_4_SONY_Arima.png Graphic file (type png)
+<use Image/ARIMA/30_6_4_SONY_Arima.png>
+Package pdftex.def Info: Image/ARIMA/30_6_4_SONY_Arima.png  used on input line 300.
+(pdftex.def)             Requested size: 70.46037pt x 46.82124pt.
+<Image/ARIMA/30_7_3_SONY_Arima.png, id=118, 389.95688pt x 266.9975pt>
+File: Image/ARIMA/30_7_3_SONY_Arima.png Graphic file (type png)
+<use Image/ARIMA/30_7_3_SONY_Arima.png>
+Package pdftex.def Info: Image/ARIMA/30_7_3_SONY_Arima.png  used on input line 306.
+(pdftex.def)             Requested size: 70.46037pt x 48.2408pt.
+<Image/ARIMA/30_8_2_SONY_Arima.png, id=119, 419.06563pt x 260.975pt>
+File: Image/ARIMA/30_8_2_SONY_Arima.png Graphic file (type png)
+<use Image/ARIMA/30_8_2_SONY_Arima.png>
+Package pdftex.def Info: Image/ARIMA/30_8_2_SONY_Arima.png  used on input line 312.
+(pdftex.def)             Requested size: 70.46037pt x 43.87933pt.
+<Image/ARIMA/60_6_4_SONY_Arima.png, id=120, 385.94188pt x 263.98625pt>
+File: Image/ARIMA/60_6_4_SONY_Arima.png Graphic file (type png)
+<use Image/ARIMA/60_6_4_SONY_Arima.png>
+Package pdftex.def Info: Image/ARIMA/60_6_4_SONY_Arima.png  used on input line 323.
+(pdftex.def)             Requested size: 70.46037pt x 48.19218pt.
+<Image/ARIMA/60_7_3_SONY_Arima.png, id=121, 376.90813pt x 263.48438pt>
+File: Image/ARIMA/60_7_3_SONY_Arima.png Graphic file (type png)
+<use Image/ARIMA/60_7_3_SONY_Arima.png>
+Package pdftex.def Info: Image/ARIMA/60_7_3_SONY_Arima.png  used on input line 329.
+(pdftex.def)             Requested size: 70.46037pt x 49.25444pt.
+<Image/ARIMA/60_8_2_SONY_Arima.png, id=122, 417.56pt x 268.00125pt>
+File: Image/ARIMA/60_8_2_SONY_Arima.png Graphic file (type png)
+<use Image/ARIMA/60_8_2_SONY_Arima.png>
+Package pdftex.def Info: Image/ARIMA/60_8_2_SONY_Arima.png  used on input line 335.
+(pdftex.def)             Requested size: 70.46037pt x 45.22018pt.
+<Image/ARIMA/90_6_4_SONY_Arima.png, id=123, 376.40625pt x 258.9675pt>
+File: Image/ARIMA/90_6_4_SONY_Arima.png Graphic file (type png)
+<use Image/ARIMA/90_6_4_SONY_Arima.png>
+Package pdftex.def Info: Image/ARIMA/90_6_4_SONY_Arima.png  used on input line 347.
+(pdftex.def)             Requested size: 70.46037pt x 48.47725pt.
+<Image/ARIMA/90_7_3_SONY_Arima.png, id=124, 374.90062pt x 258.9675pt>
+File: Image/ARIMA/90_7_3_SONY_Arima.png Graphic file (type png)
+<use Image/ARIMA/90_7_3_SONY_Arima.png>
+Package pdftex.def Info: Image/ARIMA/90_7_3_SONY_Arima.png  used on input line 353.
+(pdftex.def)             Requested size: 70.46037pt x 48.67087pt.
+<Image/ARIMA/90_8_2_SONY_Arima.png, id=125, 382.93062pt x 260.975pt>
+File: Image/ARIMA/90_8_2_SONY_Arima.png Graphic file (type png)
+<use Image/ARIMA/90_8_2_SONY_Arima.png>
+Package pdftex.def Info: Image/ARIMA/90_8_2_SONY_Arima.png  used on input line 359.
+(pdftex.def)             Requested size: 70.46037pt x 48.02077pt.
+<Image/ARIMA/30_6_4_SAMSUNG_Arima.png, id=126, 388.95313pt x 264.99pt>
+File: Image/ARIMA/30_6_4_SAMSUNG_Arima.png Graphic file (type png)
+<use Image/ARIMA/30_6_4_SAMSUNG_Arima.png>
+Package pdftex.def Info: Image/ARIMA/30_6_4_SAMSUNG_Arima.png  used on input line 371.
+(pdftex.def)             Requested size: 70.46037pt x 48.00343pt.
+<Image/ARIMA/30_7_3_SAMSUNG_Arima.png, id=127, 407.02063pt x 263.98625pt>
+File: Image/ARIMA/30_7_3_SAMSUNG_Arima.png Graphic file (type png)
+<use Image/ARIMA/30_7_3_SAMSUNG_Arima.png>
+Package pdftex.def Info: Image/ARIMA/30_7_3_SAMSUNG_Arima.png  used on input line 377.
+(pdftex.def)             Requested size: 70.46037pt x 45.69879pt.
+<Image/ARIMA/30_8_2_SAMSUNG_Arima.png, id=128, 422.07687pt x 264.99pt>
+File: Image/ARIMA/30_8_2_SAMSUNG_Arima.png Graphic file (type png)
+<use Image/ARIMA/30_8_2_SAMSUNG_Arima.png>
+Package pdftex.def Info: Image/ARIMA/30_8_2_SAMSUNG_Arima.png  used on input line 383.
+(pdftex.def)             Requested size: 70.46037pt x 44.23497pt.
+<Image/ARIMA/60_6_4_SAMSUNG_Arima.png, id=129, 394.47375pt x 266.9975pt>
+File: Image/ARIMA/60_6_4_SAMSUNG_Arima.png Graphic file (type png)
+<use Image/ARIMA/60_6_4_SAMSUNG_Arima.png>
+Package pdftex.def Info: Image/ARIMA/60_6_4_SAMSUNG_Arima.png  used on input line 394.
+(pdftex.def)             Requested size: 70.46037pt x 47.6908pt.
+<Image/ARIMA/60_7_3_SAMSUNG_Arima.png, id=130, 394.47375pt x 265.49188pt>
+File: Image/ARIMA/60_7_3_SAMSUNG_Arima.png Graphic file (type png)
+<use Image/ARIMA/60_7_3_SAMSUNG_Arima.png>
+Package pdftex.def Info: Image/ARIMA/60_7_3_SAMSUNG_Arima.png  used on input line 400.
+(pdftex.def)             Requested size: 70.46037pt x 47.42188pt.
+<Image/ARIMA/60_8_2_SAMSUNG_Arima.png, id=131, 415.5525pt x 265.49188pt>
+File: Image/ARIMA/60_8_2_SAMSUNG_Arima.png Graphic file (type png)
+<use Image/ARIMA/60_8_2_SAMSUNG_Arima.png>
+Package pdftex.def Info: Image/ARIMA/60_8_2_SAMSUNG_Arima.png  used on input line 406.
+(pdftex.def)             Requested size: 70.46037pt x 45.01553pt.
+<Image/ARIMA/90_6_4_SAMSUNG_Arima.png, id=132, 397.98688pt x 259.46938pt>
+File: Image/ARIMA/90_6_4_SAMSUNG_Arima.png Graphic file (type png)
+<use Image/ARIMA/90_6_4_SAMSUNG_Arima.png>
+Package pdftex.def Info: Image/ARIMA/90_6_4_SAMSUNG_Arima.png  used on input line 417.
+(pdftex.def)             Requested size: 70.46037pt x 45.93439pt.
+<Image/ARIMA/90_7_3_SAMSUNG_Arima.png, id=133, 407.02063pt x 260.47313pt>
+File: Image/ARIMA/90_7_3_SAMSUNG_Arima.png Graphic file (type png)
+<use Image/ARIMA/90_7_3_SAMSUNG_Arima.png>
+Package pdftex.def Info: Image/ARIMA/90_7_3_SAMSUNG_Arima.png  used on input line 423.
+(pdftex.def)             Requested size: 70.46037pt x 45.09064pt.
+<Image/ARIMA/90_8_2_SAMSUNG_Arima.png, id=134, 396.48125pt x 260.47313pt>
+File: Image/ARIMA/90_8_2_SAMSUNG_Arima.png Graphic file (type png)
+<use Image/ARIMA/90_8_2_SAMSUNG_Arima.png>
+Package pdftex.def Info: Image/ARIMA/90_8_2_SAMSUNG_Arima.png  used on input line 429.
+(pdftex.def)             Requested size: 70.46037pt x 46.28696pt.
+<Image/Linear/Linear_LG_6_4_30DAYS.png, id=135, 757.02824pt x 290.88675pt>
+File: Image/Linear/Linear_LG_6_4_30DAYS.png Graphic file (type png)
+<use Image/Linear/Linear_LG_6_4_30DAYS.png>
+Package pdftex.def Info: Image/Linear/Linear_LG_6_4_30DAYS.png  used on input line 443.
+(pdftex.def)             Requested size: 70.46037pt x 27.07082pt.
+<Image/Linear/Linear_LG_7_3_30DAYS.png, id=136, 744.381pt x 299.31825pt>
+File: Image/Linear/Linear_LG_7_3_30DAYS.png Graphic file (type png)
+<use Image/Linear/Linear_LG_7_3_30DAYS.png>
+Package pdftex.def Info: Image/Linear/Linear_LG_7_3_30DAYS.png  used on input line 449.
+(pdftex.def)             Requested size: 70.46037pt x 28.33047pt.
+<Image/Linear/Linear_LG_8_2_30DAYS.png, id=137, 741.36975pt x 299.31825pt>
+File: Image/Linear/Linear_LG_8_2_30DAYS.png Graphic file (type png)
+<use Image/Linear/Linear_LG_8_2_30DAYS.png>
+Package pdftex.def Info: Image/Linear/Linear_LG_8_2_30DAYS.png  used on input line 455.
+(pdftex.def)             Requested size: 70.46037pt x 28.44466pt.
+<Image/Linear/Linear_LG_6_4_60DAYS.png, id=138, 744.98325pt x 290.88675pt>
+File: Image/Linear/Linear_LG_6_4_60DAYS.png Graphic file (type png)
+<use Image/Linear/Linear_LG_6_4_60DAYS.png>
+Package pdftex.def Info: Image/Linear/Linear_LG_6_4_60DAYS.png  used on input line 466.
+(pdftex.def)             Requested size: 70.46037pt x 27.51024pt.
+<Image/Linear/Linear_LG_7_3_60DAYS.png, id=139, 755.82375pt x 293.29575pt>
+File: Image/Linear/Linear_LG_7_3_60DAYS.png Graphic file (type png)
+<use Image/Linear/Linear_LG_7_3_60DAYS.png>
+Package pdftex.def Info: Image/Linear/Linear_LG_7_3_60DAYS.png  used on input line 472.
+(pdftex.def)             Requested size: 70.46037pt x 27.33977pt.
+<Image/Linear/Linear_LG_8_2_60DAYS.png, id=140, 741.972pt x 301.72725pt>
+File: Image/Linear/Linear_LG_8_2_60DAYS.png Graphic file (type png)
+<use Image/Linear/Linear_LG_8_2_60DAYS.png>
+Package pdftex.def Info: Image/Linear/Linear_LG_8_2_60DAYS.png  used on input line 478.
+(pdftex.def)             Requested size: 70.46037pt x 28.65057pt.
+ [4
+pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.484 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.484 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.484 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.484 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.484 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.12}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.484 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.13}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.484 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.14}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.484 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.15}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.484 
+       <./Image/ARIMA/30_6_4_LG_Arima.png> <./Image/ARIMA/30_7_3_LG_Arima.png> <./Image/ARIMA/30_8_2_LG_Arima.png> <./Image/ARIMA/60_6_4_LG_Arima.png> <./Image/ARIMA/60_7_3_LG_Arima.png> <./Image/ARIMA/60_8_2_LG_Arima.png> <./Image/ARIMA/90_6_4_LG_Arima.png> <./Image/ARIMA/90_7_3_LG_Arima.png> <./Image/ARIMA/90_8_2_LG_Arima.png> <./Image/ARIMA/30_6_4_SONY_Arima.png> <./Image/ARIMA/30_7_3_SONY_Arima.png> <./Image/ARIMA/30_8_2_SONY_Arima.png> <./Image/ARIMA/60_6_4_SONY_Arima.png> <./Image/ARIMA/60_7_3_SONY_Arima.png> <./Image/ARIMA/60_8_2_SONY_Arima.png> <./Image/ARIMA/90_6_4_SONY_Arima.png> <./Image/ARIMA/90_7_3_SONY_Arima.png> <./Image/ARIMA/90_8_2_SONY_Arima.png> <./Image/ARIMA/30_6_4_SAMSUNG_Arima.png> <./Image/ARIMA/30_7_3_SAMSUNG_Arima.png> <./Image/ARIMA/30_8_2_SAMSUNG_Arima.png> <./Image/ARIMA/60_6_4_SAMSUNG_Arima.png> <./Image/ARIMA/60_7_3_SAMSUNG_Arima.png> <./Image/ARIMA/60_8_2_SAMSUNG_Arima.png> <./Image/ARIMA/90_6_4_SAMSUNG_Arima.png> <./Image/ARIMA/90_7_3_SAMSUNG_Arima.png> <./Image/ARIMA/90_8_2_SAMSUNG_Arima.png>]
+<Image/Linear/Linear_LG_6_4_90DAYS.png, id=182, 747.39224pt x 284.262pt>
+File: Image/Linear/Linear_LG_6_4_90DAYS.png Graphic file (type png)
+<use Image/Linear/Linear_LG_6_4_90DAYS.png>
+Package pdftex.def Info: Image/Linear/Linear_LG_6_4_90DAYS.png  used on input line 489.
+(pdftex.def)             Requested size: 70.46037pt x 26.79697pt.
+<Image/Linear/Linear_LG_7_3_90DAYS.png, id=183, 757.02824pt x 290.2845pt>
+File: Image/Linear/Linear_LG_7_3_90DAYS.png Graphic file (type png)
+<use Image/Linear/Linear_LG_7_3_90DAYS.png>
+Package pdftex.def Info: Image/Linear/Linear_LG_7_3_90DAYS.png  used on input line 495.
+(pdftex.def)             Requested size: 70.46037pt x 27.01477pt.
+<Image/Linear/Linear_LG_8_2_90DAYS.png, id=184, 751.00575pt x 293.29575pt>
+File: Image/Linear/Linear_LG_8_2_90DAYS.png Graphic file (type png)
+<use Image/Linear/Linear_LG_8_2_90DAYS.png>
+Package pdftex.def Info: Image/Linear/Linear_LG_8_2_90DAYS.png  used on input line 501.
+(pdftex.def)             Requested size: 70.46037pt x 27.5143pt.
+<Image/Linear/Linear_SONY_6_4_30DAYS.png, id=185, 751.00575pt x 293.29575pt>
+File: Image/Linear/Linear_SONY_6_4_30DAYS.png Graphic file (type png)
+<use Image/Linear/Linear_SONY_6_4_30DAYS.png>
+Package pdftex.def Info: Image/Linear/Linear_SONY_6_4_30DAYS.png  used on input line 512.
+(pdftex.def)             Requested size: 70.46037pt x 27.5143pt.
+<Image/Linear/Linear_SONY_7_3_30DAYS.png, id=186, 754.61925pt x 301.72725pt>
+File: Image/Linear/Linear_SONY_7_3_30DAYS.png Graphic file (type png)
+<use Image/Linear/Linear_SONY_7_3_30DAYS.png>
+Package pdftex.def Info: Image/Linear/Linear_SONY_7_3_30DAYS.png  used on input line 518.
+(pdftex.def)             Requested size: 70.46037pt x 28.17175pt.
+<Image/Linear/Linear_SONY_8_2_30DAYS.png, id=187, 764.8575pt x 298.716pt>
+File: Image/Linear/Linear_SONY_8_2_30DAYS.png Graphic file (type png)
+<use Image/Linear/Linear_SONY_8_2_30DAYS.png>
+Package pdftex.def Info: Image/Linear/Linear_SONY_8_2_30DAYS.png  used on input line 524.
+(pdftex.def)             Requested size: 70.46037pt x 27.51683pt.
+<Image/Linear/Linear_SONY_6_4_60DAYS.png, id=188, 747.39224pt x 298.11375pt>
+File: Image/Linear/Linear_SONY_6_4_60DAYS.png Graphic file (type png)
+<use Image/Linear/Linear_SONY_6_4_60DAYS.png>
+Package pdftex.def Info: Image/Linear/Linear_SONY_6_4_60DAYS.png  used on input line 535.
+(pdftex.def)             Requested size: 70.46037pt x 28.10275pt.
+<Image/Linear/Linear_SONY_7_3_60DAYS.png, id=189, 769.6755pt x 296.90926pt>
+File: Image/Linear/Linear_SONY_7_3_60DAYS.png Graphic file (type png)
+<use Image/Linear/Linear_SONY_7_3_60DAYS.png>
+Package pdftex.def Info: Image/Linear/Linear_SONY_7_3_60DAYS.png  used on input line 541.
+(pdftex.def)             Requested size: 70.46037pt x 27.17825pt.
+<Image/Linear/Linear_SONY_8_2_60DAYS.png, id=190, 755.82375pt x 301.125pt>
+File: Image/Linear/Linear_SONY_8_2_60DAYS.png Graphic file (type png)
+<use Image/Linear/Linear_SONY_8_2_60DAYS.png>
+Package pdftex.def Info: Image/Linear/Linear_SONY_8_2_60DAYS.png  used on input line 547.
+(pdftex.def)             Requested size: 70.46037pt x 28.06958pt.
+<Image/Linear/Linear_SONY_6_4_90DAYS.png, id=191, 741.36975pt x 299.9205pt>
+File: Image/Linear/Linear_SONY_6_4_90DAYS.png Graphic file (type png)
+<use Image/Linear/Linear_SONY_6_4_90DAYS.png>
+Package pdftex.def Info: Image/Linear/Linear_SONY_6_4_90DAYS.png  used on input line 559.
+(pdftex.def)             Requested size: 70.46037pt x 28.50189pt.
+<Image/Linear/Linear_SONY_7_3_90DAYS.png, id=192, 756.426pt x 298.716pt>
+File: Image/Linear/Linear_SONY_7_3_90DAYS.png Graphic file (type png)
+<use Image/Linear/Linear_SONY_7_3_90DAYS.png>
+Package pdftex.def Info: Image/Linear/Linear_SONY_7_3_90DAYS.png  used on input line 565.
+(pdftex.def)             Requested size: 70.46037pt x 27.82222pt.
+<Image/Linear/Linear_SONY_8_2_90DAYS.png, id=193, 747.9945pt x 305.943pt>
+File: Image/Linear/Linear_SONY_8_2_90DAYS.png Graphic file (type png)
+<use Image/Linear/Linear_SONY_8_2_90DAYS.png>
+Package pdftex.def Info: Image/Linear/Linear_SONY_8_2_90DAYS.png  used on input line 571.
+(pdftex.def)             Requested size: 70.46037pt x 28.81746pt.
+<Image/Linear/Linear_SAMSUNG_6_4_30DAYS.png, id=194, 742.57425pt x 296.307pt>
+File: Image/Linear/Linear_SAMSUNG_6_4_30DAYS.png Graphic file (type png)
+<use Image/Linear/Linear_SAMSUNG_6_4_30DAYS.png>
+Package pdftex.def Info: Image/Linear/Linear_SAMSUNG_6_4_30DAYS.png  used on input line 583.
+(pdftex.def)             Requested size: 70.46037pt x 28.11328pt.
+<Image/Linear/Linear_SAMSUNG_7_3_30DAYS.png, id=195, 741.972pt x 290.2845pt>
+File: Image/Linear/Linear_SAMSUNG_7_3_30DAYS.png Graphic file (type png)
+<use Image/Linear/Linear_SAMSUNG_7_3_30DAYS.png>
+Package pdftex.def Info: Image/Linear/Linear_SAMSUNG_7_3_30DAYS.png  used on input line 589.
+(pdftex.def)             Requested size: 70.46037pt x 27.56401pt.
+<Image/Linear/Linear_SAMSUNG_8_2_30DAYS.png, id=196, 755.82375pt x 290.2845pt>
+File: Image/Linear/Linear_SAMSUNG_8_2_30DAYS.png Graphic file (type png)
+<use Image/Linear/Linear_SAMSUNG_8_2_30DAYS.png>
+Package pdftex.def Info: Image/Linear/Linear_SAMSUNG_8_2_30DAYS.png  used on input line 595.
+(pdftex.def)             Requested size: 70.46037pt x 27.05907pt.
+<Image/Linear/Linear_SAMSUNG_6_4_60DAYS.png, id=197, 751.608pt x 296.90926pt>
+File: Image/Linear/Linear_SAMSUNG_6_4_60DAYS.png Graphic file (type png)
+<use Image/Linear/Linear_SAMSUNG_6_4_60DAYS.png>
+Package pdftex.def Info: Image/Linear/Linear_SAMSUNG_6_4_60DAYS.png  used on input line 606.
+(pdftex.def)             Requested size: 70.46037pt x 27.83064pt.
+<Image/Linear/Linear_SAMSUNG_7_3_60DAYS.png, id=198, 744.381pt x 301.125pt>
+File: Image/Linear/Linear_SAMSUNG_7_3_60DAYS.png Graphic file (type png)
+<use Image/Linear/Linear_SAMSUNG_7_3_60DAYS.png>
+Package pdftex.def Info: Image/Linear/Linear_SAMSUNG_7_3_60DAYS.png  used on input line 612.
+(pdftex.def)             Requested size: 70.46037pt x 28.50148pt.
+<Image/Linear/Linear_SAMSUNG_8_2_60DAYS.png, id=199, 744.98325pt x 292.09125pt>
+File: Image/Linear/Linear_SAMSUNG_8_2_60DAYS.png Graphic file (type png)
+<use Image/Linear/Linear_SAMSUNG_8_2_60DAYS.png>
+Package pdftex.def Info: Image/Linear/Linear_SAMSUNG_8_2_60DAYS.png  used on input line 618.
+(pdftex.def)             Requested size: 70.46037pt x 27.62416pt.
+<Image/Linear/Linear_SAMSUNG_6_4_90DAYS.png, id=200, 743.77875pt x 293.29575pt>
+File: Image/Linear/Linear_SAMSUNG_6_4_90DAYS.png Graphic file (type png)
+<use Image/Linear/Linear_SAMSUNG_6_4_90DAYS.png>
+Package pdftex.def Info: Image/Linear/Linear_SAMSUNG_6_4_90DAYS.png  used on input line 629.
+(pdftex.def)             Requested size: 70.46037pt x 27.78282pt.
+<Image/Linear/Linear_SAMSUNG_7_3_90DAYS.png, id=201, 744.98325pt x 287.27325pt>
+File: Image/Linear/Linear_SAMSUNG_7_3_90DAYS.png Graphic file (type png)
+<use Image/Linear/Linear_SAMSUNG_7_3_90DAYS.png>
+Package pdftex.def Info: Image/Linear/Linear_SAMSUNG_7_3_90DAYS.png  used on input line 635.
+(pdftex.def)             Requested size: 70.46037pt x 27.1685pt.
+<Image/Linear/Linear_SAMSUNG_8_2_90DAYS.png, id=202, 751.00575pt x 304.7385pt>
+File: Image/Linear/Linear_SAMSUNG_8_2_90DAYS.png Graphic file (type png)
+<use Image/Linear/Linear_SAMSUNG_8_2_90DAYS.png>
+Package pdftex.def Info: Image/Linear/Linear_SAMSUNG_8_2_90DAYS.png  used on input line 641.
+(pdftex.def)             Requested size: 70.46037pt x 28.58775pt.
+<Image/VARMA/LG/6_4/30.png, id=203, 662.475pt x 356.532pt>
+File: Image/VARMA/LG/6_4/30.png Graphic file (type png)
+<use Image/VARMA/LG/6_4/30.png>
+Package pdftex.def Info: Image/VARMA/LG/6_4/30.png  used on input line 654.
+(pdftex.def)             Requested size: 70.46037pt x 37.91841pt.
+<Image/VARMA/LG/7_3/30.png, id=204, 655.248pt x 349.90726pt>
+File: Image/VARMA/LG/7_3/30.png Graphic file (type png)
+<use Image/VARMA/LG/7_3/30.png>
+Package pdftex.def Info: Image/VARMA/LG/7_3/30.png  used on input line 660.
+(pdftex.def)             Requested size: 70.46037pt x 37.62497pt.
+<Image/VARMA/LG/8_2/30.png, id=205, 655.248pt x 350.5095pt>
+File: Image/VARMA/LG/8_2/30.png Graphic file (type png)
+<use Image/VARMA/LG/8_2/30.png>
+Package pdftex.def Info: Image/VARMA/LG/8_2/30.png  used on input line 666.
+(pdftex.def)             Requested size: 70.46037pt x 37.68973pt.
+<Image/VARMA/LG/6_4/60.png, id=206, 654.64575pt x 347.49825pt>
+File: Image/VARMA/LG/6_4/60.png Graphic file (type png)
+<use Image/VARMA/LG/6_4/60.png>
+Package pdftex.def Info: Image/VARMA/LG/6_4/60.png  used on input line 677.
+(pdftex.def)             Requested size: 70.46037pt x 37.39774pt.
+<Image/VARMA/LG/7_3/60.png, id=207, 655.248pt x 350.5095pt>
+File: Image/VARMA/LG/7_3/60.png Graphic file (type png)
+<use Image/VARMA/LG/7_3/60.png>
+Package pdftex.def Info: Image/VARMA/LG/7_3/60.png  used on input line 683.
+(pdftex.def)             Requested size: 70.46037pt x 37.68973pt.
+<Image/VARMA/LG/8_2/60.png, id=208, 654.64575pt x 346.896pt>
+File: Image/VARMA/LG/8_2/60.png Graphic file (type png)
+<use Image/VARMA/LG/8_2/60.png>
+Package pdftex.def Info: Image/VARMA/LG/8_2/60.png  used on input line 689.
+(pdftex.def)             Requested size: 70.46037pt x 37.33293pt.
+<Image/VARMA/LG/6_4/90.png, id=209, 665.48625pt x 348.1005pt>
+File: Image/VARMA/LG/6_4/90.png Graphic file (type png)
+<use Image/VARMA/LG/6_4/90.png>
+Package pdftex.def Info: Image/VARMA/LG/6_4/90.png  used on input line 700.
+(pdftex.def)             Requested size: 70.46037pt x 36.85173pt.
+<Image/VARMA/LG/7_3/90.png, id=210, 663.6795pt x 347.49825pt>
+File: Image/VARMA/LG/7_3/90.png Graphic file (type png)
+<use Image/VARMA/LG/7_3/90.png>
+Package pdftex.def Info: Image/VARMA/LG/7_3/90.png  used on input line 706.
+(pdftex.def)             Requested size: 70.46037pt x 36.88872pt.
+<Image/VARMA/LG/8_2/90.png, id=211, 666.69075pt x 349.90726pt>
+File: Image/VARMA/LG/8_2/90.png Graphic file (type png)
+<use Image/VARMA/LG/8_2/90.png>
+Package pdftex.def Info: Image/VARMA/LG/8_2/90.png  used on input line 712.
+(pdftex.def)             Requested size: 70.46037pt x 36.97893pt.
+<Image/VARMA/SONY/6_4/30.png, id=212, 637.1805pt x 350.5095pt>
+File: Image/VARMA/SONY/6_4/30.png Graphic file (type png)
+<use Image/VARMA/SONY/6_4/30.png>
+Package pdftex.def Info: Image/VARMA/SONY/6_4/30.png  used on input line 723.
+(pdftex.def)             Requested size: 70.46037pt x 38.7594pt.
+<Image/VARMA/SONY/7_3/30.png, id=213, 636.57825pt x 350.5095pt>
+File: Image/VARMA/SONY/7_3/30.png Graphic file (type png)
+<use Image/VARMA/SONY/7_3/30.png>
+Package pdftex.def Info: Image/VARMA/SONY/7_3/30.png  used on input line 729.
+(pdftex.def)             Requested size: 70.46037pt x 38.79683pt.
+<Image/VARMA/SONY/8_2/30.png, id=214, 634.16925pt x 346.896pt>
+File: Image/VARMA/SONY/8_2/30.png Graphic file (type png)
+<use Image/VARMA/SONY/8_2/30.png>
+Package pdftex.def Info: Image/VARMA/SONY/8_2/30.png  used on input line 735.
+(pdftex.def)             Requested size: 70.46037pt x 38.53978pt.
+<Image/VARMA/SONY/6_4/60.png, id=215, 637.1805pt x 349.305pt>
+File: Image/VARMA/SONY/6_4/60.png Graphic file (type png)
+<use Image/VARMA/SONY/6_4/60.png>
+Package pdftex.def Info: Image/VARMA/SONY/6_4/60.png  used on input line 746.
+(pdftex.def)             Requested size: 70.46037pt x 38.6262pt.
+<Image/VARMA/SONY/7_3/60.png, id=216, 635.37375pt x 349.90726pt>
+File: Image/VARMA/SONY/7_3/60.png Graphic file (type png)
+<use Image/VARMA/SONY/7_3/60.png>
+Package pdftex.def Info: Image/VARMA/SONY/7_3/60.png  used on input line 752.
+(pdftex.def)             Requested size: 70.46037pt x 38.79958pt.
+<Image/VARMA/SONY/8_2/60.png, id=217, 635.976pt x 349.305pt>
+File: Image/VARMA/SONY/8_2/60.png Graphic file (type png)
+<use Image/VARMA/SONY/8_2/60.png>
+Package pdftex.def Info: Image/VARMA/SONY/8_2/60.png  used on input line 758.
+(pdftex.def)             Requested size: 70.46037pt x 38.6955pt.
+<Image/VARMA/SONY/6_4/90.png, id=218, 645.00975pt x 349.305pt>
+File: Image/VARMA/SONY/6_4/90.png Graphic file (type png)
+<use Image/VARMA/SONY/6_4/90.png>
+Package pdftex.def Info: Image/VARMA/SONY/6_4/90.png  used on input line 769.
+(pdftex.def)             Requested size: 70.46037pt x 38.15717pt.
+<Image/VARMA/SONY/7_3/90.png, id=219, 645.00975pt x 349.305pt>
+File: Image/VARMA/SONY/7_3/90.png Graphic file (type png)
+<use Image/VARMA/SONY/7_3/90.png>
+Package pdftex.def Info: Image/VARMA/SONY/7_3/90.png  used on input line 775.
+(pdftex.def)             Requested size: 70.46037pt x 38.15717pt.
+<Image/VARMA/SONY/8_2/90.png, id=220, 645.00975pt x 350.5095pt>
+File: Image/VARMA/SONY/8_2/90.png Graphic file (type png)
+<use Image/VARMA/SONY/8_2/90.png>
+Package pdftex.def Info: Image/VARMA/SONY/8_2/90.png  used on input line 781.
+(pdftex.def)             Requested size: 70.46037pt x 38.28874pt.
+<Image/VARMA/SAMSUNG/6_4/30.png, id=221, 649.2255pt x 349.305pt>
+File: Image/VARMA/SAMSUNG/6_4/30.png Graphic file (type png)
+<use Image/VARMA/SAMSUNG/6_4/30.png>
+Package pdftex.def Info: Image/VARMA/SAMSUNG/6_4/30.png  used on input line 792.
+(pdftex.def)             Requested size: 70.46037pt x 37.90666pt.
+<Image/VARMA/SAMSUNG/7_3/30.png, id=222, 648.62325pt x 349.305pt>
+File: Image/VARMA/SAMSUNG/7_3/30.png Graphic file (type png)
+<use Image/VARMA/SAMSUNG/7_3/30.png>
+Package pdftex.def Info: Image/VARMA/SAMSUNG/7_3/30.png  used on input line 798.
+(pdftex.def)             Requested size: 70.46037pt x 37.94397pt.
+<Image/VARMA/SAMSUNG/8_2/30.png, id=223, 651.03226pt x 350.5095pt>
+File: Image/VARMA/SAMSUNG/8_2/30.png Graphic file (type png)
+<use Image/VARMA/SAMSUNG/8_2/30.png>
+Package pdftex.def Info: Image/VARMA/SAMSUNG/8_2/30.png  used on input line 804.
+(pdftex.def)             Requested size: 70.46037pt x 37.9304pt.
+<Image/VARMA/SAMSUNG/6_4/60.png, id=224, 647.41875pt x 349.305pt>
+File: Image/VARMA/SAMSUNG/6_4/60.png Graphic file (type png)
+<use Image/VARMA/SAMSUNG/6_4/60.png>
+Package pdftex.def Info: Image/VARMA/SAMSUNG/6_4/60.png  used on input line 815.
+(pdftex.def)             Requested size: 70.46037pt x 38.01326pt.
+<Image/VARMA/SAMSUNG/7_3/60.png, id=225, 649.2255pt x 348.1005pt>
+File: Image/VARMA/SAMSUNG/7_3/60.png Graphic file (type png)
+<use Image/VARMA/SAMSUNG/7_3/60.png>
+Package pdftex.def Info: Image/VARMA/SAMSUNG/7_3/60.png  used on input line 821.
+(pdftex.def)             Requested size: 70.46037pt x 37.77594pt.
+<Image/VARMA/SAMSUNG/8_2/60.png, id=226, 651.6345pt x 349.305pt>
+File: Image/VARMA/SAMSUNG/8_2/60.png Graphic file (type png)
+<use Image/VARMA/SAMSUNG/8_2/60.png>
+Package pdftex.def Info: Image/VARMA/SAMSUNG/8_2/60.png  used on input line 827.
+(pdftex.def)             Requested size: 70.46037pt x 37.76808pt.
+<Image/VARMA/SAMSUNG/6_4/90.png, id=227, 657.657pt x 350.5095pt>
+File: Image/VARMA/SAMSUNG/6_4/90.png Graphic file (type png)
+<use Image/VARMA/SAMSUNG/6_4/90.png>
+Package pdftex.def Info: Image/VARMA/SAMSUNG/6_4/90.png  used on input line 838.
+(pdftex.def)             Requested size: 70.46037pt x 37.55067pt.
+<Image/VARMA/SAMSUNG/7_3/90.png, id=228, 658.25925pt x 348.1005pt>
+File: Image/VARMA/SAMSUNG/7_3/90.png Graphic file (type png)
+<use Image/VARMA/SAMSUNG/7_3/90.png>
+Package pdftex.def Info: Image/VARMA/SAMSUNG/7_3/90.png  used on input line 844.
+(pdftex.def)             Requested size: 70.46037pt x 37.26071pt.
+<Image/VARMA/SAMSUNG/8_2/90.png, id=229, 659.46375pt x 352.31625pt>
+File: Image/VARMA/SAMSUNG/8_2/90.png Graphic file (type png)
+<use Image/VARMA/SAMSUNG/8_2/90.png>
+Package pdftex.def Info: Image/VARMA/SAMSUNG/8_2/90.png  used on input line 850.
+(pdftex.def)             Requested size: 70.46037pt x 37.64209pt.
+ [5
+pdfTeX warning (ext4): destination with the same identifier (name{figure.16}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.856 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.17}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.856 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.18}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.856 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.19}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.856 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.20}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.856 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.21}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.856 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.22}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.856 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.23}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.856 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.24}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.856 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.25}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.856 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.26}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.856 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.27}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.856 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.28}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.856 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.29}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.856 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.30}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.856 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.31}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.856 
+       <./Image/Linear/Linear_LG_6_4_30DAYS.png> <./Image/Linear/Linear_LG_7_3_30DAYS.png> <./Image/Linear/Linear_LG_8_2_30DAYS.png> <./Image/Linear/Linear_LG_6_4_60DAYS.png> <./Image/Linear/Linear_LG_7_3_60DAYS.png> <./Image/Linear/Linear_LG_8_2_60DAYS.png> <./Image/Linear/Linear_LG_6_4_90DAYS.png> <./Image/Linear/Linear_LG_7_3_90DAYS.png> <./Image/Linear/Linear_LG_8_2_90DAYS.png> <./Image/Linear/Linear_SONY_6_4_30DAYS.png> <./Image/Linear/Linear_SONY_7_3_30DAYS.png> <./Image/Linear/Linear_SONY_8_2_30DAYS.png> <./Image/Linear/Linear_SONY_6_4_60DAYS.png> <./Image/Linear/Linear_SONY_7_3_60DAYS.png> <./Image/Linear/Linear_SONY_8_2_60DAYS.png> <./Image/Linear/Linear_SONY_6_4_90DAYS.png> <./Image/Linear/Linear_SONY_7_3_90DAYS.png> <./Image/Linear/Linear_SONY_8_2_90DAYS.png> <./Image/Linear/Linear_SAMSUNG_6_4_30DAYS.png> <./Image/Linear/Linear_SAMSUNG_7_3_30DAYS.png> <./Image/Linear/Linear_SAMSUNG_8_2_30DAYS.png> <./Image/Linear/Linear_SAMSUNG_6_4_60DAYS.png> <./Image/Linear/Linear_SAMSUNG_7_3_60DAYS.png> <./Image/Linear/Linear_SAMSUNG_8_2_60DAYS.png> <./Image/Linear/Linear_SAMSUNG_6_4_90DAYS.png> <./Image/Linear/Linear_SAMSUNG_7_3_90DAYS.png> <./Image/Linear/Linear_SAMSUNG_8_2_90DAYS.png> <./Image/VARMA/LG/6_4/30.png> <./Image/VARMA/LG/7_3/30.png> <./Image/VARMA/LG/8_2/30.png> <./Image/VARMA/LG/6_4/60.png> <./Image/VARMA/LG/7_3/60.png> <./Image/VARMA/LG/8_2/60.png> <./Image/VARMA/LG/6_4/90.png> <./Image/VARMA/LG/7_3/90.png> <./Image/VARMA/LG/8_2/90.png> <./Image/VARMA/SONY/6_4/30.png> <./Image/VARMA/SONY/7_3/30.png> <./Image/VARMA/SONY/8_2/30.png> <./Image/VARMA/SONY/6_4/60.png> <./Image/VARMA/SONY/7_3/60.png> <./Image/VARMA/SONY/8_2/60.png> <./Image/VARMA/SONY/6_4/90.png> <./Image/VARMA/SONY/7_3/90.png> <./Image/VARMA/SONY/8_2/90.png> <./Image/VARMA/SAMSUNG/6_4/30.png> <./Image/VARMA/SAMSUNG/7_3/30.png> <./Image/VARMA/SAMSUNG/8_2/30.png>]
+<Image/XGBoost/LG_6_4_30.png, id=298, 431.81325pt x 304.13625pt>
+File: Image/XGBoost/LG_6_4_30.png Graphic file (type png)
+<use Image/XGBoost/LG_6_4_30.png>
+Package pdftex.def Info: Image/XGBoost/LG_6_4_30.png  used on input line 864.
+(pdftex.def)             Requested size: 70.46037pt x 49.62341pt.
+<Image/XGBoost/LG_7_3_30.png, id=299, 434.8245pt x 299.9205pt>
+File: Image/XGBoost/LG_7_3_30.png Graphic file (type png)
+<use Image/XGBoost/LG_7_3_30.png>
+Package pdftex.def Info: Image/XGBoost/LG_7_3_30.png  used on input line 870.
+(pdftex.def)             Requested size: 70.46037pt x 48.59691pt.
+<Image/XGBoost/LG_8_2_30.png, id=300, 430.60875pt x 302.3295pt>
+File: Image/XGBoost/LG_8_2_30.png Graphic file (type png)
+<use Image/XGBoost/LG_8_2_30.png>
+Package pdftex.def Info: Image/XGBoost/LG_8_2_30.png  used on input line 876.
+(pdftex.def)             Requested size: 70.46037pt x 49.46703pt.
+<Image/XGBoost/LG_6_4_60.png, id=301, 432.4155pt x 304.7385pt>
+File: Image/XGBoost/LG_6_4_60.png Graphic file (type png)
+<use Image/XGBoost/LG_6_4_60.png>
+Package pdftex.def Info: Image/XGBoost/LG_6_4_60.png  used on input line 889.
+(pdftex.def)             Requested size: 70.46037pt x 49.65193pt.
+<Image/XGBoost/LG_7_3_60.png, id=302, 432.4155pt x 301.125pt>
+File: Image/XGBoost/LG_7_3_60.png Graphic file (type png)
+<use Image/XGBoost/LG_7_3_60.png>
+Package pdftex.def Info: Image/XGBoost/LG_7_3_60.png  used on input line 895.
+(pdftex.def)             Requested size: 70.46037pt x 49.06317pt.
+<Image/XGBoost/LG_8_2_60.png, id=303, 431.211pt x 302.3295pt>
+File: Image/XGBoost/LG_8_2_60.png Graphic file (type png)
+<use Image/XGBoost/LG_8_2_60.png>
+Package pdftex.def Info: Image/XGBoost/LG_8_2_60.png  used on input line 901.
+(pdftex.def)             Requested size: 70.46037pt x 49.39783pt.
+<Image/XGBoost/LG_6_4_90.png, id=304, 428.802pt x 301.72725pt>
+File: Image/XGBoost/LG_6_4_90.png Graphic file (type png)
+<use Image/XGBoost/LG_6_4_90.png>
+Package pdftex.def Info: Image/XGBoost/LG_6_4_90.png  used on input line 914.
+(pdftex.def)             Requested size: 70.46037pt x 49.57565pt.
+<Image/XGBoost/LG_7_3_90.png, id=305, 430.60875pt x 304.13625pt>
+File: Image/XGBoost/LG_7_3_90.png Graphic file (type png)
+<use Image/XGBoost/LG_7_3_90.png>
+Package pdftex.def Info: Image/XGBoost/LG_7_3_90.png  used on input line 920.
+(pdftex.def)             Requested size: 70.46037pt x 49.76263pt.
+<Image/XGBoost/LG_8_2_90.png, id=306, 425.1885pt x 299.9205pt>
+File: Image/XGBoost/LG_8_2_90.png Graphic file (type png)
+<use Image/XGBoost/LG_8_2_90.png>
+Package pdftex.def Info: Image/XGBoost/LG_8_2_90.png  used on input line 926.
+(pdftex.def)             Requested size: 70.46037pt x 49.69983pt.
+<Image/XGBoost/SONY_6_4_30.png, id=307, 417.35925pt x 304.13625pt>
+File: Image/XGBoost/SONY_6_4_30.png Graphic file (type png)
+<use Image/XGBoost/SONY_6_4_30.png>
+Package pdftex.def Info: Image/XGBoost/SONY_6_4_30.png  used on input line 938.
+(pdftex.def)             Requested size: 70.46037pt x 51.34514pt.
+<Image/XGBoost/SONY_7_3_30.png, id=308, 416.757pt x 302.3295pt>
+File: Image/XGBoost/SONY_7_3_30.png Graphic file (type png)
+<use Image/XGBoost/SONY_7_3_30.png>
+Package pdftex.def Info: Image/XGBoost/SONY_7_3_30.png  used on input line 944.
+(pdftex.def)             Requested size: 70.46037pt x 51.11392pt.
+<Image/XGBoost/SONY_8_2_30.png, id=309, 416.757pt x 305.34074pt>
+File: Image/XGBoost/SONY_8_2_30.png Graphic file (type png)
+<use Image/XGBoost/SONY_8_2_30.png>
+Package pdftex.def Info: Image/XGBoost/SONY_8_2_30.png  used on input line 950.
+(pdftex.def)             Requested size: 70.46037pt x 51.62303pt.
+<Image/XGBoost/SONY_6_4_60.png, id=310, 413.1435pt x 304.13625pt>
+File: Image/XGBoost/SONY_6_4_60.png Graphic file (type png)
+<use Image/XGBoost/SONY_6_4_60.png>
+Package pdftex.def Info: Image/XGBoost/SONY_6_4_60.png  used on input line 962.
+(pdftex.def)             Requested size: 70.46037pt x 51.86954pt.
+<Image/XGBoost/SONY_7_3_60.png, id=311, 407.72325pt x 301.125pt>
+File: Image/XGBoost/SONY_7_3_60.png Graphic file (type png)
+<use Image/XGBoost/SONY_7_3_60.png>
+Package pdftex.def Info: Image/XGBoost/SONY_7_3_60.png  used on input line 968.
+(pdftex.def)             Requested size: 70.46037pt x 52.03601pt.
+<Image/XGBoost/SONY_8_2_60.png, id=312, 413.1435pt x 302.93175pt>
+File: Image/XGBoost/SONY_8_2_60.png Graphic file (type png)
+<use Image/XGBoost/SONY_8_2_60.png>
+Package pdftex.def Info: Image/XGBoost/SONY_8_2_60.png  used on input line 974.
+(pdftex.def)             Requested size: 70.46037pt x 51.66411pt.
+<Image/XGBoost/SONY_6_4_90.png, id=313, 411.33675pt x 301.72725pt>
+File: Image/XGBoost/SONY_6_4_90.png Graphic file (type png)
+<use Image/XGBoost/SONY_6_4_90.png>
+Package pdftex.def Info: Image/XGBoost/SONY_6_4_90.png  used on input line 985.
+(pdftex.def)             Requested size: 70.46037pt x 51.68428pt.
+<Image/XGBoost/SONY_7_3_90.png, id=314, 416.757pt x 302.3295pt>
+File: Image/XGBoost/SONY_7_3_90.png Graphic file (type png)
+<use Image/XGBoost/SONY_7_3_90.png>
+Package pdftex.def Info: Image/XGBoost/SONY_7_3_90.png  used on input line 991.
+(pdftex.def)             Requested size: 70.46037pt x 51.11392pt.
+<Image/XGBoost/SAMSUNG_8_2_90.png, id=315, 427.5975pt x 302.3295pt>
+File: Image/XGBoost/SAMSUNG_8_2_90.png Graphic file (type png)
+<use Image/XGBoost/SAMSUNG_8_2_90.png>
+Package pdftex.def Info: Image/XGBoost/SAMSUNG_8_2_90.png  used on input line 997.
+(pdftex.def)             Requested size: 70.46037pt x 49.81763pt.
+<Image/XGBoost/SAMSUNG_6_4_30.png, id=316, 434.8245pt x 302.3295pt>
+File: Image/XGBoost/SAMSUNG_6_4_30.png Graphic file (type png)
+<use Image/XGBoost/SAMSUNG_6_4_30.png>
+Package pdftex.def Info: Image/XGBoost/SAMSUNG_6_4_30.png  used on input line 1009.
+(pdftex.def)             Requested size: 70.46037pt x 48.98726pt.
+<Image/XGBoost/SAMSUNG_7_3_30.png, id=317, 424.58624pt x 302.3295pt>
+File: Image/XGBoost/SAMSUNG_7_3_30.png Graphic file (type png)
+<use Image/XGBoost/SAMSUNG_7_3_30.png>
+Package pdftex.def Info: Image/XGBoost/SAMSUNG_7_3_30.png  used on input line 1015.
+(pdftex.def)             Requested size: 70.46037pt x 50.16823pt.
+<Image/XGBoost/SAMSUNG_8_2_30.png, id=318, 424.58624pt x 302.3295pt>
+File: Image/XGBoost/SAMSUNG_8_2_30.png Graphic file (type png)
+<use Image/XGBoost/SAMSUNG_8_2_30.png>
+Package pdftex.def Info: Image/XGBoost/SAMSUNG_8_2_30.png  used on input line 1021.
+(pdftex.def)             Requested size: 70.46037pt x 50.16823pt.
+<Image/XGBoost/SAMSUNG_6_4_60.png, id=319, 425.79076pt x 302.3295pt>
+File: Image/XGBoost/SAMSUNG_6_4_60.png Graphic file (type png)
+<use Image/XGBoost/SAMSUNG_6_4_60.png>
+Package pdftex.def Info: Image/XGBoost/SAMSUNG_6_4_60.png  used on input line 1033.
+(pdftex.def)             Requested size: 70.46037pt x 50.02983pt.
+<Image/XGBoost/SAMSUNG_7_3_60.png, id=320, 427.5975pt x 301.125pt>
+File: Image/XGBoost/SAMSUNG_7_3_60.png Graphic file (type png)
+<use Image/XGBoost/SAMSUNG_7_3_60.png>
+Package pdftex.def Info: Image/XGBoost/SAMSUNG_7_3_60.png  used on input line 1039.
+(pdftex.def)             Requested size: 70.46037pt x 49.61914pt.
+<Image/XGBoost/SAMSUNG_8_2_60.png, id=321, 419.76825pt x 301.72725pt>
+File: Image/XGBoost/SAMSUNG_8_2_60.png Graphic file (type png)
+<use Image/XGBoost/SAMSUNG_8_2_60.png>
+Package pdftex.def Info: Image/XGBoost/SAMSUNG_8_2_60.png  used on input line 1045.
+(pdftex.def)             Requested size: 70.46037pt x 50.64378pt.
+<Image/XGBoost/SAMSUNG_6_4_90.png, id=322, 423.38174pt x 301.125pt>
+File: Image/XGBoost/SAMSUNG_6_4_90.png Graphic file (type png)
+<use Image/XGBoost/SAMSUNG_6_4_90.png>
+Package pdftex.def Info: Image/XGBoost/SAMSUNG_6_4_90.png  used on input line 1057.
+(pdftex.def)             Requested size: 70.46037pt x 50.1108pt.
+<Image/XGBoost/SAMSUNG_7_3_90.png, id=323, 428.19975pt x 299.31825pt>
+File: Image/XGBoost/SAMSUNG_7_3_90.png Graphic file (type png)
+<use Image/XGBoost/SAMSUNG_7_3_90.png>
+Package pdftex.def Info: Image/XGBoost/SAMSUNG_7_3_90.png  used on input line 1063.
+(pdftex.def)             Requested size: 70.46037pt x 49.25293pt.
+File: Image/XGBoost/SAMSUNG_8_2_90.png Graphic file (type png)
+<use Image/XGBoost/SAMSUNG_8_2_90.png>
+Package pdftex.def Info: Image/XGBoost/SAMSUNG_8_2_90.png  used on input line 1069.
+(pdftex.def)             Requested size: 70.46037pt x 49.81763pt.
+
+
+[6
+pdfTeX warning (ext4): destination with the same identifier (name{figure.32}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1086 \end{document}
+                     
+pdfTeX warning (ext4): destination with the same identifier (name{figure.33}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1086 \end{document}
+                     
+pdfTeX warning (ext4): destination with the same identifier (name{figure.34}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1086 \end{document}
+                     
+pdfTeX warning (ext4): destination with the same identifier (name{figure.35}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1086 \end{document}
+                     
+pdfTeX warning (ext4): destination with the same identifier (name{figure.36}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1086 \end{document}
+                     
+pdfTeX warning (ext4): destination with the same identifier (name{figure.37}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1086 \end{document}
+                     
+pdfTeX warning (ext4): destination with the same identifier (name{figure.38}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1086 \end{document}
+                     
+pdfTeX warning (ext4): destination with the same identifier (name{figure.39}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1086 \end{document}
+                     
+pdfTeX warning (ext4): destination with the same identifier (name{figure.40}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1086 \end{document}
+                     
+pdfTeX warning (ext4): destination with the same identifier (name{figure.41}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1086 \end{document}
+                     
+pdfTeX warning (ext4): destination with the same identifier (name{figure.42}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1086 \end{document}
+                      <./Image/VARMA/SAMSUNG/6_4/60.png> <./Image/VARMA/SAMSUNG/7_3/60.png> <./Image/VARMA/SAMSUNG/8_2/60.png> <./Image/VARMA/SAMSUNG/6_4/90.png> <./Image/VARMA/SAMSUNG/7_3/90.png> <./Image/VARMA/SAMSUNG/8_2/90.png> <./Image/XGBoost/LG_6_4_30.png> <./Image/XGBoost/LG_7_3_30.png> <./Image/XGBoost/LG_8_2_30.png> <./Image/XGBoost/LG_6_4_60.png> <./Image/XGBoost/LG_7_3_60.png> <./Image/XGBoost/LG_8_2_60.png> <./Image/XGBoost/LG_6_4_90.png> <./Image/XGBoost/LG_7_3_90.png> <./Image/XGBoost/LG_8_2_90.png> <./Image/XGBoost/SONY_6_4_30.png> <./Image/XGBoost/SONY_7_3_30.png> <./Image/XGBoost/SONY_8_2_30.png> <./Image/XGBoost/SONY_6_4_60.png> <./Image/XGBoost/SONY_7_3_60.png> <./Image/XGBoost/SONY_8_2_60.png> <./Image/XGBoost/SONY_6_4_90.png> <./Image/XGBoost/SONY_7_3_90.png> <./Image/XGBoost/SAMSUNG_8_2_90.png> <./Image/XGBoost/SAMSUNG_6_4_30.png> <./Image/XGBoost/SAMSUNG_7_3_30.png> <./Image/XGBoost/SAMSUNG_8_2_30.png> <./Image/XGBoost/SAMSUNG_6_4_60.png> <./Image/XGBoost/SAMSUNG_7_3_60.png> <./Image/XGBoost/SAMSUNG_8_2_60.png> <./Image/XGBoost/SAMSUNG_6_4_90.png> <./Image/XGBoost/SAMSUNG_7_3_90.png>] (Report.aux)
  ***********
 LaTeX2e <2024-06-01>
 L3 programming layer <2024-05-08>
  ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `Report.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+(rerunfilecheck)             Checksum: 2CDDE110B655380EB636ADAB7EE46C3B;1723.
  ) 
 Here is how much of TeX's memory you used:
- 13207 strings out of 473938
- 198350 string characters out of 5743772
- 1929893 words of memory out of 5000000
- 35840 multiletter control sequences out of 15000+600000
- 566619 words of font info for 58 fonts, out of 8000000 for 9000
+ 14147 strings out of 473938
+ 231275 string characters out of 5743772
+ 1950893 words of memory out of 5000000
+ 36700 multiletter control sequences out of 15000+600000
+ 576293 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,14n,79p,403b,452s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<E:/Miktek/fonts/type1/vntex/vnr/vnbx12.pfb><E:/Miktek/fonts/type1/vntex/vnr/vnr10.pfb><E:/Miktek/fonts/type1/vntex/vnr/vnr12.pfb>
-Output written on Report.pdf (1 page, 34133 bytes).
+ 75i,14n,79p,1452b,671s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\Le Anh Tuan Dung\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><E:/Miktek/fonts/type1/public/amsfonts/cm/cmbx10.pfb><E:/Miktek/fonts/type1/public/amsfonts/cm/cmex10.pfb><E:/Miktek/fonts/type1/public/amsfonts/cm/cmmi10.pfb><E:/Miktek/fonts/type1/public/amsfonts/cm/cmmi7.pfb><E:/Miktek/fonts/type1/public/amsfonts/cm/cmmib10.pfb><E:/Miktek/fonts/type1/public/amsfonts/cm/cmr10.pfb><E:/Miktek/fonts/type1/public/amsfonts/cm/cmr7.pfb><E:/Miktek/fonts/type1/public/amsfonts/cm/cmsy10.pfb><E:/Miktek/fonts/type1/public/amsfonts/cm/cmsy7.pfb><E:/Miktek/fonts/type1/vntex/vnr/vnbx10.pfb><E:/Miktek/fonts/type1/vntex/vnr/vnbx12.pfb><E:/Miktek/fonts/type1/vntex/vnr/vnr10.pfb><E:/Miktek/fonts/type1/vntex/vnr/vnr12.pfb>
+Output written on Report.pdf (6 pages, 9530759 bytes).
 PDF statistics:
- 26 PDF objects out of 1000 (max. 8388607)
- 2 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 445 PDF objects out of 1000 (max. 8388607)
+ 67 named destinations out of 1000 (max. 500000)
+ 678 words of extra memory for PDF output out of 10000 (max. 10000000)
 

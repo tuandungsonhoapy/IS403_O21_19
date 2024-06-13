@@ -23,7 +23,7 @@
 
 \begin{document}
 
-\title{Phân tích, dự đoán giá chứng khoản bằng mô hình thống kê, máy học và học sâu}
+\title{Phân tích, dự đoán giá chứng khoản bằng mô hình thống kê}
 \author{
   \begin{tabular}{l}
     \textbf{Trần Thị Mỹ Xoan - 21522815 } \\
@@ -38,5 +38,1050 @@
 
 
 \maketitle
+
+
+\textbf{Tóm tắt nội dung:}
+Khi thực hiện đầu tư vào các cổ phiếu chứng khoán, việc sử dụng các mô hình dự đoán giá cổ phiếu trước khi thực hiện một giao dịch đầu tư có thể giúp cho ta có các quyết định đúng đắn hơn khi ra quyết định thực hiện 1 giao dịch. Bài báo này trình bày phương pháp dự đoán giá cổ phiếu của ba công ty lớn Samsung, LG và Sony. Chúng tôi sẽ thực hiện dự đoán bằng cách sử dụng các thuật toán thống kê: ARIMA, Linear Regression, VARMA. Bộ dữ liệu được sử dụng lấy từ ngày 1/3/2019 đến ngày 1/6/2024. Sau khi thực hiện dự đoán thì ta sẽ thực hiện sử dụng các độ đo MAPE, MSE, RMSE để đánh giá các mô hình. Cuối cùng, sử dụng các mô hình để thực hiện dự đoán giá chứng khoán cho 30, 60 và 90 ngày tiếp theo.
+
+
+\vspace{1em} % Thêm khoảng cách
+
+
+\textbf{Từ khoá:} ARIMA, Linear Regression, VARMA. Phân tích, dự đoán giá chứng khoán.
+
+\begin{multicols}{2}
+
+\section{GIỚI THIỆU}
+Dự đoán giá cổ phiếu là một vấn đề quan trọng trong lĩnh vực đầu tư tài chính. Việc dự đoán chính xác giá cổ phiếu có thể giúp các nhà đầu tư đưa ra quyết định đầu tư sáng suốt và giảm thiểu rủi ro. Có nhiều phương pháp khác nhau để dự đoán giá cổ phiếu, bao gồm phân tích kỹ thuật, phân tích cơ bản và học máy. Samsung, LG, SONY là những công ty hàng đầu trong ngành công nghệ, giá cổ phiếu của 3 công ty đóng vai trò là chỉ số quan trọng về động lực thị trường, khiến việc phân tích của họ trở nên cần thiết đối với các nhà đầu tư. 
+
+Báo cáo này nhằm mục đích phân tích, dự đoán giá cổ phiếu của các công ty có ảnh hưởng bằng cách sử dụng 3 thuật toán ARIMA, Linear Regression, VARMA để đưa ra dự đoán cho giá cổ phiếu. Nhờ đó các nhà đầu tư có thể lựa chọn chính xác hạng mục đầu tư vào giá cổ phiếu. 
+
+Bằng cách tận dụng những phương pháp này, chúng tôi mong muốn cung cấp hướng dẫn có giá trị cho các nhà dầu tư trong việc định hướng bối cảnh năng động của lĩnh vực công nghệ. 
+
+
+\section{NGHIÊN CỨU LIÊN QUAN}
+
+
+[1] Mô hình VARMA thường được sử dụng để dự báo dữ liệu chuỗi thời gian đa biến. Mô hình VARMA là sự mở rộng của mô hình ARMA trong chuỗi thời gian đơn biến (Lütkepohl, 2005; Wei, 1990) và được sử dụng với điều kiện rằng dữ liệu phải ổn định theo thời gian (Lütkepohl, 2005). Mô hình VARMA (p,q) là sự kết hợp của mô hình VAR (p) và mô hình vector trung bình động (q) (VMA (q)). Bài báo này xác định 4 mô hình VARMA (p,q) lần lượt là (1,1), (2, 1), (3, 1), (4, 1), Việc lựa chọn mô hình tốt nhất được thực hiện bằng cách sử dụng một số tiêu chí thông tin (AICC, HQC, AIC, và SBC). Các giá trị nhỏ nhất của những tiêu chí này cho biết mô hình tốt nhất. Mô hình phù hợp nhất được chọn là VARMA(2, 1). Kết quả dự báo cho thấy sai số chuẩn tăng lên theo thời gian; sai số chuẩn trong tháng đầu tiên tương đối nhỏ so với dự đoán trung bình, nhưng tăng lên theo thời gian đến dự báo cho 12 tháng tiếp theo. Điều này cho thấy mô hình là hợp lý khi dự báo cho các khoảng thời gian ngắn, nhưng kết quả không ổn định (do sai số chuẩn cao hơn) khi dự báo cho các khoảng thời gian dài.
+
+[2] Mô hình thuật toán Linear Regression được sử dụng để dự đoán giá trị của một biến phụ thuộc (biến đầu ra) dựa trên giá trị của một hoặc nhiều biến độc lập (biến đầu vào), được sử dụng để xác định và phân tích các xu hướng trong dữ liệu thời gian. Trong bài báo này, hiệu suất của hồi quy tuyến tính (LR) và hồi quy vectơ hỗ trợ (SVR) để dự đoán giá cổ phiếu của Amazon vào tháng 10 năm 2019. Phát hiện của họ chỉ ra rằng LR đạt được độ chính xác cao hơn (\(98,76\%\)) so với SVR (\(94,32\%\)), cho thấy khả năng phù hợp của nó trong ngắn hạn - giá kỳ hạn trước khi xác định cổ phiếu có ít biến động hơn.
+
+\section{PHƯƠNG PHÁP}
+
+\subsection{DATASET}
+Trọng tâm của bài viết này là dự đoán giá cổ phiếu. Vì vậy, cả ba tập dữ liệu chúng tôi sử dụng trong nghiên cứu đều là giá cổ phiếu của các công ty lớn. Các công ty này là SONY, SAMSUNG và LG. Dữ liệu của SAMSUNG, LG, SONY được thu thập từ ngày 1 tháng 3 năm 2019 đến ngày 1 tháng 6 năm 2024.  
+
+Mô tả từng cột trong dữ liệu : 
+
++ Date : Ngày giao dịch. 
+
+ + Open: Giá mở cửa của cổ phiếu vào ngày giao dịch.
+ 
+ + High: Giá cao nhất của cổ phiếu trong ngày giao dịch.
+ 
+ + Low: Giá thấp nhất của cổ phiếu trong ngày giao dịch.
+ 
+ + Close: Giá đóng cửa của cổ phiếu vào ngày giao dịch.
+ 
+
+
+\begin{table}[H]
+  \centering
+  \caption{SONY, SAMSUNG, LG’s Descriptive Statistics}
+\begin{tabular}{|>{\columncolor{red!20}}c|c|c|c|}
+    \hline
+     \rowcolor{red!20} & SONY& SAMSUNG& LG\\ \hline
+     Count & 1920& 1920& 1920\\ \hline
+     Mean & 83.842011& 83.842011& 101952.316347\\ \hline
+     Std & 15.828603& 15.828603& 26596.447698\\ \hline
+     Min & 42.030000& 42.030000& 41850\\ \hline
+     25\% & 79.987500& 79.987500& 87200\\ \hline
+     50\% & 83.842011& 83.842011& 101952.316347\\ \hline
+     75\% & 90.442500& 90.442500& 114000\\ \hline
+     Max & 128.59& 128.590000& 185000\\ \hline
+\end{tabular}
+\end{table}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.23\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/DatasetImg/SONY_Boxplot.png}
+    \caption{SONY stock price's boxplot}
+    \label{fig:1}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.23\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/DatasetImg/SONY_LineChart.png}
+    \caption{SONY stock price's histogram}
+    \label{fig:2}
+    \end{minipage}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.23\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/DatasetImg/SAMSUNG_Boxplot.png}
+    \caption{SAMSUNG stock price's boxplot}
+    \label{fig:1}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.23\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/DatasetImg/SAMSUNG_LineChart.png}
+    \caption{SAMSUNG stock price's histogram}
+    \label{fig:2}
+    \end{minipage}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.23\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/DatasetImg/LG_Boxplot.png}
+    \caption{LG stock price's boxplot}
+    \label{fig:1}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.23\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/DatasetImg/LG_LineChart.png}
+    \caption{LG stock price's histogram}
+    \label{fig:2}
+    \end{minipage}
+\end{figure}
+
+
+\subsection{THUẬT TOÁN VARMA}
+Mô hình VARMA thường được sử dụng để dự báo dữ liệu chuỗi thời gian đa biến . Mô hình VARMA là một mở rộng của mô hình ARMA trong chuỗi thời gian đơn biến (Lutkepohl, 2005; Wei, 1990) và được sử dụng với điều kiện dữ liệu phải là dừng theo thời gian (Lutkepohl, 2005). Mô hình VARMA (p,q) là sự kết hợp của mô hình VAR (p) và mô hình trung bình trượt vector (q) (VMA (q)).\\
+ 
+    • Công thức:
+    \begin{equation}
+        \mathbf{y}_t = \mathbf{c} + \sum_{i=1}^{p} \mathbf{\Phi}_i \mathbf{y}_{t-i} + \sum_{j=1}^{q} \mathbf{\Theta}_j \boldsymbol{\epsilon}_{t-j} + \boldsymbol{\epsilon}_t
+    \end{equation}  
+Trong đó:  
+    \begin{itemize}
+      \item \( \mathbf{y}_t \) là vector của các biến tại thời điểm \( t \).
+      \item \( \mathbf{c} \) là một vector hằng số.
+      \item \( \mathbf{\Phi}_i \) là ma trận hệ số của chuỗi thời gian ( độ trễ, lag) \( i \) của mô hình AR.
+      \item \( \mathbf{\Theta}_j \) là ma trận hệ số của chuỗi thời gian ( độ trễ, lag) \( j \) của mô hình MA.
+      \item \( \boldsymbol{\epsilon}_t \) là vector của các nhiễu ngẫu nhiên tại thời điểm \( t \).
+    \end{itemize} 
+    \subsection{ARIMA}
+    ARIMA model là viết tắt của cụm từ Autoregressive 
+    Intergrated Moving Average. Mô hình sẽ biểu diễn phương trình hồi qui tuyến tính đa biến (multiple linear regression) của các biến đầu vào (còn gọi là biến phụ thuộc trong thống kê) là 2 thành phần chính:\\
+    \begin{itemize}
+        \item Auto regression: Kí hiệu là AR. Đây là thành phần tự hồi qui bao gồm tợp hợp các độ trễ của biến hiện tại. Độ trễ bậc p chính là giá trị lùi về quá khứ  bước thời gian của chuỗi. Độ trễ dài hoặc ngắn trong quá trình AR phụ thuộc vào tham số trễ.
+    \end{itemize}
+    \begin{itemize}
+        \item Moving average: Quá trình trung bình trượt được hiểu là quá trình dịch chuyển hoặc thay đổi giá trị trung bình của chuổi theo thời gian. Do chuỗi của chúng ta được giả định là dừng nên quá trình thay đổi trung bình dường như là một chuỗi nhiễu trắng. Quá trình moving average sẽ tìm mối liên hệ về mặt tuyến tính giữa các phần tử ngẫu nhiên(stochastic term). 
+    \end{itemize}
+    \begin{itemize}
+        \item Intergrated: Là quá trình đồng tích hợp hoặc lấy sai phân. Yêu cầu chung của các thuật toán trong time series là chuỗi phải đảm bảo tính dừng. Hầu hết các chuỗi đều tăng hoặc giảm theo thời gian. Do đó yếu tố tương quan giữa chúng chưa chắc là thực sự mà là do chúng cùng tương quan theo thời gian. Khi biến đổi sang chuỗi dừng, các nhân tố ảnh hưởng thời gian được loại bỏ và chuỗi sẽ dễ dự báo hơn. Để tạo thành chuỗi dừng, một phương pháp đơn giản nhất là chúng ta sẽ lấy sai phân. Một số chuỗi tài chính còn qui đổi sang logarit hoặc lợi suất. Bậc của sai phân để tạo thành chuỗi dừng còn gọi là bậc của quá trình đồng tích hợp (order of intergration).
+    \end{itemize}
+     • Công thức:
+       \begin{equation}
+           \mathbf{y}_t = \mathbf{c} + {\epsilon}_t + \sum_{i=1}^{p} \mathbf{\Phi}_i \mathbf{y}_{t-i} + \sum_{j=1}^{q} \mathbf{\Theta}_j \boldsymbol{\epsilon}_{t-j} 
+       \end{equation}  
+   Trong đó:  
+       \begin{itemize}
+         \item \( \mathbf{y}_t \) là giá trị của chuỗi thời gian tại thời điểm \( t \).
+         \item \( \mathbf{c} \) là hằng số.
+         \item \( \boldsymbol{\epsilon}_t \) là thành phần lỗi tại thời điểm thời điểm \( t \).
+         \item \( \mathbf{\Phi}_i \) là hệ số của thành phần tự hồi quy (AR).
+         \item \( \mathbf{\Theta}_j \) là hệ số của thành phần trung bình trượt (MA).
+       \end{itemize} 
+
+       \subsection{THUẬT TOÁN XGBoost}
+
+       Thuật toán XGBoost là một thuật toán máy học thuộc loại ensemble learning, cụ thể là Gradient Boosting Framework. Nó sử dụng cây quyết định làm người học  cơ sở và sử dụng các kỹ thuật chính quy hóa để nâng cao khả năng khái quát của mô hình. XGBoost được sử dụng rộng rãi cho các tác vụ như hồi quy, phân loại và xếp hạng.
+      
+       XGBoost là một thuật toán máy học theo phương pháp học tập tổng hợp. Nó là xu hướng cho các nhiệm vụ học tập có giám sát, chẳng hạn như hồi quy và phân loại. XGBoost xây dựng mô hình dự đoán bằng cách kết hợp các dự đoán của nhiều mô hình riêng lẻ, thường là cây quyết định.
+      
+       XGBoost tối ưu hàm mục tiêu tại lần lặp t là:
+      \begin{equation}
+      \text{Obj}(t) = \sum_{i=1}^{n} l(y_i, \hat{y}_i^{(t-1)} + f_t(x_i)) + \Omega(f_t)
+      \end{equation}
+      
+      Trong đó:
+      \begin{itemize}
+          \item \( l \) là hàm mất mát (loss function, ví dụ như MSE cho regression, logistic loss cho classification).
+          \item \( y_i \) là giá trị thực tế của quan sát thứ \( i \).
+          \item \( \hat{y}_i^{(t-1)} \) là dự đoán tại vòng lặp thứ \( t-1 \).
+          \item \( f_t \) là cây quyết định được thêm vào tại vòng lặp thứ \( t \).
+          \item \( \Omega(f_t) \) là hàm phạt (regularization term) giúp ngăn ngừa overfitting.
+      \end{itemize}
+      
+       Các lợi ích và đặc điểm của mô hình XGBoost:\\
+       - Độ chính xác cao: Bộ phân loại XGBoost nổi tiếng với độ chính xác cao và đã được chứng minh vượt trội hơn so với các thuật toán máy học khác trong nhiều nhiệm vụ dự đoán.\\
+       - Khả năng mở rộng: XGBoost có khả năng mở rộng cao và có thể xử lý các bộ dữ liệu lớn với hàng triệu hàng và cột.\\
+       - Hiệu quả: Nó được thiết kế để tính toán hiệu quả và có thể nhanh chóng huấn luyện các mô hình trên các bộ dữ liệu lớn.\\
+       - Linh hoạt: XGBoost hỗ trợ nhiều loại dữ liệu và mục tiêu khác nhau, bao gồm hồi quy, phân loại và các vấn đề xếp hạng.\\
+       - Chính quy hóa: Nó tích hợp các kỹ thuật chính quy để tránh hiện tượng quá khớp và cải thiện hiệu suất tổng quát.
+\section{THỰC NGHIỆM}
+
+\subsection{MÔ HÌNH DỰ ĐOÁN }
+\subsubsection{ARIMA}
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/30_6_4_LG_Arima.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/30_7_3_LG_Arima.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/30_8_2_LG_Arima.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{LG 30 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/60_6_4_LG_Arima.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/60_7_3_LG_Arima.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/60_8_2_LG_Arima.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{LG 60 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/90_6_4_LG_Arima.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/90_7_3_LG_Arima.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/90_8_2_LG_Arima.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{LG 90 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/30_6_4_SONY_Arima.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/30_7_3_SONY_Arima.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/30_8_2_SONY_Arima.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{SONY 30 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/60_6_4_SONY_Arima.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/60_7_3_SONY_Arima.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/60_8_2_SONY_Arima.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{SONY 60 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/90_6_4_SONY_Arima.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/90_7_3_SONY_Arima.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/90_8_2_SONY_Arima.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{SONY 90 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/30_6_4_SAMSUNG_Arima.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/30_7_3_SAMSUNG_Arima.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/30_8_2_SAMSUNG_Arima.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{SAMSUNG 30 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/60_6_4_SAMSUNG_Arima.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/60_7_3_SAMSUNG_Arima.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/60_8_2_SAMSUNG_Arima.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{SAMSUNG 60 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/90_6_4_SAMSUNG_Arima.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/90_7_3_SAMSUNG_Arima.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/90_8_2_SAMSUNG_Arima.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{SAMSUNG 90 DAYS  6:4, 7:3, 8:2 }
+\end{figure} 
+\subsubsection{LINEAR REGRESSION}
+
+
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/Linear/Linear_LG_6_4_30DAYS.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/Linear/Linear_LG_7_3_30DAYS.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/Linear/Linear_LG_8_2_30DAYS.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{LG 30 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/Linear/Linear_LG_6_4_60DAYS.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/Linear/Linear_LG_7_3_60DAYS.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/Linear/Linear_LG_8_2_60DAYS.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{LG 60 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/Linear/Linear_LG_6_4_90DAYS.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/Linear/Linear_LG_7_3_90DAYS.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/Linear/Linear_LG_8_2_90DAYS.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{LG 90 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/Linear/Linear_SONY_6_4_30DAYS.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/Linear/Linear_SONY_7_3_30DAYS.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/Linear/Linear_SONY_8_2_30DAYS.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{SONY 30 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/Linear/Linear_SONY_6_4_60DAYS.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/Linear/Linear_SONY_7_3_60DAYS.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/Linear/Linear_SONY_8_2_60DAYS.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{SONY 60 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/Linear/Linear_SONY_6_4_90DAYS.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/Linear/Linear_SONY_7_3_90DAYS.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/Linear/Linear_SONY_8_2_90DAYS.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{SONY 90 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/Linear/Linear_SAMSUNG_6_4_30DAYS.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/Linear/Linear_SAMSUNG_7_3_30DAYS.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/Linear/Linear_SAMSUNG_8_2_30DAYS.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{SAMSUNG 30 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/Linear/Linear_SAMSUNG_6_4_60DAYS.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/Linear/Linear_SAMSUNG_7_3_60DAYS.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/Linear/Linear_SAMSUNG_8_2_60DAYS.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{SAMSUNG 60 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/Linear/Linear_SAMSUNG_6_4_90DAYS.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/Linear/Linear_SAMSUNG_7_3_90DAYS.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/Linear/Linear_SAMSUNG_8_2_90DAYS.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{SAMSUNG 90 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+ 
+
+\subsubsection{VARMA}
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/VARMA/LG/6_4/30.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/VARMA/LG/7_3/30.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/VARMA/LG/8_2/30.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{LG 30 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/VARMA/LG/6_4/60.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/VARMA/LG/7_3/60.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/VARMA/LG/8_2/60.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{LG 60 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/VARMA/LG/6_4/90.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/VARMA/LG/7_3/90.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/VARMA/LG/8_2/90.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{LG 90 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/VARMA/SONY/6_4/30.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/VARMA/SONY/7_3/30.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/VARMA/SONY/8_2/30.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{SONY 30 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/VARMA/SONY/6_4/60.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/VARMA/SONY/7_3/60.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/VARMA/SONY/8_2/60.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{SONY 60 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/VARMA/SONY/6_4/90.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/VARMA/SONY/7_3/90.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/VARMA/SONY/8_2/90.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{SONY 90 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/VARMA/SAMSUNG/6_4/30.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/VARMA/SAMSUNG/7_3/30.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/VARMA/SAMSUNG/8_2/30.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{SAMSUNG 30 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/VARMA/SAMSUNG/6_4/60.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/VARMA/SAMSUNG/7_3/60.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/VARMA/SAMSUNG/8_2/60.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{SAMSUNG 60 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/VARMA/SAMSUNG/6_4/90.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/VARMA/SAMSUNG/7_3/90.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/VARMA/SAMSUNG/8_2/90.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{SAMSUNG 90 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+\subsubsection{XGBOOST}
+
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/XGBoost/LG_6_4_30.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/XGBoost/LG_7_3_30.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/XGBoost/LG_8_2_30.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{LG 30 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/XGBoost/LG_6_4_60.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/XGBoost/LG_7_3_60.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/XGBoost/LG_8_2_60.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{LG 60 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/XGBoost/LG_6_4_90.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/XGBoost/LG_7_3_90.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/XGBoost/LG_8_2_90.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{LG 90 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/XGBoost/SONY_6_4_30.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/XGBoost/SONY_7_3_30.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/XGBoost/SONY_8_2_30.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{SONY 30 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/XGBoost/SONY_6_4_60.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/XGBoost/SONY_7_3_60.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/XGBoost/SONY_8_2_60.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{SONY 60 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/XGBoost/SONY_6_4_90.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/XGBoost/SONY_7_3_90.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/XGBoost/SAMSUNG_8_2_90.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{SONY 90 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/XGBoost/SAMSUNG_6_4_30.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/XGBoost/SAMSUNG_7_3_30.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/XGBoost/SAMSUNG_8_2_30.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{SAMSUNG 30 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/XGBoost/SAMSUNG_6_4_60.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/XGBoost/SAMSUNG_7_3_60.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/XGBoost/SAMSUNG_8_2_60.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{SAMSUNG 60 DAYS  6:4, 7: 3, 8:2 }
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/XGBoost/SAMSUNG_6_4_90.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/XGBoost/SAMSUNG_7_3_90.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/XGBoost/SAMSUNG_8_2_90.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{SAMSUNG 90 DAYS  6:4, 7: 3, 8:2 }
+\end{figure}
+
+\section{TÀI LIỆU THAM KHẢO}
+
+ 
+[1]: Warsono, Edwin Russel, Wamiliana*, Widiarti, Mustofa Usman, "Modeling and Forecasting by the Vector Autoregressive Moving Average Model for Export of Coal and Oil Data (Case Study from Indonesia over the Years 2002-2017)". International Journal of Energy Economics and Policy, 2019
+
+
+[2] D. Bhuriya, G. Kaushal, A. Sharma, and U. Singh, “Stock market predication using a linear regression,” in 2017 International conference of Electronics, Communication and Aerospace Technology (ICECA),
+\bibliographystyle{plain}
+
+\end{multicols}
 \end{document}
 
