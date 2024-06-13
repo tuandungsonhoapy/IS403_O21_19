@@ -193,6 +193,39 @@ Trong đó:
          \item \( \mathbf{\Phi}_i \) là hệ số của thành phần tự hồi quy (AR).
          \item \( \mathbf{\Theta}_j \) là hệ số của thành phần trung bình trượt (MA).
        \end{itemize} 
+
+       \subsection{THUẬT TOÁN GRADIENT BOOSTING REGRESSION}
+       Gradient Boosting Regressor là một thuật toán học máy mạnh mẽ được sử dụng cho các bài toán hồi quy. Nó kết hợp nhiều mô hình hồi quy đơn giản (thường là các cây quyết định) để tạo ra một mô hình dự đoán mạnh mẽ hơn. Thuật toán này dựa trên phương pháp boosting, một kỹ thuật học tập ensemble, trong đó các mô hình con được xây dựng liên tiếp nhau, với mỗi mô hình mới nhằm mục đích sửa lỗi của mô hình trước đó.\\
+       Gradient Boosting là xây dựng mô hình dần dần bằng cách thêm vào các mô hình con mà mỗi mô hình mới tập trung vào việc sửa lỗi (residual) của các dự đoán trước đó. Điều này được thực hiện bằng cách tối ưu hóa gradient của hàm lỗi.\\
+       Các bước thực hiện\\
+       
+       Khởi tạo mô hình ban đầu:\\
+       Bắt đầu với một mô hình đơn giản, thường là giá trị trung bình của biến mục tiêu y.\\
+       
+       Tính toán residuals:\\
+       Residuals là sai số giữa giá trị thực tế và giá trị dự đoán của mô hình hiện tại.\\
+       
+       Huấn luyện mô hình con:\\
+       Huấn luyện một mô hình con (thường là một cây quyết định) để dự đoán residuals.\\
+       
+       Cập nhật mô hình hiện tại:\\
+       Cập nhật mô hình hiện tại bằng cách thêm mô hình con mới với một trọng số (learning rate).\\
+       
+       Lặp lại:\\
+       Lặp lại quá trình cho đến khi đạt được số lượng mô hình con mong muốn hoặc sai số giảm đến mức chấp nhận được.\\
+       
+       Ưu điểm và nhược điểm\\
+       
+       Ưu điểm:\\
+       Hiệu quả cao trong việc giảm sai số và dự đoán chính xác.
+       Linh hoạt với khả năng xử lý nhiều loại dữ liệu khác nhau.
+       Có thể điều chỉnh nhiều tham số để tối ưu hóa hiệu suất.\\
+       
+       Nhược điểm:\\
+       Tốn nhiều thời gian và tài nguyên tính toán.
+       Dễ bị overfitting nếu không điều chỉnh cẩn thận các tham số.
+       Khó khăn trong việc giải thích mô hình do tính phức tạp cao.\\
+
 \section{THỰC NGHIỆM}
 
 \subsection{MÔ HÌNH DỰ ĐOÁN }
@@ -826,7 +859,215 @@ Trong đó:
     \end{minipage}
     \caption{SAMSUNG 90 DAYS  6:4, 7:3, 8:2 }
 \end{figure}
+\subsubsection{GRADIENTBOOSTINGREGRESSOR}
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/GradientBoosting/LG_30_6_4_GradientBoostingRegressor.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/GradientBoosting/LG_30_7_3_GradientBoostingRegressor.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/GradientBoosting/LG_30_8_2_GradientBoostingRegressor.png}
 
+    \label{fig:3}
+    \end{minipage}
+    \caption{LG 30 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/GradientBoosting/LG_60_6_4_GradientBoostingRegressor.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/GradientBoosting/LG_60_7_3_GradientBoostingRegressor.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/GradientBoosting/LG_60_8_2_GradientBoostingRegressor.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{LG 60 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/GradientBoosting/LG_90_6_4_GradientBoostingRegressor.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/GradientBoosting/LG_90_7_3_GradientBoostingRegressor.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/GradientBoosting/LG_90_8_2_GradientBoostingRegressor.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{LG 90 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/GradientBoosting/SONY_30_6_4_GradientBoostingRegressor.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/GradientBoosting/SONY_30_7_3_GradientBoostingRegressor.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/GradientBoosting/SONY_30_8_2_GradientBoostingRegressor.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{SONY 30 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/GradientBoosting/SONY_60_6_4_GradientBoostingRegressor.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/GradientBoosting/SONY_60_7_3_GradientBoostingRegressor.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/GradientBoosting/SONY_60_8_2_GradientBoostingRegressor.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{SONY 60 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/GradientBoosting/SONY_90_6_4_GradientBoostingRegressor.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/GradientBoosting/SONY_90_7_3_GradientBoostingRegressor.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/GradientBoosting/SONY_90_8_2_GradientBoostingRegressor.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{SONY 90 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/GradientBoosting/SAMSUNG_30_6_4_GradientBoostingRegressor.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/GradientBoosting/SAMSUNG_30_7_3_GradientBoostingRegressor.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/GradientBoosting/SAMSUNG_30_8_2_GradientBoostingRegressor.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{SAMSUNG 30 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/GradientBoosting/SAMSUNG_60_6_4_GradientBoostingRegressor.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/GradientBoosting/SAMSUNG_60_7_3_GradientBoostingRegressor.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/GradientBoosting/SAMSUNG_60_8_2_GradientBoostingRegressor.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{SAMSUNG 60 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/GradientBoosting/SAMSUNG_90_6_4_GradientBoostingRegressor.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/GradientBoosting/SAMSUNG_90_7_3_GradientBoostingRegressor.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/GradientBoosting/SAMSUNG_90_8_2_GradientBoostingRegressor.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{SAMSUNG 90 DAYS  6:4, 7:3, 8:2 }
+\end{figure} 
 \section{TÀI LIỆU THAM KHẢO}
 
  
