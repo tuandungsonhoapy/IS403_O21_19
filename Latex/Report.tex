@@ -169,12 +169,242 @@ Trong đó:
       \item \( \mathbf{\Theta}_j \) là ma trận hệ số của chuỗi thời gian ( độ trễ, lag) \( j \) của mô hình MA.
       \item \( \boldsymbol{\epsilon}_t \) là vector của các nhiễu ngẫu nhiên tại thời điểm \( t \).
     \end{itemize} 
-
+    \subsection{ARIMA}
+    ARIMA model là viết tắt của cụm từ Autoregressive 
+    Intergrated Moving Average. Mô hình sẽ biểu diễn phương trình hồi qui tuyến tính đa biến (multiple linear regression) của các biến đầu vào (còn gọi là biến phụ thuộc trong thống kê) là 2 thành phần chính:\\
+    \begin{itemize}
+        \item Auto regression: Kí hiệu là AR. Đây là thành phần tự hồi qui bao gồm tợp hợp các độ trễ của biến hiện tại. Độ trễ bậc p chính là giá trị lùi về quá khứ  bước thời gian của chuỗi. Độ trễ dài hoặc ngắn trong quá trình AR phụ thuộc vào tham số trễ.
+    \end{itemize}
+    \begin{itemize}
+        \item Moving average: Quá trình trung bình trượt được hiểu là quá trình dịch chuyển hoặc thay đổi giá trị trung bình của chuổi theo thời gian. Do chuỗi của chúng ta được giả định là dừng nên quá trình thay đổi trung bình dường như là một chuỗi nhiễu trắng. Quá trình moving average sẽ tìm mối liên hệ về mặt tuyến tính giữa các phần tử ngẫu nhiên(stochastic term). 
+    \end{itemize}
+    \begin{itemize}
+        \item Intergrated: Là quá trình đồng tích hợp hoặc lấy sai phân. Yêu cầu chung của các thuật toán trong time series là chuỗi phải đảm bảo tính dừng. Hầu hết các chuỗi đều tăng hoặc giảm theo thời gian. Do đó yếu tố tương quan giữa chúng chưa chắc là thực sự mà là do chúng cùng tương quan theo thời gian. Khi biến đổi sang chuỗi dừng, các nhân tố ảnh hưởng thời gian được loại bỏ và chuỗi sẽ dễ dự báo hơn. Để tạo thành chuỗi dừng, một phương pháp đơn giản nhất là chúng ta sẽ lấy sai phân. Một số chuỗi tài chính còn qui đổi sang logarit hoặc lợi suất. Bậc của sai phân để tạo thành chuỗi dừng còn gọi là bậc của quá trình đồng tích hợp (order of intergration).
+    \end{itemize}
+     • Công thức:
+       \begin{equation}
+           \mathbf{y}_t = \mathbf{c} + {\epsilon}_t + \sum_{i=1}^{p} \mathbf{\Phi}_i \mathbf{y}_{t-i} + \sum_{j=1}^{q} \mathbf{\Theta}_j \boldsymbol{\epsilon}_{t-j} 
+       \end{equation}  
+   Trong đó:  
+       \begin{itemize}
+         \item \( \mathbf{y}_t \) là giá trị của chuỗi thời gian tại thời điểm \( t \).
+         \item \( \mathbf{c} \) là hằng số.
+         \item \( \boldsymbol{\epsilon}_t \) là thành phần lỗi tại thời điểm thời điểm \( t \).
+         \item \( \mathbf{\Phi}_i \) là hệ số của thành phần tự hồi quy (AR).
+         \item \( \mathbf{\Theta}_j \) là hệ số của thành phần trung bình trượt (MA).
+       \end{itemize} 
 \section{THỰC NGHIỆM}
 
 \subsection{MÔ HÌNH DỰ ĐOÁN }
 \subsubsection{ARIMA}
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/30_6_4_LG_Arima.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/30_7_3_LG_Arima.png}
   
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/30_8_2_LG_Arima.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{LG 30 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/60_6_4_LG_Arima.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/60_7_3_LG_Arima.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/60_8_2_LG_Arima.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{LG 60 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/90_6_4_LG_Arima.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/90_7_3_LG_Arima.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/90_8_2_LG_Arima.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{LG 90 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/30_6_4_SONY_Arima.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/30_7_3_SONY_Arima.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/30_8_2_SONY_Arima.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{SONY 30 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/60_6_4_SONY_Arima.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/60_7_3_SONY_Arima.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/60_8_2_SONY_Arima.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{SONY 60 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/90_6_4_SONY_Arima.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/90_7_3_SONY_Arima.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/90_8_2_SONY_Arima.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{SONY 90 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/30_6_4_SAMSUNG_Arima.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/30_7_3_SAMSUNG_Arima.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/30_8_2_SAMSUNG_Arima.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{SAMSUNG 30 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/60_6_4_SAMSUNG_Arima.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/60_7_3_SAMSUNG_Arima.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/60_8_2_SAMSUNG_Arima.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{SAMSUNG 60 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/90_6_4_SAMSUNG_Arima.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/90_7_3_SAMSUNG_Arima.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/90_8_2_SAMSUNG_Arima.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{SAMSUNG 90 DAYS  6:4, 7:3, 8:2 }
+\end{figure} 
 \subsubsection{LINEAR REGRESSION}
 
 
