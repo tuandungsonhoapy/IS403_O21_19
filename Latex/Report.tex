@@ -76,6 +76,8 @@ Bằng cách tận dụng những phương pháp này, chúng tôi mong muốn c
 
 [5] Và để tìm ra tham số tối ưu cho mô hình VARMA, ta sử dụng \texttt{auto\_arima} để thực hiện tìm các tham số tối ưu $(p, q)$ cho mỗi biến. Cặp tham số của một biến có AIC nhỏ nhất là phù hợp nhất. Sau đó, huấn luyện với các cặp tham số $(p, q)$ tìm được. Sau khi chạy, ta sử dụng chỉ số đánh giá RMSE để xem cặp tham số $(p, q)$ nào phù hợp nhất với mô hình. RMSE càng nhỏ thì cặp tham số đó càng phù hợp.
 
+[6] Mô hình thuật toán Linear Regression được sử dụng để dự đoán giá trị của một biến phụ thuộc (biến đầu ra) dựa trên giá trị của một hoặc nhiều biến độc lập (biến đầu vào), được sử dụng để xác định và phân tích các xu hướng trong dữ liệu thời gian. Trong bài báo này, hiệu suất của hồi quy tuyến tính (LR) và hồi quy vectơ hỗ trợ (SVR) để dự đoán giá cổ phiếu của Amazon vào tháng 10 năm 2019. Phát hiện của họ chỉ ra rằng LR đạt được độ chính xác cao hơn (\(98,76\%\)) so với SVR (\(94,32\%\)), cho thấy khả năng phù hợp của nó trong ngắn hạn - giá kỳ hạn trước khi xác định cổ phiếu có ít biến động hơn.
+
 \section{NGUYÊN LIỆU}
 
 \subsection{DATASET}
@@ -176,6 +178,35 @@ Mô tả từng cột trong dữ liệu :
 \subsection{CHỈ SỐ ĐÁNH GIÁ MÔ HÌNH}
 
 \section{PHƯƠNG PHÁP}
+
+\subsection{LINER REGRESSION}
+
+Thuật toán Linear Regression thường được sử dụng trong các bài toán dự đoán và hồi quy. Quá trình huấn luyện của thuật toán này là tìm ra các tham số tốt nhất cho đường thẳng hoặc siêu phẳng sao cho tổng bình phương sai số giữa giá trị dự đoán và giá trị thực tế là nhỏ nhất. Phương pháp này thường được sử dụng cho các bài toán có dữ liệu liên tục.
+
+Đặc điểm của Linear Regression bao gồm:
+\begin{itemize}
+    \item Đơn giản và dễ hiểu.
+    \item Dễ triển khai và tính toán.
+    \item Phù hợp cho dữ liệu có mối quan hệ tuyến tính đơn giản.
+    \item Có thể được mở rộng để xử lý các mô hình phức tạp hơn thông qua các biến phụ thuộc phi tuyến tính hoặc sử dụng kỹ thuật biến đổi dữ liệu.
+\end{itemize}
+
+Công thức:
+\[
+Y = \beta_0 + \beta_1X_1 + \beta_2X_2 + \cdots + \beta_pX_p + \epsilon
+\]
+
+Trong đó:
+\begin{itemize}
+    \item \( Y \): Đây là biến phụ thuộc (hoặc biến mục tiêu), là giá trị chúng ta muốn dự đoán hoặc giải thích bằng các biến độc lập khác.
+    \item \( X_1, X_2, \ldots, X_p \): Là các biến độc lập, là các đặc trưng hoặc biến giải thích mà chúng ta sử dụng để dự đoán giá trị của \( Y \).
+    \item \( \beta_0 \): Là hệ số chặn của đường hồi quy, thường được gọi là hệ số chặn hoặc hệ số độc lập. Nó cho biết giá trị của \( Y \) khi tất cả các biến độc lập đều bằng 0.
+    \item \( \beta_1, \beta_2, \ldots, \beta_p \): Là các hệ số hồi quy của các biến độc lập tương ứng \( X_1, X_2, \ldots, X_p \). Chúng cho biết mức độ ảnh hưởng của mỗi biến độc lập lên biến phụ thuộc \( Y \).
+    \item \( \epsilon \): Là sai số ngẫu nhiên, biểu thị những yếu tố không được mô hình hóa hoặc không biết đến có thể ảnh hưởng đến biến phụ thuộc \( Y \).
+\end{itemize}
+
+
+
 
 \subsection{THUẬT TOÁN RNN}
 
@@ -380,218 +411,9 @@ Trong đó:
 \section{THỰC NGHIỆM}
 
 \subsection{MÔ HÌNH DỰ ĐOÁN }
-\subsubsection{ARIMA}
-\begin{figure}[H]
-    \centering
-    \begin{minipage}{0.15\textwidth}
-    \centering
-    \includegraphics[width=1\textwidth]{Image/ARIMA/30_6_4_LG_Arima.png}
-   
-    \label{fig:1}
-    \end{minipage}%
-    \begin{minipage}{0.15\textwidth}
-    \centering
-    \includegraphics[width=1\textwidth]{Image/ARIMA/30_7_3_LG_Arima.png}
-  
-    \label{fig:2}
-    \end{minipage}%
-    \begin{minipage}{0.15\textwidth}
-    \centering
-    \includegraphics[width=1\textwidth]{Image/ARIMA/30_8_2_LG_Arima.png}
-
-    \label{fig:3}
-    \end{minipage}
-    \caption{LG 30 DAYS  6:4, 7:3, 8:2 }
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \begin{minipage}{0.15\textwidth}
-    \centering
-    \includegraphics[width=1\textwidth]{Image/ARIMA/60_6_4_LG_Arima.png}
-   
-    \label{fig:1}
-    \end{minipage}%
-    \begin{minipage}{0.15\textwidth}
-    \centering
-    \includegraphics[width=1\textwidth]{Image/ARIMA/60_7_3_LG_Arima.png}
-  
-    \label{fig:2}
-    \end{minipage}%
-    \begin{minipage}{0.15\textwidth}
-    \centering
-    \includegraphics[width=1\textwidth]{Image/ARIMA/60_8_2_LG_Arima.png}
-
-    \label{fig:3}
-    \end{minipage}
-    \caption{LG 60 DAYS  6:4, 7:3, 8:2 }
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \begin{minipage}{0.15\textwidth}
-    \centering
-    \includegraphics[width=1\textwidth]{Image/ARIMA/90_6_4_LG_Arima.png}
-   
-    \label{fig:1}
-    \end{minipage}%
-    \begin{minipage}{0.15\textwidth}
-    \centering
-    \includegraphics[width=1\textwidth]{Image/ARIMA/90_7_3_LG_Arima.png}
-  
-    \label{fig:2}
-    \end{minipage}%
-    \begin{minipage}{0.15\textwidth}
-    \centering
-    \includegraphics[width=1\textwidth]{Image/ARIMA/90_8_2_LG_Arima.png}
-
-    \label{fig:3}
-    \end{minipage}
-    \caption{LG 90 DAYS  6:4, 7:3, 8:2 }
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \begin{minipage}{0.15\textwidth}
-    \centering
-    \includegraphics[width=1\textwidth]{Image/ARIMA/30_6_4_SONY_Arima.png}
-   
-    \label{fig:1}
-    \end{minipage}%
-    \begin{minipage}{0.15\textwidth}
-    \centering
-    \includegraphics[width=1\textwidth]{Image/ARIMA/30_7_3_SONY_Arima.png}
-  
-    \label{fig:2}
-    \end{minipage}%
-    \begin{minipage}{0.15\textwidth}
-    \centering
-    \includegraphics[width=1\textwidth]{Image/ARIMA/30_8_2_SONY_Arima.png}
-
-    \label{fig:3}
-    \end{minipage}
-    \caption{SONY 30 DAYS  6:4, 7:3, 8:2 }
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \begin{minipage}{0.15\textwidth}
-    \centering
-    \includegraphics[width=1\textwidth]{Image/ARIMA/60_6_4_SONY_Arima.png}
-   
-    \label{fig:1}
-    \end{minipage}%
-    \begin{minipage}{0.15\textwidth}
-    \centering
-    \includegraphics[width=1\textwidth]{Image/ARIMA/60_7_3_SONY_Arima.png}
-  
-    \label{fig:2}
-    \end{minipage}%
-    \begin{minipage}{0.15\textwidth}
-    \centering
-    \includegraphics[width=1\textwidth]{Image/ARIMA/60_8_2_SONY_Arima.png}
-
-    \label{fig:3}
-    \end{minipage}
-    \caption{SONY 60 DAYS  6:4, 7:3, 8:2 }
-\end{figure}
 
 
-\begin{figure}[H]
-    \centering
-    \begin{minipage}{0.15\textwidth}
-    \centering
-    \includegraphics[width=1\textwidth]{Image/ARIMA/90_6_4_SONY_Arima.png}
-   
-    \label{fig:1}
-    \end{minipage}%
-    \begin{minipage}{0.15\textwidth}
-    \centering
-    \includegraphics[width=1\textwidth]{Image/ARIMA/90_7_3_SONY_Arima.png}
-  
-    \label{fig:2}
-    \end{minipage}%
-    \begin{minipage}{0.15\textwidth}
-    \centering
-    \includegraphics[width=1\textwidth]{Image/ARIMA/90_8_2_SONY_Arima.png}
-
-    \label{fig:3}
-    \end{minipage}
-    \caption{SONY 90 DAYS  6:4, 7:3, 8:2 }
-\end{figure}
-
-
-\begin{figure}[H]
-    \centering
-    \begin{minipage}{0.15\textwidth}
-    \centering
-    \includegraphics[width=1\textwidth]{Image/ARIMA/30_6_4_SAMSUNG_Arima.png}
-   
-    \label{fig:1}
-    \end{minipage}%
-    \begin{minipage}{0.15\textwidth}
-    \centering
-    \includegraphics[width=1\textwidth]{Image/ARIMA/30_7_3_SAMSUNG_Arima.png}
-  
-    \label{fig:2}
-    \end{minipage}%
-    \begin{minipage}{0.15\textwidth}
-    \centering
-    \includegraphics[width=1\textwidth]{Image/ARIMA/30_8_2_SAMSUNG_Arima.png}
-
-    \label{fig:3}
-    \end{minipage}
-    \caption{SAMSUNG 30 DAYS  6:4, 7:3, 8:2 }
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \begin{minipage}{0.15\textwidth}
-    \centering
-    \includegraphics[width=1\textwidth]{Image/ARIMA/60_6_4_SAMSUNG_Arima.png}
-   
-    \label{fig:1}
-    \end{minipage}%
-    \begin{minipage}{0.15\textwidth}
-    \centering
-    \includegraphics[width=1\textwidth]{Image/ARIMA/60_7_3_SAMSUNG_Arima.png}
-  
-    \label{fig:2}
-    \end{minipage}%
-    \begin{minipage}{0.15\textwidth}
-    \centering
-    \includegraphics[width=1\textwidth]{Image/ARIMA/60_8_2_SAMSUNG_Arima.png}
-
-    \label{fig:3}
-    \end{minipage}
-    \caption{SAMSUNG 60 DAYS  6:4, 7:3, 8:2 }
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \begin{minipage}{0.15\textwidth}
-    \centering
-    \includegraphics[width=1\textwidth]{Image/ARIMA/90_6_4_SAMSUNG_Arima.png}
-   
-    \label{fig:1}
-    \end{minipage}%
-    \begin{minipage}{0.15\textwidth}
-    \centering
-    \includegraphics[width=1\textwidth]{Image/ARIMA/90_7_3_SAMSUNG_Arima.png}
-  
-    \label{fig:2}
-    \end{minipage}%
-    \begin{minipage}{0.15\textwidth}
-    \centering
-    \includegraphics[width=1\textwidth]{Image/ARIMA/90_8_2_SAMSUNG_Arima.png}
-
-    \label{fig:3}
-    \end{minipage}
-    \caption{SAMSUNG 90 DAYS  6:4, 7:3, 8:2 }
-\end{figure} 
 \subsubsection{LINEAR REGRESSION}
-
-
 
 \begin{figure}[H]
     \centering
@@ -802,6 +624,218 @@ Trong đó:
     \caption{SAMSUNG 90 DAYS  6:4, 7:3, 8:2 }
 \end{figure}
  
+
+\subsubsection{ARIMA}
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/30_6_4_LG_Arima.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/30_7_3_LG_Arima.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/30_8_2_LG_Arima.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{LG 30 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/60_6_4_LG_Arima.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/60_7_3_LG_Arima.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/60_8_2_LG_Arima.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{LG 60 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/90_6_4_LG_Arima.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/90_7_3_LG_Arima.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/90_8_2_LG_Arima.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{LG 90 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/30_6_4_SONY_Arima.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/30_7_3_SONY_Arima.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/30_8_2_SONY_Arima.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{SONY 30 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/60_6_4_SONY_Arima.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/60_7_3_SONY_Arima.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/60_8_2_SONY_Arima.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{SONY 60 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/90_6_4_SONY_Arima.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/90_7_3_SONY_Arima.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/90_8_2_SONY_Arima.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{SONY 90 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/30_6_4_SAMSUNG_Arima.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/30_7_3_SAMSUNG_Arima.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/30_8_2_SAMSUNG_Arima.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{SAMSUNG 30 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/60_6_4_SAMSUNG_Arima.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/60_7_3_SAMSUNG_Arima.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/60_8_2_SAMSUNG_Arima.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{SAMSUNG 60 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/90_6_4_SAMSUNG_Arima.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/90_7_3_SAMSUNG_Arima.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/90_8_2_SAMSUNG_Arima.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{SAMSUNG 90 DAYS  6:4, 7:3, 8:2 }
+\end{figure} 
+
+
 
 \subsubsection{VARMA}
 \begin{figure}[H]
@@ -1885,6 +1919,7 @@ Trong đó:
 
 [5]: Yugesh Verma, "A Guide to VARMA with Auto ARIMA in Time Series Modelling". analyticsindiamag.com, 2021 
 
+[6] D. Bhuriya, G. Kaushal, A. Sharma, and U. Singh, “Stock market predication using a linear regression,” in 2017 International conference of Electronics, Communication and Aerospace Technology (ICECA),
 
 \bibliographystyle{plain}
 
