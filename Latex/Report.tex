@@ -76,8 +76,7 @@ Bằng cách tận dụng những phương pháp này, chúng tôi mong muốn c
 
 [5] Và để tìm ra tham số tối ưu cho mô hình VARMA, ta sử dụng \texttt{auto\_arima} để thực hiện tìm các tham số tối ưu $(p, q)$ cho mỗi biến. Cặp tham số của một biến có AIC nhỏ nhất là phù hợp nhất. Sau đó, huấn luyện với các cặp tham số $(p, q)$ tìm được. Sau khi chạy, ta sử dụng chỉ số đánh giá RMSE để xem cặp tham số $(p, q)$ nào phù hợp nhất với mô hình. RMSE càng nhỏ thì cặp tham số đó càng phù hợp.
 
-
-\section{PHƯƠNG PHÁP}
+\section{NGUYÊN LIỆU}
 
 \subsection{DATASET}
 Trọng tâm của bài viết này là dự đoán giá cổ phiếu. Vì vậy, cả ba tập dữ liệu chúng tôi sử dụng trong nghiên cứu đều là giá cổ phiếu của các công ty lớn. Các công ty này là SONY, SAMSUNG và LG. Dữ liệu của SAMSUNG, LG, SONY được thu thập từ ngày 1 tháng 3 năm 2019 đến ngày 1 tháng 6 năm 2024.  
@@ -93,12 +92,16 @@ Mô tả từng cột trong dữ liệu :
  + Low: Giá thấp nhất của cổ phiếu trong ngày giao dịch.
  
  + Close: Giá đóng cửa của cổ phiếu vào ngày giao dịch.
- 
+
+ \subsection{THỐNG KÊ MÔ TẢ }
+
 
 
 \begin{table}[H]
   \centering
-  \caption{SONY, SAMSUNG, LG’s Descriptive Statistics}
+
+
+
 \begin{tabular}{|>{\columncolor{red!20}}c|c|c|c|}
     \hline
      \rowcolor{red!20} & SONY& SAMSUNG& LG\\ \hline
@@ -111,6 +114,7 @@ Mô tả từng cột trong dữ liệu :
      75\% & 90.442500& 90.442500& 114000\\ \hline
      Max & 128.59& 128.590000& 185000\\ \hline
 \end{tabular}
+\caption{SONY, SAMSUNG, LG’s Descriptive Statistics}
 \end{table}
 
 \begin{figure}[H]
@@ -163,6 +167,15 @@ Mô tả từng cột trong dữ liệu :
     \label{fig:2}
     \end{minipage}
 \end{figure}
+
+
+\subsection{CHIA TỈ LỆ}
+
+
+
+\subsection{CHỈ SỐ ĐÁNH GIÁ MÔ HÌNH}
+
+\section{PHƯƠNG PHÁP}
 
 \subsection{THUẬT TOÁN RNN}
 
