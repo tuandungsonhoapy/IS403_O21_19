@@ -164,7 +164,88 @@ Mô tả từng cột trong dữ liệu :
     \end{minipage}
 \end{figure}
 
+\subsection{THUẬT TOÁN RNN}
 
+ Mạng nơ-ron tái phát (RNN) là một loại mạng nơ-ron nhân tạo được thiết kế đặc biệt để xử lý các chuỗi dữ liệu có thứ tự, như chuỗi thời gian hoặc văn bản. Điểm đặc biệt của RNN là khả năng ghi nhớ và sử dụng thông tin từ các bước trước đó trong chuỗi, làm cho chúng rất hữu ích trong các bài toán như dịch máy, nhận dạng giọng nói và phân tích chuỗi thời gian.
+
+\subsubsection{Cấu trúc và hoạt động của RNN}
+
+RNN có cấu trúc đặc biệt với các kết nối hồi quy (recurrent connections), cho phép truyền thông tin ngược trở lại từ bước hiện tại về các bước trước đó. Điều này có nghĩa là tại mỗi bước thời gian \(t\), trạng thái ẩn \(a^{\langle t \rangle}\) được tính toán dựa trên trạng thái ẩn từ bước trước đó \(a^{\langle t-1 \rangle}\) và đầu vào hiện tại \(x^{\langle t \rangle}\).
+
+\subsubsection{Công thức của RNN}
+
+Công thức tính toán trong RNN có thể được biểu diễn như sau:
+
+1. Trạng thái ẩn \(a^{\langle t \rangle}\):
+
+\[
+a^{\langle t \rangle} = g_1 \left( W_{aa} a^{\langle t-1 \rangle} + W_{ax} x^{\langle t \rangle} + b_a \right)
+\]
+
+2. Đầu ra \(y^{\langle t \rangle}\):
+
+\[
+y^{\langle t \rangle} = g_2 \left( W_{ya} a^{\langle t \rangle} + b_y \right)
+\]
+
+Trong đó:
+\begin{itemize}
+    \item \(W_{ax}\) và \(W_{aa}\) là ma trận trọng số cho đầu vào và trạng thái ẩn.
+    \item \(W_{ya}\) là ma trận trọng số cho đầu ra.
+    \item \(b_a\) và \(b_y\) là các bias tương ứng.
+    \item \(g_1\) và \(g_2\) là các hàm kích hoạt, thường là hàm sigmoid hoặc hàm tanh cho trạng thái ẩn và hàm softmax cho đầu ra.
+\end{itemize}
+
+RNN rất mạnh mẽ nhưng cũng gặp khó khăn trong việc xử lý các chuỗi dài do vấn đề vanishing gradient. Để giải quyết vấn đề này, các biến thể của RNN như LSTM (Long Short-Term Memory) và GRU (Gated Recurrent Unit) đã được phát triển.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\linewidth]{image.png}
+    \caption{Mô hình RNN đơn giản}
+    \label{fig:rnn}
+\end{figure}
+
+RNN là một công cụ quan trọng trong học máy và trí tuệ nhân tạo, đặc biệt khi làm việc với dữ liệu tuần tự và có cấu trúc thời gian.
+
+
+\subsection{THUẬT TOÁN LIGHTGBM}
+
+LightGBM là một thuật toán học máy dựa trên cây quyết định, nó là một phần của họ các thuật toán tăng cường gradient.
+
+Công thức cơ bản của LightGBM là:
+
+\[
+\hat{y}_i = \sum_{k=1}^{K} f_k(x_i), \quad f_k \in \mathcal{F}
+\]
+
+Trong đó:
+
+\begin{align*}
+&\hat{y}_i \text{ là giá trị dự đoán cho mẫu } i \\
+&K \text{ là số lượng cây (trees) được sử dụng} \\
+&f_k \text{ là cây thứ } k \text{ trong tập hợp các cây } \mathcal{F} \\
+&x_i \text{ là vector đặc trưng cho mẫu } i
+\end{align*}
+
+LightGBM tối ưu hóa hàm mất mát bằng cách sử dụng thuật toán Gradient Boosting (tăng cường gradient).
+
+Hàm mất mát thường được định nghĩa như sau:
+
+\[
+\text{loss}(\mathbf{y}, \hat{\mathbf{y}}) = \sum_{i=1}^{n} L(y_i, \hat{y}_i) + \sum_{k=1}^{K} \Omega(f_k)
+\]
+
+Trong đó:
+
+\begin{align*}
+&\mathbf{y} \text{ là vector các giá trị thực của các mẫu} \\
+&\hat{\mathbf{y}} \text{ là vector các giá trị dự đoán} \\
+&n \text{ là số lượng mẫu} \\
+&L \text{ là hàm mất mát cho dự đoán và giá trị thực} \\
+&\Omega \text{ là hàm điều chuẩn (regularization function) cho cây}
+\end{align*}
+
+LightGBM sử dụng các kỹ thuật như Gradient Boosting Decision Trees (GBDT) và histogram-based algorithm để tối ưu hóa hiệu suất tính toán và bộ nhớ.
 \subsection{THUẬT TOÁN VARMA}
 Mô hình VARMA thường được sử dụng để dự báo dữ liệu chuỗi thời gian đa biến . Mô hình VARMA là một mở rộng của mô hình ARMA trong chuỗi thời gian đơn biến (Lutkepohl, 2005; Wei, 1990) và được sử dụng với điều kiện dữ liệu phải là dừng theo thời gian (Lutkepohl, 2005). Mô hình VARMA (p,q) là sự kết hợp của mô hình VAR (p) và mô hình trung bình trượt vector (q) (VMA (q)).\\
  
