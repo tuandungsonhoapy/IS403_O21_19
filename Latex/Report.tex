@@ -254,6 +254,44 @@ Trong đó:
        - Chính quy hóa: Nó tích hợp các kỹ thuật chính quy để tránh hiện tượng quá khớp và cải thiện hiệu suất tổng quát.
 \section{THỰC NGHIỆM}
 
+\subsection{THUẬT TOÁN LIGHTGBM}
+
+LightGBM là một thuật toán học máy dựa trên cây quyết định, nó là một phần của họ các thuật toán tăng cường gradient.
+
+Công thức cơ bản của LightGBM là:
+
+\[
+\hat{y}_i = \sum_{k=1}^{K} f_k(x_i), \quad f_k \in \mathcal{F}
+\]
+
+Trong đó:
+
+\begin{align*}
+&\hat{y}_i \text{ là giá trị dự đoán cho mẫu } i \\
+&K \text{ là số lượng cây (trees) được sử dụng} \\
+&f_k \text{ là cây thứ } k \text{ trong tập hợp các cây } \mathcal{F} \\
+&x_i \text{ là vector đặc trưng cho mẫu } i
+\end{align*}
+
+LightGBM tối ưu hóa hàm mất mát bằng cách sử dụng thuật toán Gradient Boosting (tăng cường gradient).
+
+Hàm mất mát thường được định nghĩa như sau:
+
+\[
+\text{loss}(\mathbf{y}, \hat{\mathbf{y}}) = \sum_{i=1}^{n} L(y_i, \hat{y}_i) + \sum_{k=1}^{K} \Omega(f_k)
+\]
+
+Trong đó:
+
+\begin{align*}
+&\mathbf{y} \text{ là vector các giá trị thực của các mẫu} \\
+&\hat{\mathbf{y}} \text{ là vector các giá trị dự đoán} \\
+&n \text{ là số lượng mẫu} \\
+&L \text{ là hàm mất mát cho dự đoán và giá trị thực} \\
+&\Omega \text{ là hàm điều chuẩn (regularization function) cho cây}
+\end{align*}
+
+LightGBM sử dụng các kỹ thuật như Gradient Boosting Decision Trees (GBDT) và histogram-based algorithm để tối ưu hóa hiệu suất tính toán và bộ nhớ.
 \subsection{MÔ HÌNH DỰ ĐOÁN }
 \subsubsection{ARIMA}
 \begin{figure}[H]
