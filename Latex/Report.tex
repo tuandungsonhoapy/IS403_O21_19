@@ -169,9 +169,13 @@ Mô tả từng cột trong dữ liệu :
 \end{figure}
 
 
-\subsection{CHIA TỈ LỆ}
-
-
+\subsection{TỶ LỆ PHÂN CHIA TẬP DỮ LIỆU}
+ Tỷ lệ phân chia dữ liệu là một quyết định quan trọng trong việc xây dựng mô hình học máy. Trong bài nghiên cứu này, chúng tôi sẽ chia dữ liệu theo ba tỷ lệ khác nhau: 6:4, 7:3 và 8:2.
+ Tỷ lệ 6:4, cho phép chúng ta có một tập kiểm thử tương đối lớn, giúp đánh giá mô hình một cách toàn diện hơn. Tuy nhiên, điều này cũng có nghĩa là chúng ta có ít dữ liệu hơn để huấn luyện mô hình, có thể ảnh hưởng đến khả năng học của mô hình.
+ Tỷ lệ 7:3 cho phép chúng ta huấn luyện mô hình trên một lượng dữ liệu lớn hơn, trong khi vẫn đảm bảo có đủ dữ liệu để kiểm thử mô hình. Điều này giúp cải thiện hiệu suất của mô hình và khả năng tổng quát hóa.
+ Tỷ lệ 8:2 cung cấp một sự cân nhắc giữa việc huấn luyện mô hình và đánh giá toàn diện trên tập dữ liệu kiểm thử, cung cấp một lựa chọn linh hoạt cho nhiều tình huống khác nhau.
+ Nghiên cứu của chúng tôi nhấn mạnh tầm quan trọng của việc xem xét tỷ lệ phân chia dữ liệu để đảm bảo hiệu quả trong cả việc huấn luyện và đánh giá mô hình. Phương pháp tiếp cận tỉ mỉ này giúp đảm bảo rằng mô hình của chúng tôi có khả năng cung 
+ cấp dự đoán chính xác và đáng tin cậy trong các tình huống thực tế. Đây không chỉ là một phần quan trọng của quá trình nghiên cứu của chúng tôi mà còn là một bước quan trọng để đảm bảo rằng kết quả của chúng tôi có thể được áp dụng và triển khai hiệu quả trong thực tế.
 
 \subsection{CHỈ SỐ ĐÁNH GIÁ MÔ HÌNH}
 \subsubsection{Mean Squared Error(MSE)}
