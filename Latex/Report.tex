@@ -41,20 +41,23 @@
 
 
 \textbf{Tóm tắt nội dung:}
-Khi thực hiện đầu tư vào các cổ phiếu chứng khoán, việc sử dụng các mô hình dự đoán giá cổ phiếu trước khi thực hiện một giao dịch đầu tư có thể giúp cho ta có các quyết định đúng đắn hơn khi ra quyết định thực hiện 1 giao dịch. Bài báo này trình bày phương pháp dự đoán giá cổ phiếu của ba công ty lớn Samsung, LG và Sony. Chúng tôi sẽ thực hiện dự đoán bằng cách sử dụng các thuật toán thống kê: ARIMA, Linear Regression, VARMA. Bộ dữ liệu được sử dụng lấy từ ngày 1/3/2019 đến ngày 1/6/2024. Sau khi thực hiện dự đoán thì ta sẽ thực hiện sử dụng các độ đo MAPE, MSE, RMSE để đánh giá các mô hình. Cuối cùng, sử dụng các mô hình để thực hiện dự đoán giá chứng khoán cho 30, 60 và 90 ngày tiếp theo.
+
+Khi thực hiện đầu tư vào các cổ phiếu chứng khoán, việc sử dụng các mô hình dự đoán giá cổ phiếu trước khi thực hiện một giao dịch đầu tư có thể giúp cho ta có các quyết định đúng đắn hơn khi ra quyết định thực hiện 1 giao dịch. Bài báo này trình bày phương pháp dự đoán giá cổ phiếu của ba công ty lớn Samsung, LG và Sony. Chúng tôi sẽ thực hiện dự đoán bằng cách sử dụng các mô hình thống kê, học máy, học sâu: VARMA, XGBoost, NBeats, Gradient Boosting, LightGBM. Bộ dữ liệu được sử dụng lấy từ ngày 1/3/2019 đến ngày 1/6/2024. Sau khi thực hiện dự đoán thì ta sẽ thực hiện sử dụng các độ đo MAPE, MSE, RMSE để đánh giá các mô hình. Cuối cùng, sử dụng các mô hình để thực hiện dự đoán giá chứng khoán cho 30, 60 và 90 ngày tiếp theo.
 
 
 \vspace{1em} % Thêm khoảng cách
 
 
-\textbf{Từ khoá:} ARIMA, Linear Regression, VARMA. Phân tích, dự đoán giá chứng khoán.
+\textbf{Từ khoá:} VARMA, XGBoost, NBeats, Gradient Boosting, LightGBM. Mô hình thống kê, mô hình học máy, mô hình học sâu, dự đoán giá chứng khoán.
+
 
 \begin{multicols}{2}
 
 \section{GIỚI THIỆU}
+
 Dự đoán giá cổ phiếu là một vấn đề quan trọng trong lĩnh vực đầu tư tài chính. Việc dự đoán chính xác giá cổ phiếu có thể giúp các nhà đầu tư đưa ra quyết định đầu tư sáng suốt và giảm thiểu rủi ro. Có nhiều phương pháp khác nhau để dự đoán giá cổ phiếu, bao gồm phân tích kỹ thuật, phân tích cơ bản và học máy. Samsung, LG, SONY là những công ty hàng đầu trong ngành công nghệ, giá cổ phiếu của 3 công ty đóng vai trò là chỉ số quan trọng về động lực thị trường, khiến việc phân tích của họ trở nên cần thiết đối với các nhà đầu tư. 
 
-Báo cáo này nhằm mục đích phân tích, dự đoán giá cổ phiếu của các công ty có ảnh hưởng bằng cách sử dụng 3 thuật toán ARIMA, Linear Regression, VARMA để đưa ra dự đoán cho giá cổ phiếu. Nhờ đó các nhà đầu tư có thể lựa chọn chính xác hạng mục đầu tư vào giá cổ phiếu. 
+Báo cáo này nhằm mục đích dự đoán giá cổ phiếu của các công ty có ảnh hưởng bằng cách sử dụng 5 thuật toán VARMA, XGBoost, NBeats, Gradient Boosting, LightGBM để đưa ra dự đoán cho giá cổ phiếu. Nhờ đó các nhà đầu tư có thể lựa chọn chính xác hạng mục đầu tư vào giá cổ phiếu. 
 
 Bằng cách tận dụng những phương pháp này, chúng tôi mong muốn cung cấp hướng dẫn có giá trị cho các nhà dầu tư trong việc định hướng bối cảnh năng động của lĩnh vực công nghệ. 
 
@@ -62,9 +65,16 @@ Bằng cách tận dụng những phương pháp này, chúng tôi mong muốn c
 \section{NGHIÊN CỨU LIÊN QUAN}
 
 
-[1] Mô hình VARMA thường được sử dụng để dự báo dữ liệu chuỗi thời gian đa biến. Mô hình VARMA là sự mở rộng của mô hình ARMA trong chuỗi thời gian đơn biến (Lütkepohl, 2005; Wei, 1990) và được sử dụng với điều kiện rằng dữ liệu phải ổn định theo thời gian (Lütkepohl, 2005). Mô hình VARMA (p,q) là sự kết hợp của mô hình VAR (p) và mô hình vector trung bình động (q) (VMA (q)). Bài báo này xác định 4 mô hình VARMA (p,q) lần lượt là (1,1), (2, 1), (3, 1), (4, 1), Việc lựa chọn mô hình tốt nhất được thực hiện bằng cách sử dụng một số tiêu chí thông tin (AICC, HQC, AIC, và SBC). Các giá trị nhỏ nhất của những tiêu chí này cho biết mô hình tốt nhất. Mô hình phù hợp nhất được chọn là VARMA(2, 1). Kết quả dự báo cho thấy sai số chuẩn tăng lên theo thời gian; sai số chuẩn trong tháng đầu tiên tương đối nhỏ so với dự đoán trung bình, nhưng tăng lên theo thời gian đến dự báo cho 12 tháng tiếp theo. Điều này cho thấy mô hình là hợp lý khi dự báo cho các khoảng thời gian ngắn, nhưng kết quả không ổn định (do sai số chuẩn cao hơn) khi dự báo cho các khoảng thời gian dài.
+[1] Thực hiện giả định có hai cách tiếp cận giá trị đầu vào cho mô hình, dữ liệu liên tục và dữ liệu nhị phân. Ở hướng tiếp cận thứ nhất với dữ liệu liên tục, kết quả cho ra là RNN và LSTM là hai yếu tố dự đoán hàng đầu (khoảng 86\% điểm F1). Ở hướng tiếp cận thứ hai với dữ liệu nhị phân thì hai yếu tố dự đoán tốt nhất là RNN và LSTM (với khoảng 90\% điểm F1) và quá trình dự đoán cho tất cả các mô hình đều nhanh hơn. Các công trình thử nghiệm cho thấy sự cải thiện đáng kể về hiệu suất của các mô hình khi sử dụng dữ liệu nhị phân thay vì dữ liệu liên tục.
 
-[2] Mô hình thuật toán Linear Regression được sử dụng để dự đoán giá trị của một biến phụ thuộc (biến đầu ra) dựa trên giá trị của một hoặc nhiều biến độc lập (biến đầu vào), được sử dụng để xác định và phân tích các xu hướng trong dữ liệu thời gian. Trong bài báo này, hiệu suất của hồi quy tuyến tính (LR) và hồi quy vectơ hỗ trợ (SVR) để dự đoán giá cổ phiếu của Amazon vào tháng 10 năm 2019. Phát hiện của họ chỉ ra rằng LR đạt được độ chính xác cao hơn (\(98,76\%\)) so với SVR (\(94,32\%\)), cho thấy khả năng phù hợp của nó trong ngắn hạn - giá kỳ hạn trước khi xác định cổ phiếu có ít biến động hơn.
+[2]: Bài báo này đã tham gia vào cuộc tranh luận về tính hữu ích của phân tích tâm lý đối với việc dự đoán diễn biến thị trường chứng khoán. Bài báo đã sử dụng dữ liệu Twitter làm kho thông tin của mình để dự đoán những thăng trầm của sáu công ty NASDAQ nổi tiếng. Bài báo đã đề xuất một phương pháp bắt đầu bằng cách trích xuất nhiều đặc điểm dựa trên văn bản để làm phong phú thêm việc thể hiện tình cảm. Sau đó kết quả thực nghiệm đã cho ra kết luận rằng sự tang giảm giá cổ phiếu của một công ty bị ảnh hưởng bới quan điểm hoặc công chúng thể hiện trên Twitter.
+
+[3]: Bài báo này nhằm mục đích dự đoán hướng đi của giá cổ phiếu Mỹ bằng cách tích hợp entropy truyền hiệu quả thay đổi theo thời gian (ETE) và các thuật toán học máy khác nhau. Đầu tiên, bài báo khám phá rằng ETE dựa trên thời hạn biến động 3 và 6 tháng có thể được coi là biến giải thích thị trường bằng cách phân tích mối liên hệ giữa các cuộc khủng hoảng tài chính và mối quan hệ nhân quả Granger giữa các cổ phiếu. Sau đó, bài báo phát hiện ra rằng hiệu suất dự đoán theo hướng giá cổ phiếu có thể được cải thiện khi biến điều khiển ETE được tích hợp như một tính năng mới trong hồi quy logistic, perceptron đa lớp, rừng ngẫu nhiên, XGBoost và mạng bộ nhớ ngắn hạn dài. Cuối cùng, bài báo xác nhận rằng mạng perceptron đa lớp và bộ nhớ ngắn hạn dài phù hợp hơn cho việc dự đoán giá cổ phiếu. Nghiên cứu này là nỗ lực đầu tiên nhằm dự đoán hướng giá cổ phiếu bằng cách sử dụng ETE, có thể áp dụng thuận tiện vào thực tế.
+
+[4] Mô hình VARMA thường được sử dụng để dự báo dữ liệu chuỗi thời gian đa biến. Mô hình VARMA là sự mở rộng của mô hình ARMA trong chuỗi thời gian đơn biến (Lütkepohl, 2005; Wei, 1990) và được sử dụng với điều kiện rằng dữ liệu phải ổn định theo thời gian (Lütkepohl, 2005). Mô hình VARMA (p,q) là sự kết hợp của mô hình VAR (p) và mô hình vector trung bình động (q) (VMA (q)). Bài báo này xác định 4 mô hình VARMA (p,q) lần lượt là (1,1), (2, 1), (3, 1), (4, 1), Việc lựa chọn mô hình tốt nhất được thực hiện bằng cách sử dụng một số tiêu chí thông tin (AICC, HQC, AIC, và SBC). Các giá trị nhỏ nhất của những tiêu chí này cho biết mô hình tốt nhất. Mô hình phù hợp nhất được chọn là VARMA(2, 1). Kết quả dự báo cho thấy sai số chuẩn tăng lên theo thời gian; sai số chuẩn trong tháng đầu tiên tương đối nhỏ so với dự đoán trung bình, nhưng tăng lên theo thời gian đến dự báo cho 12 tháng tiếp theo. Điều này cho thấy mô hình là hợp lý khi dự báo cho các khoảng thời gian ngắn, nhưng kết quả không ổn định (do sai số chuẩn cao hơn) khi dự báo cho các khoảng thời gian dài.
+
+[5] Và để tìm ra tham số tối ưu cho mô hình VARMA, ta sử dụng \texttt{auto\_arima} để thực hiện tìm các tham số tối ưu $(p, q)$ cho mỗi biến. Cặp tham số của một biến có AIC nhỏ nhất là phù hợp nhất. Sau đó, huấn luyện với các cặp tham số $(p, q)$ tìm được. Sau khi chạy, ta sử dụng chỉ số đánh giá RMSE để xem cặp tham số $(p, q)$ nào phù hợp nhất với mô hình. RMSE càng nhỏ thì cặp tham số đó càng phù hợp.
+
 
 \section{PHƯƠNG PHÁP}
 
@@ -252,6 +262,26 @@ Trong đó:
        - Hiệu quả: Nó được thiết kế để tính toán hiệu quả và có thể nhanh chóng huấn luyện các mô hình trên các bộ dữ liệu lớn.\\
        - Linh hoạt: XGBoost hỗ trợ nhiều loại dữ liệu và mục tiêu khác nhau, bao gồm hồi quy, phân loại và các vấn đề xếp hạng.\\
        - Chính quy hóa: Nó tích hợp các kỹ thuật chính quy để tránh hiện tượng quá khớp và cải thiện hiệu suất tổng quát.
+
+
+    \subsection{THUẬT TOÁN N-BEAT}
+
+    Thuật toán N-BEATS là một mô hình dự đoán chuỗi thời gian mạnh mẽ dựa trên một cấu trúc kiến trúc mạng nơ-ron đa tầng sâu. N-BEATS được thiết kế để có khả năng học được các biến đổi không tuyến tính và phức tạp trong dữ liệu chuỗi thời gian. Điểm nổi bật của N-BEATS là khả năng mở rộng và linh hoạt trong việc tùy chỉnh cấu trúc mạng. 
+
+    Các đặc điểm chính: 
+    
+        + Cấu trúc mô hình : Mô hình N-BEATS thường bao gồm một hoặc nhiều khối có thể lặp lại. Mỗi khối bao gồm hai mạng nơ-ron: một mạng BackcastNet và một mạng ForecastNet. Cả hai mạng này thường có cấu trúc tương tự như Feedforward Neural Networks hoặc Convolutional Neural Networks.
+    
+        + Hàm mất mát : N-BEATS thường sử dụng hàm mất mát như Mean Absolute Error (MAE) hoặc Mean Squared Error (MSE) giữa dự đoán và giá trị thực tế của chuỗi thời gian. 
+    
+        + Quá trình huấn luyện : Mô hình N-BEATS được huấn luyện thông qua việc tối ưu hóa hàm mất mát bằng các phương pháp tối ưu hóa như gradient descent hoặc các biến thể của nó, như Adam hoặc RMSprop.
+    
+        + Backcast và Forecast:
+        
+            Backcast : Quá trình dự đoán các giá trị trong quá khứ của chuỗi thời gian. Trong quá trình này, mô hình sẽ sử dụng các giá trị quan sát được trong quá khứ để dự đoán giá trị tại một thời điểm cụ thể trong quá khứ. Quá trình này giúp mô hình học được cách biến đổi và ảnh hưởng của dữ liệu đầu vào đối với các giá trị trong quá khứ, từ đó cung cấp thông tin cần thiết để dự đoán tương lai.
+    
+            Porecast: Quá trình dự đoán các giá trị trong tương lai của chuỗi thời gian. Trong quá trình này, mô hình sẽ sử dụng các giá trị quan sát được trong hiện tại và quá khứ để dự đoán giá trị tại một thời điểm cụ thể trong tương lai. Quá trình này cho phép mô hình học được cách dữ liệu hiện tại và quá khứ ảnh hưởng đến các giá trị trong tương lai, từ đó cung cấp dự đoán cho các giá trị trong tương lai của chuỗi thời gian
+
 \section{THỰC NGHIỆM}
 
 \subsection{MÔ HÌNH DỰ ĐOÁN }
@@ -1315,13 +1345,451 @@ Trong đó:
     \caption{SAMSUNG 90 DAYS  6:4, 7: 3, 8:2 }
 \end{figure}
 
+
+\subsection{N-BEAT}
+
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/N_Beat/N_BEAT_6_4_LG_30DAYS.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/N_Beat/N_BEAT_7_3_LG_30DAYS.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/N_Beat/N_BEAT_8_2_LG_30DAYS.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{LG 30 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/N_Beat/N_BEAT_6_4_LG_60DAYS.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/N_Beat/N_BEAT_7_3_LG_60DAYS.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/N_Beat/N_BEAT_8_2_LG_60DAYS.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{LG 60 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/N_Beat/N_BEAT_6_4_LG_90DAYS.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/N_Beat/N_BEAT_7_3_LG_90DAYS.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/N_Beat/N_BEAT_8_2_LG_90DAYS.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{LG 90 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/N_Beat/N_BEAT_6_4_SONY_30DAYS.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/N_Beat/N_BEAT_7_3_SONY_30DAYS.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/N_Beat/N_BEAT_8_2_SONY_30DAYS.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{SONY 30 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/N_Beat/N_BEAT_6_4_SONY_60DAYS.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/N_Beat/N_BEAT_7_3_SONY_60DAYS.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/N_Beat/N_BEAT_8_2_SONY_60DAYS.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{SONY 60 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/N_Beat/N_BEAT_6_4_SONY_90DAYS.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/N_Beat/N_BEAT_7_3_SONY_90DAYS.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/N_Beat/N_BEAT_8_2_SONY_90DAYS.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{SONY 90 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/N_Beat/N_BEAT_6_4_SAMSUNG_30DAYS.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/N_Beat/N_BEAT_7_3_SAMSUNG_30DAYS.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/N_Beat/N_BEAT_8_2_SAMSUNG_30DAYS.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{SAMSUNG 30 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/N_Beat/N_BEAT_6_4_SAMSUNG_60DAYS.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/N_Beat/N_BEAT_7_3_SAMSUNG_60DAYS.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/N_Beat/N_BEAT_8_2_SAMSUNG_60DAYS.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{SAMSUNG 60 DAYS  6:4, 7: 3, 8:2 }
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/N_Beat/N_BEAT_6_4_SAMSUNG_90DAYS.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/N_Beat/N_BEAT_7_3_SAMSUNG_90DAYS.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/N_Beat/N_BEAT_8_2_SAMSUNG_90DAYS.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{SAMSUNG 90 DAYS  6:4, 7: 3, 8:2 }
+\end{figure}
+\subsubsection{GRADIENTBOOSTINGREGRESSOR}
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/GradientBoosting/LG_30_6_4_GradientBoostingRegressor.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/GradientBoosting/LG_30_7_3_GradientBoostingRegressor.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/GradientBoosting/LG_30_8_2_GradientBoostingRegressor.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{LG 30 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/GradientBoosting/LG_60_6_4_GradientBoostingRegressor.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/GradientBoosting/LG_60_7_3_GradientBoostingRegressor.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/GradientBoosting/LG_60_8_2_GradientBoostingRegressor.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{LG 60 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/GradientBoosting/LG_90_6_4_GradientBoostingRegressor.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/GradientBoosting/LG_90_7_3_GradientBoostingRegressor.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/GradientBoosting/LG_90_8_2_GradientBoostingRegressor.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{LG 90 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/GradientBoosting/SONY_30_6_4_GradientBoostingRegressor.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/GradientBoosting/SONY_30_7_3_GradientBoostingRegressor.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/GradientBoosting/SONY_30_8_2_GradientBoostingRegressor.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{SONY 30 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/GradientBoosting/SONY_60_6_4_GradientBoostingRegressor.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/GradientBoosting/SONY_60_7_3_GradientBoostingRegressor.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/GradientBoosting/SONY_60_8_2_GradientBoostingRegressor.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{SONY 60 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/GradientBoosting/SONY_90_6_4_GradientBoostingRegressor.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/GradientBoosting/SONY_90_7_3_GradientBoostingRegressor.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/GradientBoosting/SONY_90_8_2_GradientBoostingRegressor.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{SONY 90 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/GradientBoosting/SAMSUNG_30_6_4_GradientBoostingRegressor.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/GradientBoosting/SAMSUNG_30_7_3_GradientBoostingRegressor.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/GradientBoosting/SAMSUNG_30_8_2_GradientBoostingRegressor.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{SAMSUNG 30 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/GradientBoosting/SAMSUNG_60_6_4_GradientBoostingRegressor.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/GradientBoosting/SAMSUNG_60_7_3_GradientBoostingRegressor.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/GradientBoosting/SAMSUNG_60_8_2_GradientBoostingRegressor.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{SAMSUNG 60 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/GradientBoosting/SAMSUNG_90_6_4_GradientBoostingRegressor.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/GradientBoosting/SAMSUNG_90_7_3_GradientBoostingRegressor.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/GradientBoosting/SAMSUNG_90_8_2_GradientBoostingRegressor.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{SAMSUNG 90 DAYS  6:4, 7:3, 8:2 }
+\end{figure} 
+
+
 \section{TÀI LIỆU THAM KHẢO}
 
- 
-[1]: Warsono, Edwin Russel, Wamiliana*, Widiarti, Mustofa Usman, "Modeling and Forecasting by the Vector Autoregressive Moving Average Model for Export of Coal and Oil Data (Case Study from Indonesia over the Years 2002-2017)". International Journal of Energy Economics and Policy, 2019
+
+[1] : Mojtaba Nabipour; Pooyan Nayyeri; Hamed Jabani; Shahab S.; Amir Mosavi , "Predicting Stock Market Trends Using Machine Learning and Deep Learning Algorithms Via Continuous and Binary Data; a Comparative Analysis" , 2020. 
+
+[2]: Salah Bouktif; Ali Fiaz; Mamoun Awad , "Augmented Textual Features-Based Stock Market Prediction" , 2020 
+
+[3] : Sondo Kim; Seungmo Ku; Woojin Chang; Jae Wook Song , "Augmented Textual Features-Based Stock Market Prediction" , 2020 
 
 
-[2] D. Bhuriya, G. Kaushal, A. Sharma, and U. Singh, “Stock market predication using a linear regression,” in 2017 International conference of Electronics, Communication and Aerospace Technology (ICECA),
+[4]: Warsono, Edwin Russel, Wamiliana*, Widiarti, Mustofa Usman, "Modeling and Forecasting by the Vector Autoregressive Moving Average Model for Export of Coal and Oil Data (Case Study from Indonesia over the Years 2002-2017)". International Journal of Energy Economics and Policy, 2019
+
+[5]: Yugesh Verma, "A Guide to VARMA with Auto ARIMA in Time Series Modelling". analyticsindiamag.com, 2021 
+
+
 \bibliographystyle{plain}
 
 \end{multicols}
