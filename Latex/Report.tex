@@ -174,7 +174,71 @@ Mô tả từng cột trong dữ liệu :
 
 
 \subsection{CHỈ SỐ ĐÁNH GIÁ MÔ HÌNH}
+\subsubsection{Mean Squared Error(MSE)}
 
+
+Mean Squared Error (MSE) là một số liệu phổ biến được sử dụng trong các bài toán hồi quy. Về cơ bản, MSE tính sai số bình phương trung bình giữa các giá trị được dự đoán và giá trị thực tế. Đây là một thước đo chất lượng của mô hình dự đoán, luôn không âm và các giá trị càng gần 0 càng tốt.
+
+Công thức tính MSE:
+\[
+\text{MSE} = \frac{1}{n} \sum_{i=1}^{n} (\hat{y}_i - y_i)^2
+\]
+trong đó:
+\begin{itemize}
+    \item $n$ là số điểm dữ liệu
+    \item $y_i$ là giá trị quan sát
+    \item $\hat{y}_i$ là giá trị dự đoán
+\end{itemize}
+
+Trong phân tích hồi quy, việc vẽ biểu đồ là một cách trực quan để xem xu hướng chung của dữ liệu. MSE cho bạn biết mức độ gần của đường hồi quy với tập hợp các điểm dữ liệu. Cụ thể, MSE đo khoảng cách từ các điểm dữ liệu đến đường hồi quy (các khoảng cách này là “sai số”) và bình phương chúng. Việc bình phương sai số là rất quan trọng vì nó loại bỏ các dấu âm và làm tăng trọng số của các sai số lớn.
+
+Để giảm thiểu MSE, mô hình cần dự đoán chính xác hơn, tức là gần với dữ liệu thực tế hơn. Một ví dụ về hồi quy tuyến tính sử dụng phương pháp này là phương pháp bình phương nhỏ nhất. Phương pháp này đánh giá sự phù hợp của mô hình hồi quy tuyến tính với tập dữ liệu hai biến. Tuy nhiên, nó có giới hạn liên quan đến phân phối dữ liệu đã biết.
+
+MSE càng thấp thì dự báo càng tốt.
+
+
+\subsubsection{Root Mean Square Error(RMSE)}
+
+
+Root Mean Square Error (RMSE) là căn bậc hai của mức trung bình các sai số bình phương. RMSE là độ lệch chuẩn của các phần dư (sai số dự đoán). Phần dư đo khoảng cách từ các điểm dữ liệu đến đường hồi quy, RMSE đo mức độ phân tán của các phần dư này, tức là mức độ tập trung của dữ liệu xung quanh đường hồi quy.
+
+Công thức tính RMSE:
+\[
+\text{RMSE} = \sqrt{\frac{1}{n} \sum_{i=1}^{n} (\hat{y}_i - y_i)^2}
+\]
+trong đó:
+\begin{itemize}
+    \item $n$ là số điểm dữ liệu
+    \item $y_i$ là giá trị thực tế
+    \item $\hat{y}_i$ là giá trị dự đoán
+\end{itemize}
+
+Ảnh hưởng của mỗi lỗi đối với RMSE tỷ lệ với kích thước của lỗi bình phương, do đó các sai số lớn hơn có ảnh hưởng lớn đến RMSE một cách không cân xứng. Vì lý do này, RMSE nhạy cảm với các yếu tố ngoại lai. RMSE thường được sử dụng trong khí hậu học, dự báo, và phân tích hồi quy để xác minh kết quả thực nghiệm.
+
+Khi các quan sát và dự báo được chuẩn hóa, RMSE có mối quan hệ trực tiếp với hệ số tương quan. Ví dụ, nếu hệ số tương quan là 1, RMSE sẽ bằng 0 vì tất cả các điểm nằm trên đường hồi quy (không có sai số).
+
+RMSE luôn không âm, và giá trị 0 (hầu như không bao giờ đạt được trong thực tế) chỉ ra sự phù hợp hoàn hảo với dữ liệu. Nói chung, RMSE thấp hơn cho thấy mô hình tốt hơn so với RMSE cao hơn.
+
+ 
+
+\subsubsection{Mean Absolute Percentage Error(MAPE)}
+
+Mean Absolute Percentage Error (MAPE) là một số liệu được sử dụng để đo lường độ chính xác của các dự đoán trong các mô hình dự báo. MAPE tính toán sai số tuyệt đối trung bình dưới dạng phần trăm của giá trị thực tế, giúp đánh giá mức độ chính xác của dự đoán một cách dễ hiểu và so sánh dễ dàng giữa các tập dữ liệu khác nhau.
+
+Công thức tính MAPE:
+\[
+\text{MAPE} = \frac{100\%}{n} \sum_{i=1}^{n} \left| \frac{y_i - \hat{y}_i}{y_i} \right|
+\]
+trong đó:
+\begin{itemize}
+    \item $n$ là số điểm dữ liệu
+    \item $y_i$ là giá trị thực tế
+    \item $\hat{y}_i$ là giá trị dự đoán
+\end{itemize}
+
+Ưu điểm của MAPE là nó biểu diễn sai số dưới dạng phần trăm, làm cho việc diễn giải và so sánh dễ dàng hơn. Tuy nhiên, MAPE có một số hạn chế, chẳng hạn như việc không xác định khi giá trị thực tế $y_i$ bằng 0 và có thể bị ảnh hưởng mạnh bởi các giá trị cực nhỏ của $y_i$, làm cho sai số phần trăm trở nên rất lớn.
+
+MAPE thường được sử dụng trong các lĩnh vực như dự báo kinh tế, tài chính và quản lý chuỗi cung ứng để đánh giá độ chính xác của các mô hình dự báo.
 \section{PHƯƠNG PHÁP}
 
 \subsection{THUẬT TOÁN RNN}
