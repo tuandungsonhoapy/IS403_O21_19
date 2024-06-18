@@ -1953,11 +1953,26 @@ Trong đó:
 
 \subsection{KẾT LUẬN TỔNG THỂ }
 
+Dự đoán giá cổ phiếu vẫn là một nhiệm vụ phức tạp và đầy thách thức, và việc tìm ra một mô hình chính xác toàn diện vẫn còn khó khăn. Nghiên cứu này đã khám phá các phương pháp thống kê, học máy, và học sâu để dự đoán giá cổ phiếu của các gã khổng lồ công nghệ hàng đầu: LG, Samsung và Sony. Mỗi phương pháp mang lại những hiểu biết và lợi thế độc đáo, nhấn mạnh tầm quan trọng của việc xem xét các phương pháp đa dạng cho phân tích toàn diện.
+
+Nhìn chung, nghiên cứu này chứng minh rằng mặc dù không có mô hình nào có thể dự đoán chính xác giá cổ phiếu, việc sử dụng kết hợp các phương pháp thống kê, học máy và học sâu có thể cung cấp những hiểu biết quý báu và cải thiện độ chính xác của dự báo. Tuy nhiên, điều quan trọng là phải xem xét các hạn chế của từng phương pháp và diễn giải kết quả một cách thận trọng, thừa nhận sự bất định vốn có liên quan đến dự đoán thị trường chứng khoán.
+
 \subsection{THÁCH THỨC  }
+
+Dữ liệu là yếu tố quan trọng nhất trong phân tích thống kê và dự đoán. Một tập dữ liệu phù hợp cần phải đáp ứng các yêu cầu sau: Đầy đủ và chính xác cao, đủ lớn để mô hình có thể học và dự đoán chính xác, liên quan chặt chẽ đến đối tượng cần dự đoán. Tuy nhiên, việc tìm kiếm một tập dữ liệu phù hợp thường không dễ dàng. Dữ liệu công khai thường không đáp ứng được các yêu cầu trên hoặc không phù hợp với chủ đề của dự án.
+
+Sau khi thu thập dữ liệu, tôi bắt đầu mã hóa các dự đoán bằng các mô hình. Tôi đã chọn một số mô hình phổ biến như Gradient Boosting, VARMA, XGBoost, và mô hình Deep Learning như NBEATS,  Light GBM kết hợp RNN. 
+
+Tuy nhiên, việc xử lý các mô hình này không đơn giản. Nhóm cần phải có kiến thức về lý thuyết thống kê, lý thuyết học máy và kỹ năng lập trình. Chúng em đã dành nhiều thời gian nghiên cứu cách các mô hình này hoạt động.
 
 \subsection{KẾ HOẠCH TƯƠNG LAI }
 
+Để nâng cao độ chính xác của dự đoán, chúng em dự định sẽ:
 
+Tinh chỉnh dữ liệu: Nâng cao kỹ năng thu thập và xử lý dữ liệu thông qua các phương pháp mới nhất, cung cấp cho các mô hình của chúng tôi thông tin sạch hơn và đáng tin cậy hơn.
+Nâng cấp thuật toán: Khám phá các phương pháp tiên tiến như Học sâu (Deep Learning) và Học tăng cường (Reinforcement Learning) để có các mô hình dự đoán tinh vi và chính xác hơn.
+Đánh giá thông minh hơn: Áp dụng các chỉ số tiêu chuẩn trong ngành như MASE, MAPE và SMAPE để đánh giá toàn diện hiệu quả của các mô hình.
+Hợp tác: Tích cực hợp tác với các chuyên gia trong các cộng đồng chuyên môn để chia sẻ kinh nghiệm và mở rộng nền tảng kiến thức của chúng tôi.
 
 \section{NHÌN NHẬN  }
 
@@ -1976,7 +1991,8 @@ Trong đó:
 
 [5]: Yugesh Verma, "A Guide to VARMA with Auto ARIMA in Time Series Modelling". analyticsindiamag.com, 2021 
 
-
+[6]: Guolin Ke, Qi Meng, Thomas Finley, Taifeng Wang, Wei Chen, Weidong Ma, Qiwei Ye, Tie-Yan Liu, "LightGBM: A Highly Efficient Gradient Boosting
+Decision Tree" , 31st Conference on Neural Information Processing Systems (NIPS 2017).
 \bibliographystyle{plain}
 
 \end{multicols}
