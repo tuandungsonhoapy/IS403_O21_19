@@ -113,6 +113,12 @@ Bằng cách tận dụng những phương pháp này, chúng tôi mong muốn c
 
 [5] Và để tìm ra tham số tối ưu cho mô hình VARMA, ta sử dụng \texttt{auto\_arima} để thực hiện tìm các tham số tối ưu $(p, q)$ cho mỗi biến. Cặp tham số của một biến có AIC nhỏ nhất là phù hợp nhất. Sau đó, huấn luyện với các cặp tham số $(p, q)$ tìm được. Sau khi chạy, ta sử dụng chỉ số đánh giá RMSE để xem cặp tham số $(p, q)$ nào phù hợp nhất với mô hình. RMSE càng nhỏ thì cặp tham số đó càng phù hợp.
 
+[8] Bài báo đã đề xuất một mô hình kết hợp có tên HDFM để dự đoán giá chỉ số chứng khoán bằng cách sử dụng GRU và các phương pháp phân rã. Cụ thể, bài báo phân tách chuỗi thời gian giá cổ phiếu thành nhiều chuỗi phụ bằng phương pháp CEEMDAN. Để giảm thời gian tính toán, chuỗi con có entropy mẫu tương tự được hợp nhất bằng K-means. Co-IMF1 có tần suất cao nhất trong số tất cả các Co-IMF sẽ được phân tách thành chuỗi phụ để dự đoán dễ dàng hơn. Nghiên cứu cắt bỏ đã chứng minh tính hiệu quả của từng thành phần của mô hình, bao gồm GRU là mạng cơ sở, CEEMDAN là phương pháp phân rã và VMD là phương pháp phân tách lại. Mô hình của chúng tôi vượt trội hơn các phương pháp khác cho cả ba chỉ số thị trường chứng khoán.
+
+[9] Bài báo đã đề xuất một mô hình kết hợp có tên HDFM để dự đoán giá chỉ số chứng khoán bằng cách sử dụng GRU và các phương pháp phân rã. Cụ thể, bài báo phân tách chuỗi thời gian giá cổ phiếu thành nhiều chuỗi phụ bằng phương pháp CEEMDAN. Để giảm thời gian tính toán, chuỗi con có entropy mẫu tương tự được hợp nhất bằng K-means. Co-IMF1 có tần suất cao nhất trong số tất cả các Co-IMF sẽ được phân tách thành chuỗi phụ để dự đoán dễ dàng hơn. Nghiên cứu cắt bỏ đã chứng minh tính hiệu quả của từng thành phần của mô hình, bao gồm GRU là mạng cơ sở, CEEMDAN là phương pháp phân rã và VMD là phương pháp phân tách lại. Mô hình của chúng tôi vượt trội hơn các phương pháp khác cho cả ba chỉ số thị trường chứng khoán.
+
+[10] Bài báo đề xuất Hệ số tương quan song phương (BCORR) mới, có thể phát hiện một số chỉ báo sinh lời mà trước đây bị loại bỏ do CORR thấp. Để tạo ra một chỉ báo có BCORR cao với lợi nhuận, chúng tôi đề xuất một khung gọi là Khung giao dịch tự động song phương (BAF) dựa trên Tổn thất song phương để dự báo thứ hạng chéo của lợi nhuận cổ phiếu và dự đoán được sử dụng làm chỉ báo song phương để chọn cổ phiếu để đầu tư. Trong khi đó, vị thế của các cổ phiếu được chọn được tối ưu hóa theo định hướng Sharpe nhằm giảm thiểu rủi ro và cải thiện lợi nhuận. Các thử nghiệm trên bộ dữ liệu thị trường chứng khoán trong thế giới thực cho thấy BAF có thể cải thiện đáng kể hiệu suất đối với các phương pháp dự đoán chứng khoán chuyên sâu, chẳng hạn như Transformer, LSTM và NBEATS. 
+
 \section{NGUYÊN LIỆU}
 
 \subsection{DATASET}
@@ -1115,6 +1121,14 @@ Hợp tác: Tích cực hợp tác với các chuyên gia trong các cộng đ�
 
 [6]: Guolin Ke, Qi Meng, Thomas Finley, Taifeng Wang, Wei Chen, Weidong Ma, Qiwei Ye, Tie-Yan Liu, "LightGBM: A Highly Efficient Gradient Boosting
 Decision Tree" , 31st Conference on Neural Information Processing Systems (NIPS 2017).
+
+
+[8]: Yi Li, Lei Chen, Cuiping Sun, Guoxu Liu, Chunlei Chen, "Accurate Stock Price Forecasting Based on Deep Learning and Hierarchical Frequency Decomposition", 2024.
+
+[9]: Yankai Sheng,  Yuanyu Qu,  Ding Ma, “Stock price crash prediction based on multimodal data machine learning models”, 2024
+
+[10]: Qifei Zhou; Hucheng Liu; Weiping Li; Tong Mo; Bo Wu, "Bilateral Autotrading Framework for Stock Prediction", 2021
+
 \bibliographystyle{plain}
 
 
