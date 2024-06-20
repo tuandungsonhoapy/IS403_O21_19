@@ -113,6 +113,9 @@ Bằng cách tận dụng những phương pháp này, chúng tôi mong muốn c
 
 [5] Và để tìm ra tham số tối ưu cho mô hình VARMA, ta sử dụng \texttt{auto\_arima} để thực hiện tìm các tham số tối ưu $(p, q)$ cho mỗi biến. Cặp tham số của một biến có AIC nhỏ nhất là phù hợp nhất. Sau đó, huấn luyện với các cặp tham số $(p, q)$ tìm được. Sau khi chạy, ta sử dụng chỉ số đánh giá RMSE để xem cặp tham số $(p, q)$ nào phù hợp nhất với mô hình. RMSE càng nhỏ thì cặp tham số đó càng phù hợp.
 
+[7] Mô hình ARIMA giúp dự đoán dữ liệu dựa trên dữ liệu từ quá khứ. Dựa trên dữ liệu lịch sử, đã qua một lần chuyển đổi để loại bỏ vấn đề mẫu ngẫu nhiên. Với kết quả nhận được cho thấy mô hình ARIMA có thể dự đoán tốt trong thời gian ngắn từ đó giúp nhà đầu tư đưa ra các quyết định đúng đắn hơn trong việc đầu tư.
+
+
 \section{NGUYÊN LIỆU}
 
 \subsection{DATASET}
@@ -561,281 +564,74 @@ Trong đó:
 
 
 \subsubsection{VARMA}
+
 \begin{figure}[H]
     \centering
     \begin{minipage}{0.15\textwidth}
     \centering
-    \includegraphics[width=1\textwidth]{Image/VARMA/LG/6_4/30.png}
+    \includegraphics[width=1\textwidth]{Image/VARMA/LG/6_4.png}
    
     \label{fig:1}
     \end{minipage}%
     \begin{minipage}{0.15\textwidth}
     \centering
-    \includegraphics[width=1\textwidth]{Image/VARMA/LG/7_3/30.png}
+    \includegraphics[width=1\textwidth]{Image/VARMA/LG/7_3.png}
   
     \label{fig:2}
     \end{minipage}%
     \begin{minipage}{0.15\textwidth}
     \centering
-    \includegraphics[width=1\textwidth]{Image/VARMA/LG/8_2/30.png}
+    \includegraphics[width=1\textwidth]{Image/VARMA/LG/8_2.png}
 
     \label{fig:3}
     \end{minipage}
-    \caption{LG 30 DAYS  6:4, 7:3, 8:2 }
+    \caption{ LG 30, 60, 90 DAYS  6:4, 7:3, 8:2 }
 \end{figure}
 
 \begin{figure}[H]
     \centering
     \begin{minipage}{0.15\textwidth}
     \centering
-    \includegraphics[width=1\textwidth]{Image/VARMA/LG/6_4/60.png}
+    \includegraphics[width=1\textwidth]{Image/VARMA/SONY/6_4.png}
    
     \label{fig:1}
     \end{minipage}%
     \begin{minipage}{0.15\textwidth}
     \centering
-    \includegraphics[width=1\textwidth]{Image/VARMA/LG/7_3/60.png}
+    \includegraphics[width=1\textwidth]{Image/VARMA/SONY/7_3.png}
   
     \label{fig:2}
     \end{minipage}%
     \begin{minipage}{0.15\textwidth}
     \centering
-    \includegraphics[width=1\textwidth]{Image/VARMA/LG/8_2/60.png}
+    \includegraphics[width=1\textwidth]{Image/VARMA/SONY/8_2.png}
 
     \label{fig:3}
     \end{minipage}
-    \caption{LG 60 DAYS  6:4, 7:3, 8:2 }
+    \caption{ SONY 30, 60, 90 DAYS  6:4, 7:3, 8:2 }
 \end{figure}
 
 \begin{figure}[H]
     \centering
     \begin{minipage}{0.15\textwidth}
     \centering
-    \includegraphics[width=1\textwidth]{Image/VARMA/LG/6_4/90.png}
+    \includegraphics[width=1\textwidth]{Image/VARMA/SAMSUNG/6_4.png}
    
     \label{fig:1}
     \end{minipage}%
     \begin{minipage}{0.15\textwidth}
     \centering
-    \includegraphics[width=1\textwidth]{Image/VARMA/LG/7_3/90.png}
+    \includegraphics[width=1\textwidth]{Image/VARMA/SAMSUNG/7_3.png}
   
     \label{fig:2}
     \end{minipage}%
     \begin{minipage}{0.15\textwidth}
     \centering
-    \includegraphics[width=1\textwidth]{Image/VARMA/LG/8_2/90.png}
+    \includegraphics[width=1\textwidth]{Image/VARMA/SAMSUNG/8_2.png}
 
     \label{fig:3}
     \end{minipage}
-    \caption{LG 90 DAYS  6:4, 7:3, 8:2 }
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \begin{minipage}{0.15\textwidth}
-    \centering
-    \includegraphics[width=1\textwidth]{Image/VARMA/SONY/6_4/30.png}
-   
-    \label{fig:1}
-    \end{minipage}%
-    \begin{minipage}{0.15\textwidth}
-    \centering
-    \includegraphics[width=1\textwidth]{Image/VARMA/SONY/7_3/30.png}
-  
-    \label{fig:2}
-    \end{minipage}%
-    \begin{minipage}{0.15\textwidth}
-    \centering
-    \includegraphics[width=1\textwidth]{Image/VARMA/SONY/8_2/30.png}
-
-    \label{fig:3}
-    \end{minipage}
-    \caption{SONY 30 DAYS  6:4, 7:3, 8:2 }
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \begin{minipage}{0.15\textwidth}
-    \centering
-    \includegraphics[width=1\textwidth]{Image/VARMA/SONY/6_4/60.png}
-   
-    \label{fig:1}
-    \end{minipage}%
-    \begin{minipage}{0.15\textwidth}
-    \centering
-    \includegraphics[width=1\textwidth]{Image/VARMA/SONY/7_3/60.png}
-  
-    \label{fig:2}
-    \end{minipage}%
-    \begin{minipage}{0.15\textwidth}
-    \centering
-    \includegraphics[width=1\textwidth]{Image/VARMA/SONY/8_2/60.png}
-
-    \label{fig:3}
-    \end{minipage}
-    \caption{SONY 60 DAYS  6:4, 7:3, 8:2 }
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \begin{minipage}{0.15\textwidth}
-    \centering
-    \includegraphics[width=1\textwidth]{Image/VARMA/SONY/6_4/90.png}
-   
-    \label{fig:1}
-    \end{minipage}%
-    \begin{minipage}{0.15\textwidth}
-    \centering
-    \includegraphics[width=1\textwidth]{Image/VARMA/SONY/7_3/90.png}
-  
-    \label{fig:2}
-    \end{minipage}%
-    \begin{minipage}{0.15\textwidth}
-    \centering
-    \includegraphics[width=1\textwidth]{Image/VARMA/SONY/8_2/90.png}
-
-    \label{fig:3}
-    \end{minipage}
-    \caption{SONY 90 DAYS  6:4, 7:3, 8:2 }
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \begin{minipage}{0.15\textwidth}
-    \centering
-    \includegraphics[width=1\textwidth]{Image/VARMA/SAMSUNG/6_4/30.png}
-   
-    \label{fig:1}
-    \end{minipage}%
-    \begin{minipage}{0.15\textwidth}
-    \centering
-    \includegraphics[width=1\textwidth]{Image/VARMA/SAMSUNG/7_3/30.png}
-  
-    \label{fig:2}
-    \end{minipage}%
-    \begin{minipage}{0.15\textwidth}
-    \centering
-    \includegraphics[width=1\textwidth]{Image/VARMA/SAMSUNG/8_2/30.png}
-
-    \label{fig:3}
-    \end{minipage}
-    \caption{SAMSUNG 30 DAYS  6:4, 7:3, 8:2 }
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \begin{minipage}{0.15\textwidth}
-    \centering
-    \includegraphics[width=1\textwidth]{Image/VARMA/SAMSUNG/6_4/60.png}
-   
-    \label{fig:1}
-    \end{minipage}%
-    \begin{minipage}{0.15\textwidth}
-    \centering
-    \includegraphics[width=1\textwidth]{Image/VARMA/SAMSUNG/7_3/60.png}
-  
-    \label{fig:2}
-    \end{minipage}%
-    \begin{minipage}{0.15\textwidth}
-    \centering
-    \includegraphics[width=1\textwidth]{Image/VARMA/SAMSUNG/8_2/60.png}
-
-    \label{fig:3}
-    \end{minipage}
-    \caption{SAMSUNG 60 DAYS  6:4, 7:3, 8:2 }
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \begin{minipage}{0.15\textwidth}
-    \centering
-    \includegraphics[width=1\textwidth]{Image/VARMA/SAMSUNG/6_4/90.png}
-   
-    \label{fig:1}
-    \end{minipage}%
-    \begin{minipage}{0.15\textwidth}
-    \centering
-    \includegraphics[width=1\textwidth]{Image/VARMA/SAMSUNG/7_3/90.png}
-  
-    \label{fig:2}
-    \end{minipage}%
-    \begin{minipage}{0.15\textwidth}
-    \centering
-    \includegraphics[width=1\textwidth]{Image/VARMA/SAMSUNG/8_2/90.png}
-
-    \label{fig:3}
-    \end{minipage}
-    \caption{SAMSUNG 90 DAYS  6:4, 7:3, 8:2 }
-\end{figure}
-
-\subsubsection{GRADIENTBOOSTINGREGRESSOR}
-\begin{figure}[H]
-    \centering
-    \begin{minipage}{0.15\textwidth}
-    \centering
-    \includegraphics[width=1\textwidth]{Image/GradientBoosting/LG_6_4_GradientBoostingRegressor.png}
-   
-    \label{fig:1}
-    \end{minipage}%
-    \begin{minipage}{0.15\textwidth}
-    \centering
-    \includegraphics[width=1\textwidth]{Image/GradientBoosting/LG_7_3_GradientBoostingRegressor.png}
-  
-    \label{fig:2}
-    \end{minipage}%
-    \begin{minipage}{0.15\textwidth}
-    \centering
-    \includegraphics[width=1\textwidth]{Image/GradientBoosting/LG_8_2_GradientBoostingRegressor.png}
-
-    \label{fig:3}
-    \end{minipage}
-    \caption{Gradient Boosting Regressor model's result with LG dataset }
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \begin{minipage}{0.15\textwidth}
-    \centering
-    \includegraphics[width=1\textwidth]{Image/GradientBoosting/SAMSUNG_6_4_GradientBoostingRegressor.png}
-   
-    \label{fig:1}
-    \end{minipage}%
-    \begin{minipage}{0.15\textwidth}
-    \centering
-    \includegraphics[width=1\textwidth]{Image/GradientBoosting/SAMSUNG_7_3_GradientBoostingRegressor.png}
-  
-    \label{fig:2}
-    \end{minipage}%
-    \begin{minipage}{0.15\textwidth}
-    \centering
-    \includegraphics[width=1\textwidth]{Image/GradientBoosting/SAMSUNG_8_2_GradientBoostingRegressor.png}
-
-    \label{fig:3}
-    \end{minipage}
-    \caption{Gradient Boosting Regressor model's result with SAMSUNG dataset }
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \begin{minipage}{0.15\textwidth}
-    \centering
-    \includegraphics[width=1\textwidth]{Image/GradientBoosting/SONY_6_4_GradientBoostingRegressor.png}
-   
-    \label{fig:1}
-    \end{minipage}%
-    \begin{minipage}{0.15\textwidth}
-    \centering
-    \includegraphics[width=1\textwidth]{Image/GradientBoosting/SONY_7_3_GradientBoostingRegressor.png}
-  
-    \label{fig:2}
-    \end{minipage}%
-    \begin{minipage}{0.15\textwidth}
-    \centering
-    \includegraphics[width=1\textwidth]{Image/GradientBoosting/SONY_8_2_GradientBoostingRegressor.png}
-
-    \label{fig:3}
-    \end{minipage}
-    \caption{Gradient Boosting Regressor model's result with SONY dataset }
+    \caption{ SAMSUNG 30, 60, 90 DAYS  6:4, 7:3, 8:2 }
 \end{figure}
 
 \subsubsection{XGBOOST}
@@ -1117,6 +913,8 @@ Hợp tác: Tích cực hợp tác với các chuyên gia trong các cộng đ�
 Decision Tree" , 31st Conference on Neural Information Processing Systems (NIPS 2017).
 \bibliographystyle{plain}
 
+[7]: Mohankumari C, Vishukumar M, Nagaraja Rao Chillale. "ANALYSIS OF DAILY STOCK TREND PREDICTION USING ARIMA MODEL", International Journal
+of Mechanical Engineering and Technology, 10(1), 2019.
 
 \end{document}
 

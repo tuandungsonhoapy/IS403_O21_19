@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.9)  20 JUN 2024 22:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.9)  20 JUN 2024 23:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -656,87 +656,6 @@ LaTeX Warning: Label `fig:2' multiply defined.
 
 LaTeX Warning: Label `fig:3' multiply defined.
 
-
-LaTeX Warning: Label `fig:1' multiply defined.
-
-
-LaTeX Warning: Label `fig:2' multiply defined.
-
-
-LaTeX Warning: Label `fig:3' multiply defined.
-
-
-LaTeX Warning: Label `fig:1' multiply defined.
-
-
-LaTeX Warning: Label `fig:2' multiply defined.
-
-
-LaTeX Warning: Label `fig:3' multiply defined.
-
-
-LaTeX Warning: Label `fig:1' multiply defined.
-
-
-LaTeX Warning: Label `fig:2' multiply defined.
-
-
-LaTeX Warning: Label `fig:3' multiply defined.
-
-
-LaTeX Warning: Label `fig:1' multiply defined.
-
-
-LaTeX Warning: Label `fig:2' multiply defined.
-
-
-LaTeX Warning: Label `fig:3' multiply defined.
-
-
-LaTeX Warning: Label `fig:1' multiply defined.
-
-
-LaTeX Warning: Label `fig:2' multiply defined.
-
-
-LaTeX Warning: Label `fig:3' multiply defined.
-
-
-LaTeX Warning: Label `fig:1' multiply defined.
-
-
-LaTeX Warning: Label `fig:2' multiply defined.
-
-
-LaTeX Warning: Label `fig:3' multiply defined.
-
-
-LaTeX Warning: Label `fig:1' multiply defined.
-
-
-LaTeX Warning: Label `fig:2' multiply defined.
-
-
-LaTeX Warning: Label `fig:3' multiply defined.
-
-
-LaTeX Warning: Label `fig:1' multiply defined.
-
-
-LaTeX Warning: Label `fig:2' multiply defined.
-
-
-LaTeX Warning: Label `fig:3' multiply defined.
-
-
-LaTeX Warning: Label `fig:1' multiply defined.
-
-
-LaTeX Warning: Label `fig:2' multiply defined.
-
-
-LaTeX Warning: Label `fig:3' multiply defined.
-
 )
 \openout1 = `Report.aux'.
 
@@ -804,54 +723,56 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 114.
  (C:\Users\dosid\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+Underfull \vbox (badness 1424) has occurred while \output is active []
+
+
+
 <Image/DatasetImg/SONY_Boxplot.png, id=7, 359.54324pt x 296.90926pt>
 File: Image/DatasetImg/SONY_Boxplot.png Graphic file (type png)
 <use Image/DatasetImg/SONY_Boxplot.png>
-Package pdftex.def Info: Image/DatasetImg/SONY_Boxplot.png  used on input line 161.
+Package pdftex.def Info: Image/DatasetImg/SONY_Boxplot.png  used on input line 164.
 (pdftex.def)             Requested size: 118.6778pt x 98.003pt.
 <Image/DatasetImg/SONY_Line_chart.png, id=9, 360.1455pt x 277.63725pt>
 File: Image/DatasetImg/SONY_Line_chart.png Graphic file (type png)
 <use Image/DatasetImg/SONY_Line_chart.png>
-Package pdftex.def Info: Image/DatasetImg/SONY_Line_chart.png  used on input line 168.
+Package pdftex.def Info: Image/DatasetImg/SONY_Line_chart.png  used on input line 171.
 (pdftex.def)             Requested size: 118.6778pt x 91.48924pt.
-
-
 <Image/DatasetImg/SAMSUNG_Boxplot.png, id=10, 365.56575pt x 298.11375pt>
 File: Image/DatasetImg/SAMSUNG_Boxplot.png Graphic file (type png)
 <use Image/DatasetImg/SAMSUNG_Boxplot.png>
-Package pdftex.def Info: Image/DatasetImg/SAMSUNG_Boxplot.png  used on input line 178.
+Package pdftex.def Info: Image/DatasetImg/SAMSUNG_Boxplot.png  used on input line 181.
 (pdftex.def)             Requested size: 118.6778pt x 96.77664pt.
 
-Underfull \hbox (badness 3199) in paragraph at lines 179--179
+Underfull \hbox (badness 3199) in paragraph at lines 182--182
 []\T5/ptm/m/n/10 H¼nh 3: |SAM-SUNG stock
  []
 
 <Image/DatasetImg/SAMSUNG_line_chart.png, id=11, 363.15675pt x 277.63725pt>
 File: Image/DatasetImg/SAMSUNG_line_chart.png Graphic file (type png)
 <use Image/DatasetImg/SAMSUNG_line_chart.png>
-Package pdftex.def Info: Image/DatasetImg/SAMSUNG_line_chart.png  used on input line 185.
+Package pdftex.def Info: Image/DatasetImg/SAMSUNG_line_chart.png  used on input line 188.
 (pdftex.def)             Requested size: 118.6778pt x 90.73093pt.
 
-Underfull \hbox (badness 3199) in paragraph at lines 186--186
+Underfull \hbox (badness 3199) in paragraph at lines 189--189
 []\T5/ptm/m/n/10 H¼nh 4: |SAM-SUNG stock
  []
 
 <Image/DatasetImg/LG_Boxplot.png, id=12, 363.15675pt x 298.716pt>
 File: Image/DatasetImg/LG_Boxplot.png Graphic file (type png)
 <use Image/DatasetImg/LG_Boxplot.png>
-Package pdftex.def Info: Image/DatasetImg/LG_Boxplot.png  used on input line 195.
+Package pdftex.def Info: Image/DatasetImg/LG_Boxplot.png  used on input line 198.
 (pdftex.def)             Requested size: 118.6778pt x 97.61938pt.
 <Image/DatasetImg/LG_line_chart.png, id=13, 359.54324pt x 278.84175pt>
 File: Image/DatasetImg/LG_line_chart.png Graphic file (type png)
 <use Image/DatasetImg/LG_line_chart.png>
-Package pdftex.def Info: Image/DatasetImg/LG_line_chart.png  used on input line 202.
+Package pdftex.def Info: Image/DatasetImg/LG_line_chart.png  used on input line 205.
 (pdftex.def)             Requested size: 118.6778pt x 92.03932pt.
 
 
 <Image/logo186x150.png, id=14, 186.6975pt x 150.5625pt>
 File: Image/logo186x150.png Graphic file (type png)
 <use Image/logo186x150.png>
-Package pdftex.def Info: Image/logo186x150.png  used on input line 216.
+Package pdftex.def Info: Image/logo186x150.png  used on input line 219.
 (pdftex.def)             Requested size: 18.59961pt x 15.0pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -866,7 +787,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 File: Image/logo186x150.png Graphic file (type png)
 <use Image/logo186x150.png>
-Package pdftex.def Info: Image/logo186x150.png  used on input line 305.
+Package pdftex.def Info: Image/logo186x150.png  used on input line 292.
 (pdftex.def)             Requested size: 18.59961pt x 15.0pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -879,25 +800,25 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <image.png, id=37, 1505.625pt x 401.5pt>
 File: image.png Graphic file (type png)
 <use image.png>
-Package pdftex.def Info: image.png  used on input line 321.
+Package pdftex.def Info: image.png  used on input line 324.
 (pdftex.def)             Requested size: 126.0pt x 33.5971pt.
 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 368--369
+Underfull \hbox (badness 10000) in paragraph at lines 371--372
 
  []
 
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 370.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 373.
 (C:\Users\dosid\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-Underfull \hbox (badness 1968) in paragraph at lines 383--386
+Underfull \hbox (badness 1968) in paragraph at lines 386--389
 []\T5/ptm/m/n/10 ARIMA model l  vi¸t t­t cõa cöm tø Au-tore-gres-sive
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 383--386
+Underfull \hbox (badness 10000) in paragraph at lines 386--389
 
  []
 
@@ -915,12 +836,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-6.60004pt}.
 
 [4{C:/Users/dosid/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./image.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 408--411
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 412--414
+Underfull \hbox (badness 10000) in paragraph at lines 411--414
 
  []
 
@@ -945,19 +861,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 424--426
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 427--428
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 427--429
 
  []
 
 
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 429--433
+Underfull \hbox (badness 10000) in paragraph at lines 430--431
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 434--438
+Underfull \hbox (badness 10000) in paragraph at lines 432--436
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 437--441
 
  []
 
@@ -965,7 +886,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 434--438
 
 File: Image/logo186x150.png Graphic file (type png)
 <use Image/logo186x150.png>
-Package pdftex.def Info: Image/logo186x150.png  used on input line 471.
+Package pdftex.def Info: Image/logo186x150.png  used on input line 470.
 (pdftex.def)             Requested size: 18.59961pt x 15.0pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -978,391 +899,160 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <Image/Linear/Linear_LG_6_4.png, id=48, 741.36975pt x 292.09125pt>
 File: Image/Linear/Linear_LG_6_4.png Graphic file (type png)
 <use Image/Linear/Linear_LG_6_4.png>
-Package pdftex.def Info: Image/Linear/Linear_LG_6_4.png  used on input line 497.
+Package pdftex.def Info: Image/Linear/Linear_LG_6_4.png  used on input line 500.
 (pdftex.def)             Requested size: 77.39685pt x 30.48997pt.
 <Image/Linear/Linear_LG_7_3.png, id=49, 747.9945pt x 293.29575pt>
 File: Image/Linear/Linear_LG_7_3.png Graphic file (type png)
 <use Image/Linear/Linear_LG_7_3.png>
-Package pdftex.def Info: Image/Linear/Linear_LG_7_3.png  used on input line 503.
+Package pdftex.def Info: Image/Linear/Linear_LG_7_3.png  used on input line 506.
 (pdftex.def)             Requested size: 77.39685pt x 30.34718pt.
 <Image/Linear/Linear_LG_8_2.png, id=50, 745.5855pt x 295.1025pt>
 File: Image/Linear/Linear_LG_8_2.png Graphic file (type png)
 <use Image/Linear/Linear_LG_8_2.png>
-Package pdftex.def Info: Image/Linear/Linear_LG_8_2.png  used on input line 509.
+Package pdftex.def Info: Image/Linear/Linear_LG_8_2.png  used on input line 512.
 (pdftex.def)             Requested size: 77.39685pt x 30.6332pt.
 <Image/Linear/Linear_SONY_6_4.png, id=51, 757.6305pt x 295.1025pt>
 File: Image/Linear/Linear_SONY_6_4.png Graphic file (type png)
 <use Image/Linear/Linear_SONY_6_4.png>
-Package pdftex.def Info: Image/Linear/Linear_SONY_6_4.png  used on input line 520.
+Package pdftex.def Info: Image/Linear/Linear_SONY_6_4.png  used on input line 523.
 (pdftex.def)             Requested size: 77.39685pt x 30.14238pt.
 <Image/Linear/Linear_SONY_7_3.png, id=52, 747.39224pt x 302.3295pt>
 File: Image/Linear/Linear_SONY_7_3.png Graphic file (type png)
 <use Image/Linear/Linear_SONY_7_3.png>
-Package pdftex.def Info: Image/Linear/Linear_SONY_7_3.png  used on input line 526.
+Package pdftex.def Info: Image/Linear/Linear_SONY_7_3.png  used on input line 529.
 (pdftex.def)             Requested size: 77.39685pt x 31.30496pt.
 <Image/Linear/Linear_SONY_8_2.png, id=53, 736.55174pt x 301.125pt>
 File: Image/Linear/Linear_SONY_8_2.png Graphic file (type png)
 <use Image/Linear/Linear_SONY_8_2.png>
-Package pdftex.def Info: Image/Linear/Linear_SONY_8_2.png  used on input line 532.
+Package pdftex.def Info: Image/Linear/Linear_SONY_8_2.png  used on input line 535.
 (pdftex.def)             Requested size: 77.39685pt x 31.63972pt.
 <Image/Linear/Linear_SAMSUNG_6_4.png, id=54, 751.00575pt x 293.29575pt>
 File: Image/Linear/Linear_SAMSUNG_6_4.png Graphic file (type png)
 <use Image/Linear/Linear_SAMSUNG_6_4.png>
-Package pdftex.def Info: Image/Linear/Linear_SAMSUNG_6_4.png  used on input line 543.
+Package pdftex.def Info: Image/Linear/Linear_SAMSUNG_6_4.png  used on input line 546.
 (pdftex.def)             Requested size: 77.39685pt x 30.22635pt.
 <Image/Linear/Linear_SAMSUNG_7_3.png, id=55, 736.55174pt x 293.29575pt>
 File: Image/Linear/Linear_SAMSUNG_7_3.png Graphic file (type png)
 <use Image/Linear/Linear_SAMSUNG_7_3.png>
-Package pdftex.def Info: Image/Linear/Linear_SAMSUNG_7_3.png  used on input line 549.
+Package pdftex.def Info: Image/Linear/Linear_SAMSUNG_7_3.png  used on input line 552.
 (pdftex.def)             Requested size: 77.39685pt x 30.8171pt.
 <Image/Linear/Linear_SAMSUNG_8_2.png, id=56, 743.77875pt x 298.11375pt>
 File: Image/Linear/Linear_SAMSUNG_8_2.png Graphic file (type png)
 <use Image/Linear/Linear_SAMSUNG_8_2.png>
-Package pdftex.def Info: Image/Linear/Linear_SAMSUNG_8_2.png  used on input line 555.
+Package pdftex.def Info: Image/Linear/Linear_SAMSUNG_8_2.png  used on input line 558.
 (pdftex.def)             Requested size: 77.39685pt x 31.01855pt.
-<Image/VARMA/LG/6_4/30.png, id=57, 662.475pt x 356.532pt>
-File: Image/VARMA/LG/6_4/30.png Graphic file (type png)
-<use Image/VARMA/LG/6_4/30.png>
-Package pdftex.def Info: Image/VARMA/LG/6_4/30.png  used on input line 568.
-(pdftex.def)             Requested size: 77.39685pt x 41.65042pt.
-<Image/VARMA/LG/7_3/30.png, id=58, 655.248pt x 349.90726pt>
-File: Image/VARMA/LG/7_3/30.png Graphic file (type png)
-<use Image/VARMA/LG/7_3/30.png>
-Package pdftex.def Info: Image/VARMA/LG/7_3/30.png  used on input line 574.
-(pdftex.def)             Requested size: 77.39685pt x 41.33034pt.
-<Image/VARMA/LG/8_2/30.png, id=59, 655.248pt x 350.5095pt>
-File: Image/VARMA/LG/8_2/30.png Graphic file (type png)
-<use Image/VARMA/LG/8_2/30.png>
-Package pdftex.def Info: Image/VARMA/LG/8_2/30.png  used on input line 580.
-(pdftex.def)             Requested size: 77.39685pt x 41.40147pt.
 
 
-<Image/VARMA/LG/6_4/60.png, id=60, 654.64575pt x 347.49825pt>
-File: Image/VARMA/LG/6_4/60.png Graphic file (type png)
-<use Image/VARMA/LG/6_4/60.png>
-Package pdftex.def Info: Image/VARMA/LG/6_4/60.png  used on input line 591.
-(pdftex.def)             Requested size: 77.39685pt x 41.0829pt.
-<Image/VARMA/LG/7_3/60.png, id=61, 655.248pt x 350.5095pt>
-File: Image/VARMA/LG/7_3/60.png Graphic file (type png)
-<use Image/VARMA/LG/7_3/60.png>
-Package pdftex.def Info: Image/VARMA/LG/7_3/60.png  used on input line 597.
-(pdftex.def)             Requested size: 77.39685pt x 41.40147pt.
-<Image/VARMA/LG/8_2/60.png, id=62, 654.64575pt x 346.896pt>
-File: Image/VARMA/LG/8_2/60.png Graphic file (type png)
-<use Image/VARMA/LG/8_2/60.png>
-Package pdftex.def Info: Image/VARMA/LG/8_2/60.png  used on input line 603.
-(pdftex.def)             Requested size: 77.39685pt x 41.0117pt.
-<Image/VARMA/LG/6_4/90.png, id=63, 665.48625pt x 348.1005pt>
-File: Image/VARMA/LG/6_4/90.png Graphic file (type png)
-<use Image/VARMA/LG/6_4/90.png>
-Package pdftex.def Info: Image/VARMA/LG/6_4/90.png  used on input line 614.
-(pdftex.def)             Requested size: 77.39685pt x 40.47954pt.
-<Image/VARMA/LG/7_3/90.png, id=64, 663.6795pt x 347.49825pt>
-File: Image/VARMA/LG/7_3/90.png Graphic file (type png)
-<use Image/VARMA/LG/7_3/90.png>
-Package pdftex.def Info: Image/VARMA/LG/7_3/90.png  used on input line 620.
-(pdftex.def)             Requested size: 77.39685pt x 40.52084pt.
-<Image/VARMA/LG/8_2/90.png, id=65, 666.69075pt x 349.90726pt>
-File: Image/VARMA/LG/8_2/90.png Graphic file (type png)
-<use Image/VARMA/LG/8_2/90.png>
-Package pdftex.def Info: Image/VARMA/LG/8_2/90.png  used on input line 626.
-(pdftex.def)             Requested size: 77.39685pt x 40.62022pt.
-<Image/VARMA/SONY/6_4/30.png, id=66, 637.1805pt x 350.5095pt>
-File: Image/VARMA/SONY/6_4/30.png Graphic file (type png)
-<use Image/VARMA/SONY/6_4/30.png>
-Package pdftex.def Info: Image/VARMA/SONY/6_4/30.png  used on input line 637.
-(pdftex.def)             Requested size: 77.39685pt x 42.57275pt.
-<Image/VARMA/SONY/7_3/30.png, id=67, 636.57825pt x 350.5095pt>
-File: Image/VARMA/SONY/7_3/30.png Graphic file (type png)
-<use Image/VARMA/SONY/7_3/30.png>
-Package pdftex.def Info: Image/VARMA/SONY/7_3/30.png  used on input line 643.
-(pdftex.def)             Requested size: 77.39685pt x 42.61554pt.
-<Image/VARMA/SONY/8_2/30.png, id=68, 634.16925pt x 346.896pt>
-File: Image/VARMA/SONY/8_2/30.png Graphic file (type png)
-<use Image/VARMA/SONY/8_2/30.png>
-Package pdftex.def Info: Image/VARMA/SONY/8_2/30.png  used on input line 649.
-(pdftex.def)             Requested size: 77.39685pt x 42.335pt.
-<Image/VARMA/SONY/6_4/60.png, id=69, 637.1805pt x 349.305pt>
-File: Image/VARMA/SONY/6_4/60.png Graphic file (type png)
-<use Image/VARMA/SONY/6_4/60.png>
-Package pdftex.def Info: Image/VARMA/SONY/6_4/60.png  used on input line 660.
-(pdftex.def)             Requested size: 77.39685pt x 42.42645pt.
-<Image/VARMA/SONY/7_3/60.png, id=70, 635.37375pt x 349.90726pt>
-File: Image/VARMA/SONY/7_3/60.png Graphic file (type png)
-<use Image/VARMA/SONY/7_3/60.png>
-Package pdftex.def Info: Image/VARMA/SONY/7_3/60.png  used on input line 666.
-(pdftex.def)             Requested size: 77.39685pt x 42.6224pt.
-<Image/VARMA/SONY/8_2/60.png, id=71, 635.976pt x 349.305pt>
-File: Image/VARMA/SONY/8_2/60.png Graphic file (type png)
-<use Image/VARMA/SONY/8_2/60.png>
-Package pdftex.def Info: Image/VARMA/SONY/8_2/60.png  used on input line 672.
-(pdftex.def)             Requested size: 77.39685pt x 42.50641pt.
-<Image/VARMA/SONY/6_4/90.png, id=72, 645.00975pt x 349.305pt>
-File: Image/VARMA/SONY/6_4/90.png Graphic file (type png)
-<use Image/VARMA/SONY/6_4/90.png>
-Package pdftex.def Info: Image/VARMA/SONY/6_4/90.png  used on input line 683.
-(pdftex.def)             Requested size: 77.39685pt x 41.90945pt.
-<Image/VARMA/SONY/7_3/90.png, id=73, 645.00975pt x 349.305pt>
-File: Image/VARMA/SONY/7_3/90.png Graphic file (type png)
-<use Image/VARMA/SONY/7_3/90.png>
-Package pdftex.def Info: Image/VARMA/SONY/7_3/90.png  used on input line 689.
-(pdftex.def)             Requested size: 77.39685pt x 41.90945pt.
-<Image/VARMA/SONY/8_2/90.png, id=74, 645.00975pt x 350.5095pt>
-File: Image/VARMA/SONY/8_2/90.png Graphic file (type png)
-<use Image/VARMA/SONY/8_2/90.png>
-Package pdftex.def Info: Image/VARMA/SONY/8_2/90.png  used on input line 695.
-(pdftex.def)             Requested size: 77.39685pt x 42.05397pt.
-<Image/VARMA/SAMSUNG/6_4/30.png, id=75, 649.2255pt x 349.305pt>
-File: Image/VARMA/SAMSUNG/6_4/30.png Graphic file (type png)
-<use Image/VARMA/SAMSUNG/6_4/30.png>
-Package pdftex.def Info: Image/VARMA/SAMSUNG/6_4/30.png  used on input line 706.
-(pdftex.def)             Requested size: 77.39685pt x 41.63762pt.
-<Image/VARMA/SAMSUNG/7_3/30.png, id=76, 648.62325pt x 349.305pt>
-File: Image/VARMA/SAMSUNG/7_3/30.png Graphic file (type png)
-<use Image/VARMA/SAMSUNG/7_3/30.png>
-Package pdftex.def Info: Image/VARMA/SAMSUNG/7_3/30.png  used on input line 712.
-(pdftex.def)             Requested size: 77.39685pt x 41.68027pt.
-<Image/VARMA/SAMSUNG/8_2/30.png, id=77, 651.03226pt x 350.5095pt>
-File: Image/VARMA/SAMSUNG/8_2/30.png Graphic file (type png)
-<use Image/VARMA/SAMSUNG/8_2/30.png>
-Package pdftex.def Info: Image/VARMA/SAMSUNG/8_2/30.png  used on input line 718.
-(pdftex.def)             Requested size: 77.39685pt x 41.66888pt.
-<Image/VARMA/SAMSUNG/6_4/60.png, id=78, 647.41875pt x 349.305pt>
-File: Image/VARMA/SAMSUNG/6_4/60.png Graphic file (type png)
-<use Image/VARMA/SAMSUNG/6_4/60.png>
-Package pdftex.def Info: Image/VARMA/SAMSUNG/6_4/60.png  used on input line 729.
-(pdftex.def)             Requested size: 77.39685pt x 41.75488pt.
-<Image/VARMA/SAMSUNG/7_3/60.png, id=79, 649.2255pt x 348.1005pt>
-File: Image/VARMA/SAMSUNG/7_3/60.png Graphic file (type png)
-<use Image/VARMA/SAMSUNG/7_3/60.png>
-Package pdftex.def Info: Image/VARMA/SAMSUNG/7_3/60.png  used on input line 735.
-(pdftex.def)             Requested size: 77.39685pt x 41.49405pt.
-<Image/VARMA/SAMSUNG/8_2/60.png, id=80, 651.6345pt x 349.305pt>
-File: Image/VARMA/SAMSUNG/8_2/60.png Graphic file (type png)
-<use Image/VARMA/SAMSUNG/8_2/60.png>
-Package pdftex.def Info: Image/VARMA/SAMSUNG/8_2/60.png  used on input line 741.
-(pdftex.def)             Requested size: 77.39685pt x 41.48306pt.
-<Image/VARMA/SAMSUNG/6_4/90.png, id=81, 657.657pt x 350.5095pt>
-File: Image/VARMA/SAMSUNG/6_4/90.png Graphic file (type png)
-<use Image/VARMA/SAMSUNG/6_4/90.png>
-Package pdftex.def Info: Image/VARMA/SAMSUNG/6_4/90.png  used on input line 752.
-(pdftex.def)             Requested size: 77.39685pt x 41.24637pt.
-<Image/VARMA/SAMSUNG/7_3/90.png, id=82, 658.25925pt x 348.1005pt>
-File: Image/VARMA/SAMSUNG/7_3/90.png Graphic file (type png)
-<use Image/VARMA/SAMSUNG/7_3/90.png>
-Package pdftex.def Info: Image/VARMA/SAMSUNG/7_3/90.png  used on input line 758.
-(pdftex.def)             Requested size: 77.39685pt x 40.9257pt.
-<Image/VARMA/SAMSUNG/8_2/90.png, id=83, 659.46375pt x 352.31625pt>
-File: Image/VARMA/SAMSUNG/8_2/90.png Graphic file (type png)
-<use Image/VARMA/SAMSUNG/8_2/90.png>
-Package pdftex.def Info: Image/VARMA/SAMSUNG/8_2/90.png  used on input line 764.
-(pdftex.def)             Requested size: 77.39685pt x 41.34608pt.
-
-
-File: Image/logo186x150.png Graphic file (type png)
-<use Image/logo186x150.png>
-Package pdftex.def Info: Image/logo186x150.png  used on input line 770.
-(pdftex.def)             Requested size: 18.59961pt x 15.0pt.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 18.60004pt, for example:
-(fancyhdr)                \setlength{\headheight}{18.60004pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-6.60004pt}.
-
-[6 <./Image/Linear/Linear_LG_6_4.png> <./Image/Linear/Linear_LG_7_3.png> <./Image/Linear/Linear_LG_8_2.png> <./Image/Linear/Linear_SONY_6_4.png> <./Image/Linear/Linear_SONY_7_3.png> <./Image/Linear/Linear_SONY_8_2.png> <./Image/Linear/Linear_SAMSUNG_6_4.png> <./Image/Linear/Linear_SAMSUNG_7_3.png> <./Image/Linear/Linear_SAMSUNG_8_2.png> <./Image/VARMA/LG/6_4/30.png> <./Image/VARMA/LG/7_3/30.png> <./Image/VARMA/LG/8_2/30.png> <./Image/VARMA/LG/6_4/60.png> <./Image/VARMA/LG/7_3/60.png> <./Image/VARMA/LG/8_2/60.png> <./Image/VARMA/LG/6_4/90.png> <./Image/VARMA/LG/7_3/90.png> <./Image/VARMA/LG/8_2/90.png> <./Image/VARMA/SONY/6_4/30.png> <./Image/VARMA/SONY/7_3/30.png> <./Image/VARMA/SONY/8_2/30.png> <./Image/VARMA/SONY/6_4/60.png> <./Image/VARMA/SONY/7_3/60.png> <./Image/VARMA/SONY/8_2/60.png> <./Image/VARMA/SONY/6_4/90.png> <./Image/VARMA/SONY/7_3/90.png> <./Image/VARMA/SONY/8_2/90.png> <./Image/VARMA/SAMSUNG/6_4/30.png> <./Image/VARMA/SAMSUNG/7_3/30.png> <./Image/VARMA/SAMSUNG/8_2/30.png> <./Image/VARMA/SAMSUNG/6_4/60.png> <./Image/VARMA/SAMSUNG/7_3/60.png> <./Image/VARMA/SAMSUNG/8_2/60.png>]
-<Image/GradientBoosting/LG_6_4_GradientBoostingRegressor.png, id=120, 397.485pt x 266.9975pt>
-File: Image/GradientBoosting/LG_6_4_GradientBoostingRegressor.png Graphic file (type png)
-<use Image/GradientBoosting/LG_6_4_GradientBoostingRegressor.png>
-Package pdftex.def Info: Image/GradientBoosting/LG_6_4_GradientBoostingRegressor.png  used on input line 776.
-(pdftex.def)             Requested size: 77.39685pt x 51.98892pt.
-<Image/GradientBoosting/LG_7_3_GradientBoostingRegressor.png, id=121, 410.03188pt x 260.975pt>
-File: Image/GradientBoosting/LG_7_3_GradientBoostingRegressor.png Graphic file (type png)
-<use Image/GradientBoosting/LG_7_3_GradientBoostingRegressor.png>
-Package pdftex.def Info: Image/GradientBoosting/LG_7_3_GradientBoostingRegressor.png  used on input line 782.
-(pdftex.def)             Requested size: 77.39685pt x 49.25922pt.
-<Image/GradientBoosting/LG_8_2_GradientBoostingRegressor.png, id=122, 405.01312pt x 271.51437pt>
-File: Image/GradientBoosting/LG_8_2_GradientBoostingRegressor.png Graphic file (type png)
-<use Image/GradientBoosting/LG_8_2_GradientBoostingRegressor.png>
-Package pdftex.def Info: Image/GradientBoosting/LG_8_2_GradientBoostingRegressor.png  used on input line 788.
-(pdftex.def)             Requested size: 77.39685pt x 51.8824pt.
-<Image/GradientBoosting/SAMSUNG_6_4_GradientBoostingRegressor.png, id=123, 396.48125pt x 259.46938pt>
-File: Image/GradientBoosting/SAMSUNG_6_4_GradientBoostingRegressor.png Graphic file (type png)
-<use Image/GradientBoosting/SAMSUNG_6_4_GradientBoostingRegressor.png>
-Package pdftex.def Info: Image/GradientBoosting/SAMSUNG_6_4_GradientBoostingRegressor.png  used on input line 799.
-(pdftex.def)             Requested size: 77.39685pt x 50.64977pt.
-<Image/GradientBoosting/SAMSUNG_7_3_GradientBoostingRegressor.png, id=124, 405.01312pt x 263.98625pt>
-File: Image/GradientBoosting/SAMSUNG_7_3_GradientBoostingRegressor.png Graphic file (type png)
-<use Image/GradientBoosting/SAMSUNG_7_3_GradientBoostingRegressor.png>
-Package pdftex.def Info: Image/GradientBoosting/SAMSUNG_7_3_GradientBoostingRegressor.png  used on input line 805.
-(pdftex.def)             Requested size: 77.39685pt x 50.4439pt.
-<Image/GradientBoosting/SAMSUNG_8_2_GradientBoostingRegressor.png, id=125, 394.97563pt x 266.49562pt>
-File: Image/GradientBoosting/SAMSUNG_8_2_GradientBoostingRegressor.png Graphic file (type png)
-<use Image/GradientBoosting/SAMSUNG_8_2_GradientBoostingRegressor.png>
-Package pdftex.def Info: Image/GradientBoosting/SAMSUNG_8_2_GradientBoostingRegressor.png  used on input line 811.
-(pdftex.def)             Requested size: 77.39685pt x 52.22058pt.
-<Image/GradientBoosting/SONY_6_4_GradientBoostingRegressor.png, id=126, 398.9304pt x 298.4751pt>
-File: Image/GradientBoosting/SONY_6_4_GradientBoostingRegressor.png Graphic file (type png)
-<use Image/GradientBoosting/SONY_6_4_GradientBoostingRegressor.png>
-Package pdftex.def Info: Image/GradientBoosting/SONY_6_4_GradientBoostingRegressor.png  used on input line 822.
-(pdftex.def)             Requested size: 77.39685pt x 57.9041pt.
-<Image/GradientBoosting/SONY_7_3_GradientBoostingRegressor.png, id=127, 398.9304pt x 298.4751pt>
-File: Image/GradientBoosting/SONY_7_3_GradientBoostingRegressor.png Graphic file (type png)
-<use Image/GradientBoosting/SONY_7_3_GradientBoostingRegressor.png>
-Package pdftex.def Info: Image/GradientBoosting/SONY_7_3_GradientBoostingRegressor.png  used on input line 828.
-(pdftex.def)             Requested size: 77.39685pt x 57.9041pt.
-<Image/GradientBoosting/SONY_8_2_GradientBoostingRegressor.png, id=128, 378.41376pt x 262.48062pt>
-File: Image/GradientBoosting/SONY_8_2_GradientBoostingRegressor.png Graphic file (type png)
-<use Image/GradientBoosting/SONY_8_2_GradientBoostingRegressor.png>
-Package pdftex.def Info: Image/GradientBoosting/SONY_8_2_GradientBoostingRegressor.png  used on input line 834.
-(pdftex.def)             Requested size: 77.39685pt x 53.68471pt.
-<Image/XGBoost/XGBoost_SONY_6_4.png, id=129, 407.72325pt x 304.7385pt>
+<Image/VARMA/LG/6_4.png, id=57, 794.97pt x 385.44pt>
+File: Image/VARMA/LG/6_4.png Graphic file (type png)
+<use Image/VARMA/LG/6_4.png>
+Package pdftex.def Info: Image/VARMA/LG/6_4.png  used on input line 572.
+(pdftex.def)             Requested size: 77.39685pt x 37.5229pt.
+<Image/VARMA/LG/7_3.png, id=58, 796.1745pt x 386.6445pt>
+File: Image/VARMA/LG/7_3.png Graphic file (type png)
+<use Image/VARMA/LG/7_3.png>
+Package pdftex.def Info: Image/VARMA/LG/7_3.png  used on input line 578.
+(pdftex.def)             Requested size: 77.39685pt x 37.58116pt.
+<Image/VARMA/LG/8_2.png, id=59, 794.97pt x 389.65575pt>
+File: Image/VARMA/LG/8_2.png Graphic file (type png)
+<use Image/VARMA/LG/8_2.png>
+Package pdftex.def Info: Image/VARMA/LG/8_2.png  used on input line 584.
+(pdftex.def)             Requested size: 77.39685pt x 37.9333pt.
+<Image/VARMA/SONY/6_4.png, id=60, 793.7655pt x 395.076pt>
+File: Image/VARMA/SONY/6_4.png Graphic file (type png)
+<use Image/VARMA/SONY/6_4.png>
+Package pdftex.def Info: Image/VARMA/SONY/6_4.png  used on input line 595.
+(pdftex.def)             Requested size: 77.39685pt x 38.52126pt.
+<Image/VARMA/SONY/7_3.png, id=61, 794.97pt x 395.67825pt>
+File: Image/VARMA/SONY/7_3.png Graphic file (type png)
+<use Image/VARMA/SONY/7_3.png>
+Package pdftex.def Info: Image/VARMA/SONY/7_3.png  used on input line 601.
+(pdftex.def)             Requested size: 77.39685pt x 38.5196pt.
+<Image/VARMA/SONY/8_2.png, id=62, 793.16325pt x 395.076pt>
+File: Image/VARMA/SONY/8_2.png Graphic file (type png)
+<use Image/VARMA/SONY/8_2.png>
+Package pdftex.def Info: Image/VARMA/SONY/8_2.png  used on input line 607.
+(pdftex.def)             Requested size: 77.39685pt x 38.55139pt.
+<Image/VARMA/SAMSUNG/6_4.png, id=63, 793.16325pt x 392.06474pt>
+File: Image/VARMA/SAMSUNG/6_4.png Graphic file (type png)
+<use Image/VARMA/SAMSUNG/6_4.png>
+Package pdftex.def Info: Image/VARMA/SAMSUNG/6_4.png  used on input line 618.
+(pdftex.def)             Requested size: 77.39685pt x 38.25755pt.
+<Image/VARMA/SAMSUNG/7_3.png, id=64, 793.16325pt x 389.0535pt>
+File: Image/VARMA/SAMSUNG/7_3.png Graphic file (type png)
+<use Image/VARMA/SAMSUNG/7_3.png>
+Package pdftex.def Info: Image/VARMA/SAMSUNG/7_3.png  used on input line 624.
+(pdftex.def)             Requested size: 77.39685pt x 37.96371pt.
+<Image/VARMA/SAMSUNG/8_2.png, id=65, 793.16325pt x 387.24675pt>
+File: Image/VARMA/SAMSUNG/8_2.png Graphic file (type png)
+<use Image/VARMA/SAMSUNG/8_2.png>
+Package pdftex.def Info: Image/VARMA/SAMSUNG/8_2.png  used on input line 630.
+(pdftex.def)             Requested size: 77.39685pt x 37.78741pt.
+<Image/XGBoost/XGBoost_SONY_6_4.png, id=66, 407.72325pt x 304.7385pt>
 File: Image/XGBoost/XGBoost_SONY_6_4.png Graphic file (type png)
 <use Image/XGBoost/XGBoost_SONY_6_4.png>
-Package pdftex.def Info: Image/XGBoost/XGBoost_SONY_6_4.png  used on input line 848.
+Package pdftex.def Info: Image/XGBoost/XGBoost_SONY_6_4.png  used on input line 644.
 (pdftex.def)             Requested size: 77.39685pt x 57.84511pt.
-<Image/XGBoost/XGBoost_SONY_7_3.png, id=130, 404.712pt x 302.93175pt>
+<Image/XGBoost/XGBoost_SONY_7_3.png, id=67, 404.712pt x 302.93175pt>
 File: Image/XGBoost/XGBoost_SONY_7_3.png Graphic file (type png)
 <use Image/XGBoost/XGBoost_SONY_7_3.png>
-Package pdftex.def Info: Image/XGBoost/XGBoost_SONY_7_3.png  used on input line 854.
+Package pdftex.def Info: Image/XGBoost/XGBoost_SONY_7_3.png  used on input line 650.
 (pdftex.def)             Requested size: 77.39685pt x 57.93204pt.
-<Image/XGBoost/XGBoost_SONY_8_2.png, id=131, 408.3255pt x 302.93175pt>
+<Image/XGBoost/XGBoost_SONY_8_2.png, id=68, 408.3255pt x 302.93175pt>
 File: Image/XGBoost/XGBoost_SONY_8_2.png Graphic file (type png)
 <use Image/XGBoost/XGBoost_SONY_8_2.png>
-Package pdftex.def Info: Image/XGBoost/XGBoost_SONY_8_2.png  used on input line 860.
+Package pdftex.def Info: Image/XGBoost/XGBoost_SONY_8_2.png  used on input line 656.
 (pdftex.def)             Requested size: 77.39685pt x 57.41895pt.
-<Image/XGBoost/XGBoost_SAMSUNG_6_4.png, id=132, 422.7795pt x 299.31825pt>
+<Image/XGBoost/XGBoost_SAMSUNG_6_4.png, id=69, 422.7795pt x 299.31825pt>
 File: Image/XGBoost/XGBoost_SAMSUNG_6_4.png Graphic file (type png)
 <use Image/XGBoost/XGBoost_SAMSUNG_6_4.png>
-Package pdftex.def Info: Image/XGBoost/XGBoost_SAMSUNG_6_4.png  used on input line 873.
+Package pdftex.def Info: Image/XGBoost/XGBoost_SAMSUNG_6_4.png  used on input line 669.
 (pdftex.def)             Requested size: 77.39685pt x 54.79297pt.
-<Image/XGBoost/XGBoost_SAMSUNG_7_3.png, id=133, 422.17725pt x 302.3295pt>
+<Image/XGBoost/XGBoost_SAMSUNG_7_3.png, id=70, 422.17725pt x 302.3295pt>
 File: Image/XGBoost/XGBoost_SAMSUNG_7_3.png Graphic file (type png)
 <use Image/XGBoost/XGBoost_SAMSUNG_7_3.png>
-Package pdftex.def Info: Image/XGBoost/XGBoost_SAMSUNG_7_3.png  used on input line 879.
+Package pdftex.def Info: Image/XGBoost/XGBoost_SAMSUNG_7_3.png  used on input line 675.
 (pdftex.def)             Requested size: 77.39685pt x 55.42262pt.
-<Image/XGBoost/XGBoost_SAMSUNG_8_2.png, id=134, 423.38174pt x 302.3295pt>
+<Image/XGBoost/XGBoost_SAMSUNG_8_2.png, id=71, 423.38174pt x 302.3295pt>
 File: Image/XGBoost/XGBoost_SAMSUNG_8_2.png Graphic file (type png)
 <use Image/XGBoost/XGBoost_SAMSUNG_8_2.png>
-Package pdftex.def Info: Image/XGBoost/XGBoost_SAMSUNG_8_2.png  used on input line 885.
+Package pdftex.def Info: Image/XGBoost/XGBoost_SAMSUNG_8_2.png  used on input line 681.
 (pdftex.def)             Requested size: 77.39685pt x 55.26578pt.
-<Image/XGBoost/XGBoost_LG_6_4.png, id=135, 427.5975pt x 301.72725pt>
+<Image/XGBoost/XGBoost_LG_6_4.png, id=72, 427.5975pt x 301.72725pt>
 File: Image/XGBoost/XGBoost_LG_6_4.png Graphic file (type png)
 <use Image/XGBoost/XGBoost_LG_6_4.png>
-Package pdftex.def Info: Image/XGBoost/XGBoost_LG_6_4.png  used on input line 898.
+Package pdftex.def Info: Image/XGBoost/XGBoost_LG_6_4.png  used on input line 694.
 (pdftex.def)             Requested size: 77.39685pt x 54.61241pt.
-<Image/XGBoost/XGBoost_LG_7_3.png, id=136, 427.5975pt x 302.93175pt>
+<Image/XGBoost/XGBoost_LG_7_3.png, id=73, 427.5975pt x 302.93175pt>
 File: Image/XGBoost/XGBoost_LG_7_3.png Graphic file (type png)
 <use Image/XGBoost/XGBoost_LG_7_3.png>
-Package pdftex.def Info: Image/XGBoost/XGBoost_LG_7_3.png  used on input line 904.
+Package pdftex.def Info: Image/XGBoost/XGBoost_LG_7_3.png  used on input line 700.
 (pdftex.def)             Requested size: 77.39685pt x 54.83043pt.
-<Image/XGBoost/XGBoost_LG_8_2.png, id=137, 428.19975pt x 302.3295pt>
+<Image/XGBoost/XGBoost_LG_8_2.png, id=74, 428.19975pt x 302.3295pt>
 File: Image/XGBoost/XGBoost_LG_8_2.png Graphic file (type png)
 <use Image/XGBoost/XGBoost_LG_8_2.png>
-Package pdftex.def Info: Image/XGBoost/XGBoost_LG_8_2.png  used on input line 910.
+Package pdftex.def Info: Image/XGBoost/XGBoost_LG_8_2.png  used on input line 706.
 (pdftex.def)             Requested size: 77.39685pt x 54.643pt.
-
-
-<Image/NBeat/N_BEAT_LG_6_4.png, id=138, 768.471pt x 401.70074pt>
+<Image/NBeat/N_BEAT_LG_6_4.png, id=75, 768.471pt x 401.70074pt>
 File: Image/NBeat/N_BEAT_LG_6_4.png Graphic file (type png)
 <use Image/NBeat/N_BEAT_LG_6_4.png>
-Package pdftex.def Info: Image/NBeat/N_BEAT_LG_6_4.png  used on input line 927.
+Package pdftex.def Info: Image/NBeat/N_BEAT_LG_6_4.png  used on input line 723.
 (pdftex.def)             Requested size: 77.39685pt x 40.45438pt.
-<Image/NBeat/N_BEAT_LG_7_3.png, id=139, 784.1295pt x 401.70074pt>
+<Image/NBeat/N_BEAT_LG_7_3.png, id=76, 784.1295pt x 401.70074pt>
 File: Image/NBeat/N_BEAT_LG_7_3.png Graphic file (type png)
 <use Image/NBeat/N_BEAT_LG_7_3.png>
-Package pdftex.def Info: Image/NBeat/N_BEAT_LG_7_3.png  used on input line 933.
+Package pdftex.def Info: Image/NBeat/N_BEAT_LG_7_3.png  used on input line 729.
 (pdftex.def)             Requested size: 77.39685pt x 39.6453pt.
-<Image/NBeat/N_BEAT_LG_8_2.png, id=140, 774.4935pt x 404.712pt>
+<Image/NBeat/N_BEAT_LG_8_2.png, id=77, 774.4935pt x 404.712pt>
 File: Image/NBeat/N_BEAT_LG_8_2.png Graphic file (type png)
 <use Image/NBeat/N_BEAT_LG_8_2.png>
-Package pdftex.def Info: Image/NBeat/N_BEAT_LG_8_2.png  used on input line 939.
+Package pdftex.def Info: Image/NBeat/N_BEAT_LG_8_2.png  used on input line 735.
 (pdftex.def)             Requested size: 77.39685pt x 40.44269pt.
-<Image/NBeat/N_BEAT_SONY_6_4.png, id=141, 760.0395pt x 407.72325pt>
-File: Image/NBeat/N_BEAT_SONY_6_4.png Graphic file (type png)
-<use Image/NBeat/N_BEAT_SONY_6_4.png>
-Package pdftex.def Info: Image/NBeat/N_BEAT_SONY_6_4.png  used on input line 952.
-(pdftex.def)             Requested size: 77.39685pt x 41.51505pt.
-<Image/NBeat/N_BEAT_SONY_7_3.png, id=142, 756.426pt x 405.31425pt>
-File: Image/NBeat/N_BEAT_SONY_7_3.png Graphic file (type png)
-<use Image/NBeat/N_BEAT_SONY_7_3.png>
-Package pdftex.def Info: Image/NBeat/N_BEAT_SONY_7_3.png  used on input line 958.
-(pdftex.def)             Requested size: 77.39685pt x 41.46767pt.
-<Image/NBeat/N_BEAT_SONY_8_2.png, id=143, 756.426pt x 407.121pt>
-File: Image/NBeat/N_BEAT_SONY_8_2.png Graphic file (type png)
-<use Image/NBeat/N_BEAT_SONY_8_2.png>
-Package pdftex.def Info: Image/NBeat/N_BEAT_SONY_8_2.png  used on input line 964.
-(pdftex.def)             Requested size: 77.39685pt x 41.65251pt.
-<Image/NBeat/N_BEAT_SAMSUNG_6_4.png, id=144, 775.09575pt x 397.485pt>
-File: Image/NBeat/N_BEAT_SAMSUNG_6_4.png Graphic file (type png)
-<use Image/NBeat/N_BEAT_SAMSUNG_6_4.png>
-Package pdftex.def Info: Image/NBeat/N_BEAT_SAMSUNG_6_4.png  used on input line 977.
-(pdftex.def)             Requested size: 77.39685pt x 39.69017pt.
-<Image/NBeat/N_BEAT_SAMSUNG_7_3.png, id=145, 772.68675pt x 404.712pt>
-File: Image/NBeat/N_BEAT_SAMSUNG_7_3.png Graphic file (type png)
-<use Image/NBeat/N_BEAT_SAMSUNG_7_3.png>
-Package pdftex.def Info: Image/NBeat/N_BEAT_SAMSUNG_7_3.png  used on input line 983.
-(pdftex.def)             Requested size: 77.39685pt x 40.53532pt.
-<Image/NBeat/N_BEAT_SAMSUNG_8_2.png, id=146, 766.66425pt x 406.51875pt>
-File: Image/NBeat/N_BEAT_SAMSUNG_8_2.png Graphic file (type png)
-<use Image/NBeat/N_BEAT_SAMSUNG_8_2.png>
-Package pdftex.def Info: Image/NBeat/N_BEAT_SAMSUNG_8_2.png  used on input line 989.
-(pdftex.def)             Requested size: 77.39685pt x 41.03883pt.
-<Image/Light GBM/LightGBM_LG_6_4.png, id=147, 730.22812pt x 473.51906pt>
-File: Image/Light GBM/LightGBM_LG_6_4.png Graphic file (type png)
-<use Image/Light GBM/LightGBM_LG_6_4.png>
-Package pdftex.def Info: Image/Light GBM/LightGBM_LG_6_4.png  used on input line 1001.
-(pdftex.def)             Requested size: 77.39685pt x 50.187pt.
-<Image/Light GBM/LightGBM_LG_7_3.png, id=148, 603.75563pt x 439.6425pt>
-File: Image/Light GBM/LightGBM_LG_7_3.png Graphic file (type png)
-<use Image/Light GBM/LightGBM_LG_7_3.png>
-Package pdftex.def Info: Image/Light GBM/LightGBM_LG_7_3.png  used on input line 1007.
-(pdftex.def)             Requested size: 77.39685pt x 56.35722pt.
-<Image/Light GBM/LightGBM_LG_8_2.png, id=149, 642.14906pt x 427.5975pt>
-File: Image/Light GBM/LightGBM_LG_8_2.png Graphic file (type png)
-<use Image/Light GBM/LightGBM_LG_8_2.png>
-Package pdftex.def Info: Image/Light GBM/LightGBM_LG_8_2.png  used on input line 1013.
-(pdftex.def)             Requested size: 77.39685pt x 51.53784pt.
-<Image/Light GBM/LightGBM_SONY_6_4.png, id=150, 577.40718pt x 408.02437pt>
-File: Image/Light GBM/LightGBM_SONY_6_4.png Graphic file (type png)
-<use Image/Light GBM/LightGBM_SONY_6_4.png>
-Package pdftex.def Info: Image/Light GBM/LightGBM_SONY_6_4.png  used on input line 1024.
-(pdftex.def)             Requested size: 77.39685pt x 54.68867pt.
-<Image/Light GBM/Lightgbm_SONY_7_3.png, id=151, 593.21625pt x 456.20438pt>
-File: Image/Light GBM/Lightgbm_SONY_7_3.png Graphic file (type png)
-<use Image/Light GBM/Lightgbm_SONY_7_3.png>
-Package pdftex.def Info: Image/Light GBM/Lightgbm_SONY_7_3.png  used on input line 1030.
-(pdftex.def)             Requested size: 77.39685pt x 59.51747pt.
-<Image/Light GBM/LightGBM_SONY_8_2.png, id=152, 591.71063pt x 446.41782pt>
-File: Image/Light GBM/LightGBM_SONY_8_2.png Graphic file (type png)
-<use Image/Light GBM/LightGBM_SONY_8_2.png>
-Package pdftex.def Info: Image/Light GBM/LightGBM_SONY_8_2.png  used on input line 1036.
-(pdftex.def)             Requested size: 77.39685pt x 58.39056pt.
-<Image/Light GBM/LightGBM_SS_6_4.png, id=153, 602.25pt x 439.6425pt>
-File: Image/Light GBM/LightGBM_SS_6_4.png Graphic file (type png)
-<use Image/Light GBM/LightGBM_SS_6_4.png>
-Package pdftex.def Info: Image/Light GBM/LightGBM_SS_6_4.png  used on input line 1047.
-(pdftex.def)             Requested size: 77.39685pt x 56.49811pt.
-<Image/Light GBM/LightGBM_SS_7_3.png, id=154, 635.37375pt x 446.41782pt>
-File: Image/Light GBM/LightGBM_SS_7_3.png Graphic file (type png)
-<use Image/Light GBM/LightGBM_SS_7_3.png>
-Package pdftex.def Info: Image/Light GBM/LightGBM_SS_7_3.png  used on input line 1053.
-(pdftex.def)             Requested size: 77.39685pt x 54.37842pt.
-<Image/Light GBM/LightGBM_SS_8_2.png, id=155, 685.8122pt x 483.30562pt>
-File: Image/Light GBM/LightGBM_SS_8_2.png Graphic file (type png)
-<use Image/Light GBM/LightGBM_SS_8_2.png>
-Package pdftex.def Info: Image/Light GBM/LightGBM_SS_8_2.png  used on input line 1059.
-(pdftex.def)             Requested size: 77.39685pt x 54.54283pt.
-<Image/ket qua/LG.png, id=156, 699.8145pt x 226.446pt>
-File: Image/ket qua/LG.png Graphic file (type png)
-<use Image/ket qua/LG.png>
-Package pdftex.def Info: Image/ket qua/LG.png  used on input line 1069.
-(pdftex.def)             Requested size: 206.39685pt x 66.7837pt.
 
 
 File: Image/logo186x150.png Graphic file (type png)
 <use Image/logo186x150.png>
-Package pdftex.def Info: Image/logo186x150.png  used on input line 1070.
+Package pdftex.def Info: Image/logo186x150.png  used on input line 741.
 (pdftex.def)             Requested size: 18.59961pt x 15.0pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1371,19 +1061,113 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-6.60004pt}.
 
-[7 <./Image/VARMA/SAMSUNG/6_4/90.png> <./Image/VARMA/SAMSUNG/7_3/90.png> <./Image/VARMA/SAMSUNG/8_2/90.png> <./Image/GradientBoosting/LG_6_4_GradientBoostingRegressor.png> <./Image/GradientBoosting/LG_7_3_GradientBoostingRegressor.png> <./Image/GradientBoosting/LG_8_2_GradientBoostingRegressor.png> <./Image/GradientBoosting/SAMSUNG_6_4_GradientBoostingRegressor.png> <./Image/GradientBoosting/SAMSUNG_7_3_GradientBoostingRegressor.png> <./Image/GradientBoosting/SAMSUNG_8_2_GradientBoostingRegressor.png> <./Image/GradientBoosting/SONY_6_4_GradientBoostingRegressor.png> <./Image/GradientBoosting/SONY_7_3_GradientBoostingRegressor.png> <./Image/GradientBoosting/SONY_8_2_GradientBoostingRegressor.png> <./Image/XGBoost/XGBoost_SONY_6_4.png> <./Image/XGBoost/XGBoost_SONY_7_3.png> <./Image/XGBoost/XGBoost_SONY_8_2.png> <./Image/XGBoost/XGBoost_SAMSUNG_6_4.png> <./Image/XGBoost/XGBoost_SAMSUNG_7_3.png> <./Image/XGBoost/XGBoost_SAMSUNG_8_2.png> <./Image/XGBoost/XGBoost_LG_6_4.png> <./Image/XGBoost/XGBoost_LG_7_3.png> <./Image/XGBoost/XGBoost_LG_8_2.png> <./Image/NBeat/N_BEAT_LG_6_4.png> <./Image/NBeat/N_BEAT_LG_7_3.png> <./Image/NBeat/N_BEAT_LG_8_2.png> <./Image/NBeat/N_BEAT_SONY_6_4.png> <./Image/NBeat/N_BEAT_SONY_7_3.png> <./Image/NBeat/N_BEAT_SONY_8_2.png> <./Image/NBeat/N_BEAT_SAMSUNG_6_4.png> <./Image/NBeat/N_BEAT_SAMSUNG_7_3.png> <./Image/NBeat/N_BEAT_SAMSUNG_8_2.png> <./Image/Light GBM/LightGBM_LG_6_4.png> <./Image/Light GBM/LightGBM_LG_7_3.png> <./Image/Light GBM/LightGBM_LG_8_2.png> <./Image/Light GBM/LightGBM_SONY_6_4.png> <./Image/Light GBM/Lightgbm_SONY_7_3.png> <./Image/Light GBM/LightGBM_SONY_8_2.png> <./Image/Light GBM/LightGBM_SS_6_4.png> <./Image/Light GBM/LightGBM_SS_7_3.png> <./Image/Light GBM/LightGBM_SS_8_2.png>]
-<Image/ket qua/SONY.png, id=200, 602.25pt x 196.93575pt>
+[6 <./Image/Linear/Linear_LG_6_4.png> <./Image/Linear/Linear_LG_7_3.png> <./Image/Linear/Linear_LG_8_2.png> <./Image/Linear/Linear_SONY_6_4.png> <./Image/Linear/Linear_SONY_7_3.png> <./Image/Linear/Linear_SONY_8_2.png> <./Image/Linear/Linear_SAMSUNG_6_4.png> <./Image/Linear/Linear_SAMSUNG_7_3.png> <./Image/Linear/Linear_SAMSUNG_8_2.png> <./Image/VARMA/LG/6_4.png> <./Image/VARMA/LG/7_3.png> <./Image/VARMA/LG/8_2.png> <./Image/VARMA/SONY/6_4.png> <./Image/VARMA/SONY/7_3.png> <./Image/VARMA/SONY/8_2.png> <./Image/VARMA/SAMSUNG/6_4.png> <./Image/VARMA/SAMSUNG/7_3.png> <./Image/VARMA/SAMSUNG/8_2.png> <./Image/XGBoost/XGBoost_SONY_6_4.png> <./Image/XGBoost/XGBoost_SONY_7_3.png> <./Image/XGBoost/XGBoost_SONY_8_2.png> <./Image/XGBoost/XGBoost_SAMSUNG_6_4.png> <./Image/XGBoost/XGBoost_SAMSUNG_7_3.png> <./Image/XGBoost/XGBoost_SAMSUNG_8_2.png> <./Image/XGBoost/XGBoost_LG_6_4.png> <./Image/XGBoost/XGBoost_LG_7_3.png> <./Image/XGBoost/XGBoost_LG_8_2.png>]
+<Image/NBeat/N_BEAT_SONY_6_4.png, id=108, 760.0395pt x 407.72325pt>
+File: Image/NBeat/N_BEAT_SONY_6_4.png Graphic file (type png)
+<use Image/NBeat/N_BEAT_SONY_6_4.png>
+Package pdftex.def Info: Image/NBeat/N_BEAT_SONY_6_4.png  used on input line 748.
+(pdftex.def)             Requested size: 77.39685pt x 41.51505pt.
+<Image/NBeat/N_BEAT_SONY_7_3.png, id=109, 756.426pt x 405.31425pt>
+File: Image/NBeat/N_BEAT_SONY_7_3.png Graphic file (type png)
+<use Image/NBeat/N_BEAT_SONY_7_3.png>
+Package pdftex.def Info: Image/NBeat/N_BEAT_SONY_7_3.png  used on input line 754.
+(pdftex.def)             Requested size: 77.39685pt x 41.46767pt.
+<Image/NBeat/N_BEAT_SONY_8_2.png, id=110, 756.426pt x 407.121pt>
+File: Image/NBeat/N_BEAT_SONY_8_2.png Graphic file (type png)
+<use Image/NBeat/N_BEAT_SONY_8_2.png>
+Package pdftex.def Info: Image/NBeat/N_BEAT_SONY_8_2.png  used on input line 760.
+(pdftex.def)             Requested size: 77.39685pt x 41.65251pt.
+<Image/NBeat/N_BEAT_SAMSUNG_6_4.png, id=111, 775.09575pt x 397.485pt>
+File: Image/NBeat/N_BEAT_SAMSUNG_6_4.png Graphic file (type png)
+<use Image/NBeat/N_BEAT_SAMSUNG_6_4.png>
+Package pdftex.def Info: Image/NBeat/N_BEAT_SAMSUNG_6_4.png  used on input line 773.
+(pdftex.def)             Requested size: 77.39685pt x 39.69017pt.
+<Image/NBeat/N_BEAT_SAMSUNG_7_3.png, id=112, 772.68675pt x 404.712pt>
+File: Image/NBeat/N_BEAT_SAMSUNG_7_3.png Graphic file (type png)
+<use Image/NBeat/N_BEAT_SAMSUNG_7_3.png>
+Package pdftex.def Info: Image/NBeat/N_BEAT_SAMSUNG_7_3.png  used on input line 779.
+(pdftex.def)             Requested size: 77.39685pt x 40.53532pt.
+<Image/NBeat/N_BEAT_SAMSUNG_8_2.png, id=113, 766.66425pt x 406.51875pt>
+File: Image/NBeat/N_BEAT_SAMSUNG_8_2.png Graphic file (type png)
+<use Image/NBeat/N_BEAT_SAMSUNG_8_2.png>
+Package pdftex.def Info: Image/NBeat/N_BEAT_SAMSUNG_8_2.png  used on input line 785.
+(pdftex.def)             Requested size: 77.39685pt x 41.03883pt.
+<Image/Light GBM/LightGBM_LG_6_4.png, id=114, 730.22812pt x 473.51906pt>
+File: Image/Light GBM/LightGBM_LG_6_4.png Graphic file (type png)
+<use Image/Light GBM/LightGBM_LG_6_4.png>
+Package pdftex.def Info: Image/Light GBM/LightGBM_LG_6_4.png  used on input line 797.
+(pdftex.def)             Requested size: 77.39685pt x 50.187pt.
+<Image/Light GBM/LightGBM_LG_7_3.png, id=115, 603.75563pt x 439.6425pt>
+File: Image/Light GBM/LightGBM_LG_7_3.png Graphic file (type png)
+<use Image/Light GBM/LightGBM_LG_7_3.png>
+Package pdftex.def Info: Image/Light GBM/LightGBM_LG_7_3.png  used on input line 803.
+(pdftex.def)             Requested size: 77.39685pt x 56.35722pt.
+<Image/Light GBM/LightGBM_LG_8_2.png, id=116, 642.14906pt x 427.5975pt>
+File: Image/Light GBM/LightGBM_LG_8_2.png Graphic file (type png)
+<use Image/Light GBM/LightGBM_LG_8_2.png>
+Package pdftex.def Info: Image/Light GBM/LightGBM_LG_8_2.png  used on input line 809.
+(pdftex.def)             Requested size: 77.39685pt x 51.53784pt.
+<Image/Light GBM/LightGBM_SONY_6_4.png, id=117, 577.40718pt x 408.02437pt>
+File: Image/Light GBM/LightGBM_SONY_6_4.png Graphic file (type png)
+<use Image/Light GBM/LightGBM_SONY_6_4.png>
+Package pdftex.def Info: Image/Light GBM/LightGBM_SONY_6_4.png  used on input line 820.
+(pdftex.def)             Requested size: 77.39685pt x 54.68867pt.
+<Image/Light GBM/Lightgbm_SONY_7_3.png, id=118, 593.21625pt x 456.20438pt>
+File: Image/Light GBM/Lightgbm_SONY_7_3.png Graphic file (type png)
+<use Image/Light GBM/Lightgbm_SONY_7_3.png>
+Package pdftex.def Info: Image/Light GBM/Lightgbm_SONY_7_3.png  used on input line 826.
+(pdftex.def)             Requested size: 77.39685pt x 59.51747pt.
+<Image/Light GBM/LightGBM_SONY_8_2.png, id=119, 591.71063pt x 446.41782pt>
+File: Image/Light GBM/LightGBM_SONY_8_2.png Graphic file (type png)
+<use Image/Light GBM/LightGBM_SONY_8_2.png>
+Package pdftex.def Info: Image/Light GBM/LightGBM_SONY_8_2.png  used on input line 832.
+(pdftex.def)             Requested size: 77.39685pt x 58.39056pt.
+<Image/Light GBM/LightGBM_SS_6_4.png, id=120, 602.25pt x 439.6425pt>
+File: Image/Light GBM/LightGBM_SS_6_4.png Graphic file (type png)
+<use Image/Light GBM/LightGBM_SS_6_4.png>
+Package pdftex.def Info: Image/Light GBM/LightGBM_SS_6_4.png  used on input line 843.
+(pdftex.def)             Requested size: 77.39685pt x 56.49811pt.
+<Image/Light GBM/LightGBM_SS_7_3.png, id=121, 635.37375pt x 446.41782pt>
+File: Image/Light GBM/LightGBM_SS_7_3.png Graphic file (type png)
+<use Image/Light GBM/LightGBM_SS_7_3.png>
+Package pdftex.def Info: Image/Light GBM/LightGBM_SS_7_3.png  used on input line 849.
+(pdftex.def)             Requested size: 77.39685pt x 54.37842pt.
+<Image/Light GBM/LightGBM_SS_8_2.png, id=122, 685.8122pt x 483.30562pt>
+File: Image/Light GBM/LightGBM_SS_8_2.png Graphic file (type png)
+<use Image/Light GBM/LightGBM_SS_8_2.png>
+Package pdftex.def Info: Image/Light GBM/LightGBM_SS_8_2.png  used on input line 855.
+(pdftex.def)             Requested size: 77.39685pt x 54.54283pt.
+<Image/ket qua/LG.png, id=123, 699.8145pt x 226.446pt>
+File: Image/ket qua/LG.png Graphic file (type png)
+<use Image/ket qua/LG.png>
+Package pdftex.def Info: Image/ket qua/LG.png  used on input line 865.
+(pdftex.def)             Requested size: 206.39685pt x 66.7837pt.
+<Image/ket qua/SONY.png, id=124, 602.25pt x 196.93575pt>
 File: Image/ket qua/SONY.png Graphic file (type png)
 <use Image/ket qua/SONY.png>
-Package pdftex.def Info: Image/ket qua/SONY.png  used on input line 1071.
+Package pdftex.def Info: Image/ket qua/SONY.png  used on input line 867.
 (pdftex.def)             Requested size: 206.39685pt x 67.49214pt.
-<Image/ket qua/SAMSUNG.png, id=201, 688.37175pt x 223.43475pt>
+
+
+<Image/ket qua/SAMSUNG.png, id=125, 688.37175pt x 223.43475pt>
 File: Image/ket qua/SAMSUNG.png Graphic file (type png)
 <use Image/ket qua/SAMSUNG.png>
-Package pdftex.def Info: Image/ket qua/SAMSUNG.png  used on input line 1073.
+Package pdftex.def Info: Image/ket qua/SAMSUNG.png  used on input line 869.
 (pdftex.def)             Requested size: 206.39685pt x 66.99344pt.
 
 
+File: Image/logo186x150.png Graphic file (type png)
+<use Image/logo186x150.png>
+Package pdftex.def Info: Image/logo186x150.png  used on input line 894.
+(pdftex.def)             Requested size: 18.59961pt x 15.0pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 18.60004pt, for example:
+(fancyhdr)                \setlength{\headheight}{18.60004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-6.60004pt}.
+
+[7 <./Image/NBeat/N_BEAT_LG_6_4.png> <./Image/NBeat/N_BEAT_LG_7_3.png> <./Image/NBeat/N_BEAT_LG_8_2.png> <./Image/NBeat/N_BEAT_SONY_6_4.png> <./Image/NBeat/N_BEAT_SONY_7_3.png> <./Image/NBeat/N_BEAT_SONY_8_2.png> <./Image/NBeat/N_BEAT_SAMSUNG_6_4.png> <./Image/NBeat/N_BEAT_SAMSUNG_7_3.png> <./Image/NBeat/N_BEAT_SAMSUNG_8_2.png> <./Image/Light GBM/LightGBM_LG_6_4.png> <./Image/Light GBM/LightGBM_LG_7_3.png> <./Image/Light GBM/LightGBM_LG_8_2.png> <./Image/Light GBM/LightGBM_SONY_6_4.png> <./Image/Light GBM/Lightgbm_SONY_7_3.png> <./Image/Light GBM/LightGBM_SONY_8_2.png> <./Image/Light GBM/LightGBM_SS_6_4.png> <./Image/Light GBM/LightGBM_SS_7_3.png> <./Image/Light GBM/LightGBM_SS_8_2.png> <./Image/ket qua/LG.png> <./Image/ket qua/SONY.png> <./Image/ket qua/SAMSUNG.png>]
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -1397,9 +1181,11 @@ Before submitting the final camera ready copy, remember to:
 
 
 
+
+
 File: Image/logo186x150.png Graphic file (type png)
 <use Image/logo186x150.png>
-Package pdftex.def Info: Image/logo186x150.png  used on input line 1121.
+Package pdftex.def Info: Image/logo186x150.png  used on input line 919.
 (pdftex.def)             Requested size: 18.59961pt x 15.0pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1408,7 +1194,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-6.60004pt}.
 
-[8 <./Image/ket qua/LG.png> <./Image/ket qua/SONY.png> <./Image/ket qua/SAMSUNG.png>] (Report.aux)
+[8
+
+] (Report.aux)
  ***********
 LaTeX2e <2024-06-01>
 L3 programming layer <2024-05-08>
@@ -1419,17 +1207,17 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8618 strings out of 473938
- 157797 string characters out of 5727392
+ 8429 strings out of 473938
+ 149004 string characters out of 5727392
  1950893 words of memory out of 5000000
- 31337 multiletter control sequences out of 15000+600000
+ 31148 multiletter control sequences out of 15000+600000
  610649 words of font info for 117 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,16n,79p,1512b,422s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,15n,79p,1512b,422s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/dosid/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/dosid/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/dosid/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/dosid/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/dosid/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/dosid/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/dosid/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/dosid/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/dosid/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/dosid/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/ucrr8v.pfb><C:/Users/dosid/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/utmb8v.pfb><C:/Users/dosid/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/dosid/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/utmr8v.pfb><C:/Users/dosid/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/utmri8v.pfb>
-Output written on Report.pdf (8 pages, 6888377 bytes).
+Output written on Report.pdf (8 pages, 5019184 bytes).
 PDF statistics:
- 268 PDF objects out of 1000 (max. 8388607)
+ 214 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 416 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 281 words of extra memory for PDF output out of 10000 (max. 10000000)
 
