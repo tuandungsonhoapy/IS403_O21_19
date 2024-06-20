@@ -220,6 +220,13 @@ INPUT .\Image\DatasetImg\SAMSUNG_line_chart.png
 INPUT .\Image\DatasetImg\SAMSUNG_line_chart.png
 INPUT .\Image\DatasetImg\SAMSUNG_line_chart.png
 INPUT .\Image\DatasetImg\SAMSUNG_line_chart.png
+INPUT .\Image\logo186x150.png
+INPUT .\Image\logo186x150.png
+INPUT .\Image\logo186x150.png
+INPUT .\Image\logo186x150.png
+INPUT .\Image\logo186x150.png
+INPUT .\Image\logo186x150.png
+INPUT .\Image\logo186x150.png
 INPUT .\Image\DatasetImg\LG_Boxplot.png
 INPUT .\Image\DatasetImg\LG_Boxplot.png
 INPUT .\Image\DatasetImg\LG_Boxplot.png
@@ -234,13 +241,6 @@ INPUT .\Image\DatasetImg\LG_line_chart.png
 INPUT .\Image\DatasetImg\LG_line_chart.png
 INPUT .\Image\DatasetImg\LG_line_chart.png
 INPUT .\Image\DatasetImg\LG_line_chart.png
-INPUT .\Image\logo186x150.png
-INPUT .\Image\logo186x150.png
-INPUT .\Image\logo186x150.png
-INPUT .\Image\logo186x150.png
-INPUT .\Image\logo186x150.png
-INPUT .\Image\logo186x150.png
-INPUT .\Image\logo186x150.png
 INPUT E:\Miktek\fonts\tfm\vntex\urwvn\utmr8v.tfm
 INPUT E:\Miktek\fonts\tfm\vntex\urwvn\utmr8v.tfm
 INPUT .\Image\logo186x150.png
@@ -257,6 +257,10 @@ INPUT .\image.png
 INPUT E:\Miktek\fonts\tfm\public\cm\cmbx10.tfm
 INPUT E:\Miktek\fonts\tfm\public\cm\cmbx7.tfm
 INPUT E:\Miktek\fonts\tfm\public\cm\cmbx5.tfm
+INPUT .\Image\logo186x150.png
+INPUT .\Image\logo186x150.png
+INPUT .\Image\logo186x150.png
+INPUT .\Image\logo186x150.png
 INPUT E:\Miktek\tex\latex\psnfss\ts1ptm.fd
 INPUT E:\Miktek\tex\latex\psnfss\ts1ptm.fd
 INPUT E:\Miktek\tex\latex\psnfss\ts1ptm.fd
@@ -274,10 +278,6 @@ INPUT .\Image\logo186x150.png
 INPUT E:\Miktek\fonts\vf\adobe\times\ptmr8c.vf
 INPUT E:\Miktek\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT E:\Miktek\fonts\enc\dvips\base\8r.enc
-INPUT .\Image\logo186x150.png
-INPUT .\Image\logo186x150.png
-INPUT .\Image\logo186x150.png
-INPUT .\Image\logo186x150.png
 INPUT .\Image\Linear\Linear_LG_6_4.png
 INPUT .\Image\Linear\Linear_LG_6_4.png
 INPUT .\Image\Linear\Linear_LG_6_4.png
@@ -404,136 +404,136 @@ INPUT .\Image\VARMA\LG\8_2\90.png
 INPUT .\Image\VARMA\LG\8_2\90.png
 INPUT .\Image\VARMA\LG\8_2\90.png
 INPUT .\Image\VARMA\LG\8_2\90.png
-INPUT .\Image\VARMA\SONY\6_4\30.png
-INPUT .\Image\VARMA\SONY\6_4\30.png
-INPUT .\Image\VARMA\SONY\6_4\30.png
-INPUT .\Image\VARMA\SONY\6_4\30.png
-INPUT .\Image\VARMA\SONY\6_4\30.png
-INPUT .\Image\VARMA\SONY\6_4\30.png
-INPUT .\Image\VARMA\SONY\6_4\30.png
-INPUT .\Image\VARMA\SONY\7_3\30.png
-INPUT .\Image\VARMA\SONY\7_3\30.png
-INPUT .\Image\VARMA\SONY\7_3\30.png
-INPUT .\Image\VARMA\SONY\7_3\30.png
-INPUT .\Image\VARMA\SONY\7_3\30.png
-INPUT .\Image\VARMA\SONY\7_3\30.png
-INPUT .\Image\VARMA\SONY\7_3\30.png
-INPUT .\Image\VARMA\SONY\8_2\30.png
-INPUT .\Image\VARMA\SONY\8_2\30.png
-INPUT .\Image\VARMA\SONY\8_2\30.png
-INPUT .\Image\VARMA\SONY\8_2\30.png
-INPUT .\Image\VARMA\SONY\8_2\30.png
-INPUT .\Image\VARMA\SONY\8_2\30.png
-INPUT .\Image\VARMA\SONY\8_2\30.png
-INPUT .\Image\VARMA\SONY\6_4\60.png
-INPUT .\Image\VARMA\SONY\6_4\60.png
-INPUT .\Image\VARMA\SONY\6_4\60.png
-INPUT .\Image\VARMA\SONY\6_4\60.png
-INPUT .\Image\VARMA\SONY\6_4\60.png
-INPUT .\Image\VARMA\SONY\6_4\60.png
-INPUT .\Image\VARMA\SONY\6_4\60.png
-INPUT .\Image\VARMA\SONY\7_3\60.png
-INPUT .\Image\VARMA\SONY\7_3\60.png
-INPUT .\Image\VARMA\SONY\7_3\60.png
-INPUT .\Image\VARMA\SONY\7_3\60.png
-INPUT .\Image\VARMA\SONY\7_3\60.png
-INPUT .\Image\VARMA\SONY\7_3\60.png
-INPUT .\Image\VARMA\SONY\7_3\60.png
-INPUT .\Image\VARMA\SONY\8_2\60.png
-INPUT .\Image\VARMA\SONY\8_2\60.png
-INPUT .\Image\VARMA\SONY\8_2\60.png
-INPUT .\Image\VARMA\SONY\8_2\60.png
-INPUT .\Image\VARMA\SONY\8_2\60.png
-INPUT .\Image\VARMA\SONY\8_2\60.png
-INPUT .\Image\VARMA\SONY\8_2\60.png
-INPUT .\Image\VARMA\SONY\6_4\90.png
-INPUT .\Image\VARMA\SONY\6_4\90.png
-INPUT .\Image\VARMA\SONY\6_4\90.png
-INPUT .\Image\VARMA\SONY\6_4\90.png
-INPUT .\Image\VARMA\SONY\6_4\90.png
-INPUT .\Image\VARMA\SONY\6_4\90.png
-INPUT .\Image\VARMA\SONY\6_4\90.png
-INPUT .\Image\VARMA\SONY\7_3\90.png
-INPUT .\Image\VARMA\SONY\7_3\90.png
-INPUT .\Image\VARMA\SONY\7_3\90.png
-INPUT .\Image\VARMA\SONY\7_3\90.png
-INPUT .\Image\VARMA\SONY\7_3\90.png
-INPUT .\Image\VARMA\SONY\7_3\90.png
-INPUT .\Image\VARMA\SONY\7_3\90.png
-INPUT .\Image\VARMA\SONY\8_2\90.png
-INPUT .\Image\VARMA\SONY\8_2\90.png
-INPUT .\Image\VARMA\SONY\8_2\90.png
-INPUT .\Image\VARMA\SONY\8_2\90.png
-INPUT .\Image\VARMA\SONY\8_2\90.png
-INPUT .\Image\VARMA\SONY\8_2\90.png
-INPUT .\Image\VARMA\SONY\8_2\90.png
-INPUT .\Image\VARMA\SAMSUNG\6_4\30.png
-INPUT .\Image\VARMA\SAMSUNG\6_4\30.png
-INPUT .\Image\VARMA\SAMSUNG\6_4\30.png
-INPUT .\Image\VARMA\SAMSUNG\6_4\30.png
-INPUT .\Image\VARMA\SAMSUNG\6_4\30.png
-INPUT .\Image\VARMA\SAMSUNG\6_4\30.png
-INPUT .\Image\VARMA\SAMSUNG\6_4\30.png
-INPUT .\Image\VARMA\SAMSUNG\7_3\30.png
-INPUT .\Image\VARMA\SAMSUNG\7_3\30.png
-INPUT .\Image\VARMA\SAMSUNG\7_3\30.png
-INPUT .\Image\VARMA\SAMSUNG\7_3\30.png
-INPUT .\Image\VARMA\SAMSUNG\7_3\30.png
-INPUT .\Image\VARMA\SAMSUNG\7_3\30.png
-INPUT .\Image\VARMA\SAMSUNG\7_3\30.png
-INPUT .\Image\VARMA\SAMSUNG\8_2\30.png
-INPUT .\Image\VARMA\SAMSUNG\8_2\30.png
-INPUT .\Image\VARMA\SAMSUNG\8_2\30.png
-INPUT .\Image\VARMA\SAMSUNG\8_2\30.png
-INPUT .\Image\VARMA\SAMSUNG\8_2\30.png
-INPUT .\Image\VARMA\SAMSUNG\8_2\30.png
-INPUT .\Image\VARMA\SAMSUNG\8_2\30.png
-INPUT .\Image\VARMA\SAMSUNG\6_4\60.png
-INPUT .\Image\VARMA\SAMSUNG\6_4\60.png
-INPUT .\Image\VARMA\SAMSUNG\6_4\60.png
-INPUT .\Image\VARMA\SAMSUNG\6_4\60.png
-INPUT .\Image\VARMA\SAMSUNG\6_4\60.png
-INPUT .\Image\VARMA\SAMSUNG\6_4\60.png
-INPUT .\Image\VARMA\SAMSUNG\6_4\60.png
-INPUT .\Image\VARMA\SAMSUNG\7_3\60.png
-INPUT .\Image\VARMA\SAMSUNG\7_3\60.png
-INPUT .\Image\VARMA\SAMSUNG\7_3\60.png
-INPUT .\Image\VARMA\SAMSUNG\7_3\60.png
-INPUT .\Image\VARMA\SAMSUNG\7_3\60.png
-INPUT .\Image\VARMA\SAMSUNG\7_3\60.png
-INPUT .\Image\VARMA\SAMSUNG\7_3\60.png
-INPUT .\Image\VARMA\SAMSUNG\8_2\60.png
-INPUT .\Image\VARMA\SAMSUNG\8_2\60.png
-INPUT .\Image\VARMA\SAMSUNG\8_2\60.png
-INPUT .\Image\VARMA\SAMSUNG\8_2\60.png
-INPUT .\Image\VARMA\SAMSUNG\8_2\60.png
-INPUT .\Image\VARMA\SAMSUNG\8_2\60.png
-INPUT .\Image\VARMA\SAMSUNG\8_2\60.png
-INPUT .\Image\VARMA\SAMSUNG\6_4\90.png
-INPUT .\Image\VARMA\SAMSUNG\6_4\90.png
-INPUT .\Image\VARMA\SAMSUNG\6_4\90.png
-INPUT .\Image\VARMA\SAMSUNG\6_4\90.png
-INPUT .\Image\VARMA\SAMSUNG\6_4\90.png
-INPUT .\Image\VARMA\SAMSUNG\6_4\90.png
-INPUT .\Image\VARMA\SAMSUNG\6_4\90.png
-INPUT .\Image\VARMA\SAMSUNG\7_3\90.png
-INPUT .\Image\VARMA\SAMSUNG\7_3\90.png
-INPUT .\Image\VARMA\SAMSUNG\7_3\90.png
-INPUT .\Image\VARMA\SAMSUNG\7_3\90.png
-INPUT .\Image\VARMA\SAMSUNG\7_3\90.png
-INPUT .\Image\VARMA\SAMSUNG\7_3\90.png
-INPUT .\Image\VARMA\SAMSUNG\7_3\90.png
-INPUT .\Image\VARMA\SAMSUNG\8_2\90.png
-INPUT .\Image\VARMA\SAMSUNG\8_2\90.png
-INPUT .\Image\VARMA\SAMSUNG\8_2\90.png
-INPUT .\Image\VARMA\SAMSUNG\8_2\90.png
-INPUT .\Image\VARMA\SAMSUNG\8_2\90.png
-INPUT .\Image\VARMA\SAMSUNG\8_2\90.png
-INPUT .\Image\VARMA\SAMSUNG\8_2\90.png
 INPUT .\Image\logo186x150.png
 INPUT .\Image\logo186x150.png
 INPUT .\Image\logo186x150.png
 INPUT .\Image\logo186x150.png
+INPUT .\Image\VARMA\SONY\6_4\30.png
+INPUT .\Image\VARMA\SONY\6_4\30.png
+INPUT .\Image\VARMA\SONY\6_4\30.png
+INPUT .\Image\VARMA\SONY\6_4\30.png
+INPUT .\Image\VARMA\SONY\6_4\30.png
+INPUT .\Image\VARMA\SONY\6_4\30.png
+INPUT .\Image\VARMA\SONY\6_4\30.png
+INPUT .\Image\VARMA\SONY\7_3\30.png
+INPUT .\Image\VARMA\SONY\7_3\30.png
+INPUT .\Image\VARMA\SONY\7_3\30.png
+INPUT .\Image\VARMA\SONY\7_3\30.png
+INPUT .\Image\VARMA\SONY\7_3\30.png
+INPUT .\Image\VARMA\SONY\7_3\30.png
+INPUT .\Image\VARMA\SONY\7_3\30.png
+INPUT .\Image\VARMA\SONY\8_2\30.png
+INPUT .\Image\VARMA\SONY\8_2\30.png
+INPUT .\Image\VARMA\SONY\8_2\30.png
+INPUT .\Image\VARMA\SONY\8_2\30.png
+INPUT .\Image\VARMA\SONY\8_2\30.png
+INPUT .\Image\VARMA\SONY\8_2\30.png
+INPUT .\Image\VARMA\SONY\8_2\30.png
+INPUT .\Image\VARMA\SONY\6_4\60.png
+INPUT .\Image\VARMA\SONY\6_4\60.png
+INPUT .\Image\VARMA\SONY\6_4\60.png
+INPUT .\Image\VARMA\SONY\6_4\60.png
+INPUT .\Image\VARMA\SONY\6_4\60.png
+INPUT .\Image\VARMA\SONY\6_4\60.png
+INPUT .\Image\VARMA\SONY\6_4\60.png
+INPUT .\Image\VARMA\SONY\7_3\60.png
+INPUT .\Image\VARMA\SONY\7_3\60.png
+INPUT .\Image\VARMA\SONY\7_3\60.png
+INPUT .\Image\VARMA\SONY\7_3\60.png
+INPUT .\Image\VARMA\SONY\7_3\60.png
+INPUT .\Image\VARMA\SONY\7_3\60.png
+INPUT .\Image\VARMA\SONY\7_3\60.png
+INPUT .\Image\VARMA\SONY\8_2\60.png
+INPUT .\Image\VARMA\SONY\8_2\60.png
+INPUT .\Image\VARMA\SONY\8_2\60.png
+INPUT .\Image\VARMA\SONY\8_2\60.png
+INPUT .\Image\VARMA\SONY\8_2\60.png
+INPUT .\Image\VARMA\SONY\8_2\60.png
+INPUT .\Image\VARMA\SONY\8_2\60.png
+INPUT .\Image\VARMA\SONY\6_4\90.png
+INPUT .\Image\VARMA\SONY\6_4\90.png
+INPUT .\Image\VARMA\SONY\6_4\90.png
+INPUT .\Image\VARMA\SONY\6_4\90.png
+INPUT .\Image\VARMA\SONY\6_4\90.png
+INPUT .\Image\VARMA\SONY\6_4\90.png
+INPUT .\Image\VARMA\SONY\6_4\90.png
+INPUT .\Image\VARMA\SONY\7_3\90.png
+INPUT .\Image\VARMA\SONY\7_3\90.png
+INPUT .\Image\VARMA\SONY\7_3\90.png
+INPUT .\Image\VARMA\SONY\7_3\90.png
+INPUT .\Image\VARMA\SONY\7_3\90.png
+INPUT .\Image\VARMA\SONY\7_3\90.png
+INPUT .\Image\VARMA\SONY\7_3\90.png
+INPUT .\Image\VARMA\SONY\8_2\90.png
+INPUT .\Image\VARMA\SONY\8_2\90.png
+INPUT .\Image\VARMA\SONY\8_2\90.png
+INPUT .\Image\VARMA\SONY\8_2\90.png
+INPUT .\Image\VARMA\SONY\8_2\90.png
+INPUT .\Image\VARMA\SONY\8_2\90.png
+INPUT .\Image\VARMA\SONY\8_2\90.png
+INPUT .\Image\VARMA\SAMSUNG\6_4\30.png
+INPUT .\Image\VARMA\SAMSUNG\6_4\30.png
+INPUT .\Image\VARMA\SAMSUNG\6_4\30.png
+INPUT .\Image\VARMA\SAMSUNG\6_4\30.png
+INPUT .\Image\VARMA\SAMSUNG\6_4\30.png
+INPUT .\Image\VARMA\SAMSUNG\6_4\30.png
+INPUT .\Image\VARMA\SAMSUNG\6_4\30.png
+INPUT .\Image\VARMA\SAMSUNG\7_3\30.png
+INPUT .\Image\VARMA\SAMSUNG\7_3\30.png
+INPUT .\Image\VARMA\SAMSUNG\7_3\30.png
+INPUT .\Image\VARMA\SAMSUNG\7_3\30.png
+INPUT .\Image\VARMA\SAMSUNG\7_3\30.png
+INPUT .\Image\VARMA\SAMSUNG\7_3\30.png
+INPUT .\Image\VARMA\SAMSUNG\7_3\30.png
+INPUT .\Image\VARMA\SAMSUNG\8_2\30.png
+INPUT .\Image\VARMA\SAMSUNG\8_2\30.png
+INPUT .\Image\VARMA\SAMSUNG\8_2\30.png
+INPUT .\Image\VARMA\SAMSUNG\8_2\30.png
+INPUT .\Image\VARMA\SAMSUNG\8_2\30.png
+INPUT .\Image\VARMA\SAMSUNG\8_2\30.png
+INPUT .\Image\VARMA\SAMSUNG\8_2\30.png
+INPUT .\Image\VARMA\SAMSUNG\6_4\60.png
+INPUT .\Image\VARMA\SAMSUNG\6_4\60.png
+INPUT .\Image\VARMA\SAMSUNG\6_4\60.png
+INPUT .\Image\VARMA\SAMSUNG\6_4\60.png
+INPUT .\Image\VARMA\SAMSUNG\6_4\60.png
+INPUT .\Image\VARMA\SAMSUNG\6_4\60.png
+INPUT .\Image\VARMA\SAMSUNG\6_4\60.png
+INPUT .\Image\VARMA\SAMSUNG\7_3\60.png
+INPUT .\Image\VARMA\SAMSUNG\7_3\60.png
+INPUT .\Image\VARMA\SAMSUNG\7_3\60.png
+INPUT .\Image\VARMA\SAMSUNG\7_3\60.png
+INPUT .\Image\VARMA\SAMSUNG\7_3\60.png
+INPUT .\Image\VARMA\SAMSUNG\7_3\60.png
+INPUT .\Image\VARMA\SAMSUNG\7_3\60.png
+INPUT .\Image\VARMA\SAMSUNG\8_2\60.png
+INPUT .\Image\VARMA\SAMSUNG\8_2\60.png
+INPUT .\Image\VARMA\SAMSUNG\8_2\60.png
+INPUT .\Image\VARMA\SAMSUNG\8_2\60.png
+INPUT .\Image\VARMA\SAMSUNG\8_2\60.png
+INPUT .\Image\VARMA\SAMSUNG\8_2\60.png
+INPUT .\Image\VARMA\SAMSUNG\8_2\60.png
+INPUT .\Image\VARMA\SAMSUNG\6_4\90.png
+INPUT .\Image\VARMA\SAMSUNG\6_4\90.png
+INPUT .\Image\VARMA\SAMSUNG\6_4\90.png
+INPUT .\Image\VARMA\SAMSUNG\6_4\90.png
+INPUT .\Image\VARMA\SAMSUNG\6_4\90.png
+INPUT .\Image\VARMA\SAMSUNG\6_4\90.png
+INPUT .\Image\VARMA\SAMSUNG\6_4\90.png
+INPUT .\Image\VARMA\SAMSUNG\7_3\90.png
+INPUT .\Image\VARMA\SAMSUNG\7_3\90.png
+INPUT .\Image\VARMA\SAMSUNG\7_3\90.png
+INPUT .\Image\VARMA\SAMSUNG\7_3\90.png
+INPUT .\Image\VARMA\SAMSUNG\7_3\90.png
+INPUT .\Image\VARMA\SAMSUNG\7_3\90.png
+INPUT .\Image\VARMA\SAMSUNG\7_3\90.png
+INPUT .\Image\VARMA\SAMSUNG\8_2\90.png
+INPUT .\Image\VARMA\SAMSUNG\8_2\90.png
+INPUT .\Image\VARMA\SAMSUNG\8_2\90.png
+INPUT .\Image\VARMA\SAMSUNG\8_2\90.png
+INPUT .\Image\VARMA\SAMSUNG\8_2\90.png
+INPUT .\Image\VARMA\SAMSUNG\8_2\90.png
+INPUT .\Image\VARMA\SAMSUNG\8_2\90.png
 INPUT .\Image\GradientBoosting\LG_6_4_GradientBoostingRegressor.png
 INPUT .\Image\GradientBoosting\LG_6_4_GradientBoostingRegressor.png
 INPUT .\Image\GradientBoosting\LG_6_4_GradientBoostingRegressor.png
@@ -723,80 +723,80 @@ INPUT .\Image\NBeat\N_BEAT_SAMSUNG_8_2.png
 INPUT .\Image\NBeat\N_BEAT_SAMSUNG_8_2.png
 INPUT .\Image\NBeat\N_BEAT_SAMSUNG_8_2.png
 INPUT .\Image\NBeat\N_BEAT_SAMSUNG_8_2.png
-INPUT .\Image\Light GBM\LightGBM_LG_6_4.png
-INPUT .\Image\Light GBM\LightGBM_LG_6_4.png
-INPUT .\Image\Light GBM\LightGBM_LG_6_4.png
-INPUT .\Image\Light GBM\LightGBM_LG_6_4.png
-INPUT .\Image\Light GBM\LightGBM_LG_6_4.png
-INPUT .\Image\Light GBM\LightGBM_LG_6_4.png
-INPUT .\Image\Light GBM\LightGBM_LG_6_4.png
-INPUT .\Image\Light GBM\LightGBM_LG_7_3.png
-INPUT .\Image\Light GBM\LightGBM_LG_7_3.png
-INPUT .\Image\Light GBM\LightGBM_LG_7_3.png
-INPUT .\Image\Light GBM\LightGBM_LG_7_3.png
-INPUT .\Image\Light GBM\LightGBM_LG_7_3.png
-INPUT .\Image\Light GBM\LightGBM_LG_7_3.png
-INPUT .\Image\Light GBM\LightGBM_LG_7_3.png
-INPUT .\Image\Light GBM\LightGBM_LG_8_2.png
-INPUT .\Image\Light GBM\LightGBM_LG_8_2.png
-INPUT .\Image\Light GBM\LightGBM_LG_8_2.png
-INPUT .\Image\Light GBM\LightGBM_LG_8_2.png
-INPUT .\Image\Light GBM\LightGBM_LG_8_2.png
-INPUT .\Image\Light GBM\LightGBM_LG_8_2.png
-INPUT .\Image\Light GBM\LightGBM_LG_8_2.png
-INPUT .\Image\Light GBM\LightGBM_SONY_6_4.png
-INPUT .\Image\Light GBM\LightGBM_SONY_6_4.png
-INPUT .\Image\Light GBM\LightGBM_SONY_6_4.png
-INPUT .\Image\Light GBM\LightGBM_SONY_6_4.png
-INPUT .\Image\Light GBM\LightGBM_SONY_6_4.png
-INPUT .\Image\Light GBM\LightGBM_SONY_6_4.png
-INPUT .\Image\Light GBM\LightGBM_SONY_6_4.png
-INPUT .\Image\Light GBM\Lightgbm_SONY_7_3.png
-INPUT .\Image\Light GBM\Lightgbm_SONY_7_3.png
-INPUT .\Image\Light GBM\Lightgbm_SONY_7_3.png
-INPUT .\Image\Light GBM\Lightgbm_SONY_7_3.png
-INPUT .\Image\Light GBM\Lightgbm_SONY_7_3.png
-INPUT .\Image\Light GBM\Lightgbm_SONY_7_3.png
-INPUT .\Image\Light GBM\Lightgbm_SONY_7_3.png
-INPUT .\Image\Light GBM\LightGBM_SONY_8_2.png
-INPUT .\Image\Light GBM\LightGBM_SONY_8_2.png
-INPUT .\Image\Light GBM\LightGBM_SONY_8_2.png
-INPUT .\Image\Light GBM\LightGBM_SONY_8_2.png
-INPUT .\Image\Light GBM\LightGBM_SONY_8_2.png
-INPUT .\Image\Light GBM\LightGBM_SONY_8_2.png
-INPUT .\Image\Light GBM\LightGBM_SONY_8_2.png
-INPUT .\Image\Light GBM\LightGBM_SS_6_4.png
-INPUT .\Image\Light GBM\LightGBM_SS_6_4.png
-INPUT .\Image\Light GBM\LightGBM_SS_6_4.png
-INPUT .\Image\Light GBM\LightGBM_SS_6_4.png
-INPUT .\Image\Light GBM\LightGBM_SS_6_4.png
-INPUT .\Image\Light GBM\LightGBM_SS_6_4.png
-INPUT .\Image\Light GBM\LightGBM_SS_6_4.png
-INPUT .\Image\Light GBM\LightGBM_SS_7_3.png
-INPUT .\Image\Light GBM\LightGBM_SS_7_3.png
-INPUT .\Image\Light GBM\LightGBM_SS_7_3.png
-INPUT .\Image\Light GBM\LightGBM_SS_7_3.png
-INPUT .\Image\Light GBM\LightGBM_SS_7_3.png
-INPUT .\Image\Light GBM\LightGBM_SS_7_3.png
-INPUT .\Image\Light GBM\LightGBM_SS_7_3.png
-INPUT .\Image\Light GBM\LightGBM_SS_8_2.png
-INPUT .\Image\Light GBM\LightGBM_SS_8_2.png
-INPUT .\Image\Light GBM\LightGBM_SS_8_2.png
-INPUT .\Image\Light GBM\LightGBM_SS_8_2.png
-INPUT .\Image\Light GBM\LightGBM_SS_8_2.png
-INPUT .\Image\Light GBM\LightGBM_SS_8_2.png
-INPUT .\Image\Light GBM\LightGBM_SS_8_2.png
-INPUT .\Image\ket qua\LG_metrics.png
-INPUT .\Image\ket qua\LG_metrics.png
-INPUT .\Image\ket qua\LG_metrics.png
-INPUT .\Image\ket qua\LG_metrics.png
-INPUT .\Image\ket qua\LG_metrics.png
-INPUT .\Image\ket qua\LG_metrics.png
-INPUT .\Image\ket qua\LG_metrics.png
 INPUT .\Image\logo186x150.png
 INPUT .\Image\logo186x150.png
 INPUT .\Image\logo186x150.png
 INPUT .\Image\logo186x150.png
+INPUT .\Image\Light GBM\LightGBM_LG_6_4.png
+INPUT .\Image\Light GBM\LightGBM_LG_6_4.png
+INPUT .\Image\Light GBM\LightGBM_LG_6_4.png
+INPUT .\Image\Light GBM\LightGBM_LG_6_4.png
+INPUT .\Image\Light GBM\LightGBM_LG_6_4.png
+INPUT .\Image\Light GBM\LightGBM_LG_6_4.png
+INPUT .\Image\Light GBM\LightGBM_LG_6_4.png
+INPUT .\Image\Light GBM\LightGBM_LG_7_3.png
+INPUT .\Image\Light GBM\LightGBM_LG_7_3.png
+INPUT .\Image\Light GBM\LightGBM_LG_7_3.png
+INPUT .\Image\Light GBM\LightGBM_LG_7_3.png
+INPUT .\Image\Light GBM\LightGBM_LG_7_3.png
+INPUT .\Image\Light GBM\LightGBM_LG_7_3.png
+INPUT .\Image\Light GBM\LightGBM_LG_7_3.png
+INPUT .\Image\Light GBM\LightGBM_LG_8_2.png
+INPUT .\Image\Light GBM\LightGBM_LG_8_2.png
+INPUT .\Image\Light GBM\LightGBM_LG_8_2.png
+INPUT .\Image\Light GBM\LightGBM_LG_8_2.png
+INPUT .\Image\Light GBM\LightGBM_LG_8_2.png
+INPUT .\Image\Light GBM\LightGBM_LG_8_2.png
+INPUT .\Image\Light GBM\LightGBM_LG_8_2.png
+INPUT .\Image\Light GBM\LightGBM_SONY_6_4.png
+INPUT .\Image\Light GBM\LightGBM_SONY_6_4.png
+INPUT .\Image\Light GBM\LightGBM_SONY_6_4.png
+INPUT .\Image\Light GBM\LightGBM_SONY_6_4.png
+INPUT .\Image\Light GBM\LightGBM_SONY_6_4.png
+INPUT .\Image\Light GBM\LightGBM_SONY_6_4.png
+INPUT .\Image\Light GBM\LightGBM_SONY_6_4.png
+INPUT .\Image\Light GBM\Lightgbm_SONY_7_3.png
+INPUT .\Image\Light GBM\Lightgbm_SONY_7_3.png
+INPUT .\Image\Light GBM\Lightgbm_SONY_7_3.png
+INPUT .\Image\Light GBM\Lightgbm_SONY_7_3.png
+INPUT .\Image\Light GBM\Lightgbm_SONY_7_3.png
+INPUT .\Image\Light GBM\Lightgbm_SONY_7_3.png
+INPUT .\Image\Light GBM\Lightgbm_SONY_7_3.png
+INPUT .\Image\Light GBM\LightGBM_SONY_8_2.png
+INPUT .\Image\Light GBM\LightGBM_SONY_8_2.png
+INPUT .\Image\Light GBM\LightGBM_SONY_8_2.png
+INPUT .\Image\Light GBM\LightGBM_SONY_8_2.png
+INPUT .\Image\Light GBM\LightGBM_SONY_8_2.png
+INPUT .\Image\Light GBM\LightGBM_SONY_8_2.png
+INPUT .\Image\Light GBM\LightGBM_SONY_8_2.png
+INPUT .\Image\Light GBM\LightGBM_SS_6_4.png
+INPUT .\Image\Light GBM\LightGBM_SS_6_4.png
+INPUT .\Image\Light GBM\LightGBM_SS_6_4.png
+INPUT .\Image\Light GBM\LightGBM_SS_6_4.png
+INPUT .\Image\Light GBM\LightGBM_SS_6_4.png
+INPUT .\Image\Light GBM\LightGBM_SS_6_4.png
+INPUT .\Image\Light GBM\LightGBM_SS_6_4.png
+INPUT .\Image\Light GBM\LightGBM_SS_7_3.png
+INPUT .\Image\Light GBM\LightGBM_SS_7_3.png
+INPUT .\Image\Light GBM\LightGBM_SS_7_3.png
+INPUT .\Image\Light GBM\LightGBM_SS_7_3.png
+INPUT .\Image\Light GBM\LightGBM_SS_7_3.png
+INPUT .\Image\Light GBM\LightGBM_SS_7_3.png
+INPUT .\Image\Light GBM\LightGBM_SS_7_3.png
+INPUT .\Image\Light GBM\LightGBM_SS_8_2.png
+INPUT .\Image\Light GBM\LightGBM_SS_8_2.png
+INPUT .\Image\Light GBM\LightGBM_SS_8_2.png
+INPUT .\Image\Light GBM\LightGBM_SS_8_2.png
+INPUT .\Image\Light GBM\LightGBM_SS_8_2.png
+INPUT .\Image\Light GBM\LightGBM_SS_8_2.png
+INPUT .\Image\Light GBM\LightGBM_SS_8_2.png
+INPUT .\Image\ket qua\LG_metrics.png
+INPUT .\Image\ket qua\LG_metrics.png
+INPUT .\Image\ket qua\LG_metrics.png
+INPUT .\Image\ket qua\LG_metrics.png
+INPUT .\Image\ket qua\LG_metrics.png
+INPUT .\Image\ket qua\LG_metrics.png
+INPUT .\Image\ket qua\LG_metrics.png
 INPUT .\Image\ket qua\SONY_metrics.png
 INPUT .\Image\ket qua\SONY_metrics.png
 INPUT .\Image\ket qua\SONY_metrics.png
@@ -811,6 +811,10 @@ INPUT .\Image\ket qua\SS_metrics.png
 INPUT .\Image\ket qua\SS_metrics.png
 INPUT .\Image\ket qua\SS_metrics.png
 INPUT .\Image\ket qua\SS_metrics.png
+INPUT .\Image\logo186x150.png
+INPUT .\Image\logo186x150.png
+INPUT .\Image\logo186x150.png
+INPUT .\Image\logo186x150.png
 INPUT .\Image\logo186x150.png
 INPUT .\Image\logo186x150.png
 INPUT .\Image\logo186x150.png
