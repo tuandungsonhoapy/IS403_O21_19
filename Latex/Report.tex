@@ -1,38 +1,75 @@
-\documentclass{article}
-\usepackage[margin=1in]{geometry}
-\usepackage[utf8]{vietnam}
-\usepackage{hyperref}
+\documentclass[conference]{IEEEtran}
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese]{babel}
 \usepackage{cite}
 \usepackage{amsmath,amssymb,amsfonts}
 \usepackage{algorithmic}
 \usepackage{graphicx}
 \usepackage{textcomp}
-\usepackage{array}
 \usepackage[table]{xcolor}
-\usepackage{multirow}
-\usepackage{multicol}
+\usepackage{caption}
+\usepackage{subcaption}
 \usepackage{float}
-\usepackage[vietnamese]{babel}
-\usepackage{titling}
-\usepackage{indentfirst}
+\usepackage{placeins}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{} 
+\fancyfoot[C]{\thepage} 
+\fancyhead[L]{TRƯỜNG ĐẠI HỌC CÔNG NGHỆ THÔNG TIN - ĐHQGTPHCM}
+\fancyhead[R]{\includegraphics[height=15pt]{Image/logo186x150.png}} 
+\renewcommand{\footrulewidth}{0.4pt}
+
+\titlespacing*{\subsubsection}{0pt}{*1}{*1}
+
+\IEEEoverridecommandlockouts
 
 
-\pretitle{\begin{center}\fontsize{40pt}{40pt}\bfseries} % Chỉnh kích thước và định dạng cho phần tiêu đề
-\posttitle{\end{center}} % Kết thúc định dạng cho phần tiêu đề
 
-\setlength{\droptitle}{-4em} % Điều chỉnh khoảng cách giữa tiêu đề và nội dung
 
 \begin{document}
 
-\title{Phân tích, dự đoán giá chứng khoản bằng mô hình thống kê}
+\title{Phân tích, dự đoán giá chứng khoán bằng mô hình thống kê, học máy và học sâu}
 \author{
-  \begin{tabular}{l}
-    \textbf{Trần Thị Mỹ Xoan - 21522815 } \\
-    \textbf{Lê Anh Tuấn Dũng - 21521974} \\
-    \textbf{Lê Thị Ánh Hồng - 21520245} \\
-    \textbf{Nguyễn Thị Mai Liên - 21522283} \\
-    \textbf{Đỗ Sĩ Đạt - 21521932}
-  \end{tabular}
+    \IEEEauthorblockN{Lê Anh Tuấn Dũng}
+    \IEEEauthorblockA{
+        MSSV: 21521974 \\
+        Trường đại học Công Nghệ Thông Tin\\
+        Khoa Hệ Thống Thông Tin\\
+        21521974@gm.uit.edu.vn
+    }
+    \and
+    \IEEEauthorblockN{Đỗ Sĩ Đạt}
+    \IEEEauthorblockA{
+        MSSV: 21521932 \\
+        Trường đại học Công Nghệ Thông Tin\\
+        Khoa Hệ Thống Thông Tin \\
+        21521932@gm.uit.edu.vn
+    }
+    \and
+    \IEEEauthorblockN{Lê Thị Ánh Hồng}
+    \IEEEauthorblockA{
+        MSSV: 21520245 \\
+        Trường đại học Công Nghệ Thông Tin\\
+        Khoa Hệ Thống Thông Tin \\
+        21520245@gm.uit.edu.vn
+    }
+    \and
+    \IEEEauthorblockN{Nguyễn Thị Mai Liên}
+    \IEEEauthorblockA{
+        MSSV: 21522283 \\
+        Trường đại học Công Nghệ Thông Tin\\
+        Khoa Hệ Thống Thông Tin \\
+        21522283@gm.uit.edu.vn
+    }
+    \and
+    \IEEEauthorblockN{Trần Thị Mỹ Xoan}
+    \IEEEauthorblockA{
+        MSSV: 21522815 \\
+        Trường đại học Công Nghệ Thông Tin\\
+        Khoa Hệ Thống Thông Tin \\
+        21522815@gm.uit.edu.vn
+    }
 }
 
 
@@ -52,7 +89,7 @@ Khi thực hiện đầu tư vào các cổ phiếu chứng khoán, việc sử 
 \textbf{Từ khoá:} VARMA, XGBoost, NBeats, Gradient Boosting, LightGBM. Mô hình thống kê, mô hình học máy, mô hình học sâu, dự đoán giá chứng khoán.
 
 
-\begin{multicols}{2}
+
 
 \section{GIỚI THIỆU}
 
@@ -1059,10 +1096,10 @@ Nâng cấp thuật toán: Khám phá các phương pháp tiên tiến như Họ
 Đánh giá thông minh hơn: Áp dụng các chỉ số tiêu chuẩn trong ngành như MASE, MAPE và SMAPE để đánh giá toàn diện hiệu quả của các mô hình.
 Hợp tác: Tích cực hợp tác với các chuyên gia trong các cộng đồng chuyên môn để chia sẻ kinh nghiệm và mở rộng nền tảng kiến thức của chúng tôi.
 
-\section{NHÌN NHẬN  }
+\section*{NHÌN NHẬN  }
 
 
-\section{TÀI LIỆU THAM KHẢO}
+\section*{TÀI LIỆU THAM KHẢO}
 
 
 [1] : Mojtaba Nabipour; Pooyan Nayyeri; Hamed Jabani; Shahab S.; Amir Mosavi , "Predicting Stock Market Trends Using Machine Learning and Deep Learning Algorithms Via Continuous and Binary Data; a Comparative Analysis" , 2020. 
@@ -1080,6 +1117,6 @@ Hợp tác: Tích cực hợp tác với các chuyên gia trong các cộng đ�
 Decision Tree" , 31st Conference on Neural Information Processing Systems (NIPS 2017).
 \bibliographystyle{plain}
 
-\end{multicols}
+
 \end{document}
 
