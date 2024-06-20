@@ -240,11 +240,9 @@ trong đó:
     \item $\hat{y}_i$ là giá trị dự đoán
 \end{itemize}
 
-Trong phân tích hồi quy, việc vẽ biểu đồ là một cách trực quan để xem xu hướng chung của dữ liệu. MSE cho bạn biết mức độ gần của đường hồi quy với tập hợp các điểm dữ liệu. Cụ thể, MSE đo khoảng cách từ các điểm dữ liệu đến đường hồi quy (các khoảng cách này là “sai số”) và bình phương chúng. Việc bình phương sai số là rất quan trọng vì nó loại bỏ các dấu âm và làm tăng trọng số của các sai số lớn.
-
-Để giảm thiểu MSE, mô hình cần dự đoán chính xác hơn, tức là gần với dữ liệu thực tế hơn. Một ví dụ về hồi quy tuyến tính sử dụng phương pháp này là phương pháp bình phương nhỏ nhất. Phương pháp này đánh giá sự phù hợp của mô hình hồi quy tuyến tính với tập dữ liệu hai biến. Tuy nhiên, nó có giới hạn liên quan đến phân phối dữ liệu đã biết.
-
-MSE càng thấp thì dự báo càng tốt.
+Trong phân tích hồi quy, biểu đồ giúp trực quan hóa xu hướng dữ liệu. MSE (Mean Squared Error) đo mức độ gần của đường hồi quy với các điểm dữ liệu bằng cách tính khoảng cách từ các điểm đến đường hồi quy, rồi bình phương các khoảng cách này. Bình phương giúp loại bỏ dấu âm và tăng trọng số cho các sai số lớn.\\
+Để giảm thiểu MSE, mô hình cần dự đoán chính xác hơn, tức gần với dữ liệu thực tế hơn. Ví dụ, hồi quy tuyến tính sử dụng phương pháp bình phương nhỏ nhất để đánh giá sự phù hợp của mô hình với dữ liệu hai biến. Tuy nhiên, phương pháp này có giới hạn nếu phân phối dữ liệu không phù hợp\\
+MSE càng thấp thì dự báo càng tốt.\\
 
 
 \subsubsection{Root Mean Square Error(RMSE)}
@@ -263,14 +261,8 @@ trong đó:
     \item $\hat{y}_i$ là giá trị dự đoán
 \end{itemize}
 
-Ảnh hưởng của mỗi lỗi đối với RMSE tỷ lệ với kích thước của lỗi bình phương, do đó các sai số lớn hơn có ảnh hưởng lớn đến RMSE một cách không cân xứng. Vì lý do này, RMSE nhạy cảm với các yếu tố ngoại lai. RMSE thường được sử dụng trong khí hậu học, dự báo, và phân tích hồi quy để xác minh kết quả thực nghiệm.
-
-Khi các quan sát và dự báo được chuẩn hóa, RMSE có mối quan hệ trực tiếp với hệ số tương quan. Ví dụ, nếu hệ số tương quan là 1, RMSE sẽ bằng 0 vì tất cả các điểm nằm trên đường hồi quy (không có sai số).
-
-RMSE luôn không âm, và giá trị 0 (hầu như không bao giờ đạt được trong thực tế) chỉ ra sự phù hợp hoàn hảo với dữ liệu. Nói chung, RMSE thấp hơn cho thấy mô hình tốt hơn so với RMSE cao hơn.
-
+RMSE (Root Mean Squared Error) chịu ảnh hưởng mạnh bởi các sai số lớn, khiến nó nhạy cảm với các yếu tố ngoại lai. RMSE được dùng trong khí hậu học, dự báo và phân tích hồi quy để kiểm tra kết quả. Khi dữ liệu được chuẩn hóa, RMSE liên quan trực tiếp đến hệ số tương quan; hệ số tương quan bằng 1 thì RMSE bằng 0, chỉ ra không có sai số. RMSE luôn không âm và càng gần 0 thì mô hình càng tốt.
  
-
 \subsubsection{Mean Absolute Percentage Error(MAPE)}
 
 Mean Absolute Percentage Error (MAPE) là một số liệu được sử dụng để đo lường độ chính xác của các dự đoán trong các mô hình dự báo. MAPE tính toán sai số tuyệt đối trung bình dưới dạng phần trăm của giá trị thực tế, giúp đánh giá mức độ chính xác của dự đoán một cách dễ hiểu và so sánh dễ dàng giữa các tập dữ liệu khác nhau.
@@ -568,6 +560,75 @@ Trong đó:
     \caption{Kết quả với dataset SAMSUNG}
 \end{figure}
 
+\subsubsection{ARIMA}
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/LG_6_4_Arima.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/LG_7_3_Arima.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/LG_8_2_Arima.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{ARIMA model's result with LG dataset }
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/SAMSUNG_6_4_Arima.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/SAMSUNG_7_3_Arima.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/SAMSUNG_8_2_Arima.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{ARIMA model's result with SAMSUNG dataset }
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/SONY_6_4_Arima.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/SONY_7_3_Arima.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/ARIMA/SONY_8_2_Arima.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{ARIMA model's result with SONY dataset }
+\end{figure}
 
 \subsubsection{VARMA}
 
@@ -638,6 +699,77 @@ Trong đó:
     \label{fig:3}
     \end{minipage}
     \caption{ SAMSUNG 30, 60, 90 DAYS  6:4, 7:3, 8:2 }
+\end{figure}
+
+\subsubsection{GRADIENTBOOSTINGREGRESSOR}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/GradientBoosting/LG_6_4_GradientBoostingRegressor.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/GradientBoosting/LG_7_3_GradientBoostingRegressor.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/GradientBoosting/LG_8_2_GradientBoostingRegressor.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{Gradient Boosting Regressor model's result with LG dataset }
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/GradientBoosting/SAMSUNG_6_4_GradientBoostingRegressor.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/GradientBoosting/SAMSUNG_7_3_GradientBoostingRegressor.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/GradientBoosting/SAMSUNG_8_2_GradientBoostingRegressor.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{Gradient Boosting Regressor model's result with SAMSUNG dataset }
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/GradientBoosting/SONY_6_4_GradientBoostingRegressor.png}
+   
+    \label{fig:1}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/GradientBoosting/SONY_7_3_GradientBoostingRegressor.png}
+  
+    \label{fig:2}
+    \end{minipage}%
+    \begin{minipage}{0.15\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{Image/GradientBoosting/SONY_8_2_GradientBoostingRegressor.png}
+
+    \label{fig:3}
+    \end{minipage}
+    \caption{Gradient Boosting Regressor model's result with SONY dataset }
 \end{figure}
 
 \subsubsection{XGBOOST}
@@ -899,6 +1031,10 @@ Nâng cấp thuật toán: Khám phá các phương pháp tiên tiến như Họ
 Hợp tác: Tích cực hợp tác với các chuyên gia trong các cộng đồng chuyên môn để chia sẻ kinh nghiệm và mở rộng nền tảng kiến thức của chúng tôi.
 
 \section*{NHÌN NHẬN  }
+
+Nhóm chúng em xin gửi lời cảm ơn sâu sắc đến thầy Nguyễn Đình Thuân và thầy Nguyễn Minh Nhựt đã trang bị cho chúng em có được những kiến thức căn bản vững chắc để có thể thực hiện đồ án lần này. Ngoài ra, xin cảm ơn đến tất cả sự đóng góp của các thành viên trong nhóm, những người đã chăm chỉ và hoàn thành nhiệm vụ của mình đúng hạn để có thể hoàn thiện một cách đầy đủ nhất. 
+Trong quá trình nghiên cứu và thực hiện đồ án, nhóm chúng em đã kết hợp giữa những kiến thức căn bản và những gì được thầy trao đổi và truyền đạt trên lớp để cố gắng hoàn thiện đồ án tốt nhất có thể.Tuy nhiên, trong đồ án của chúng em vẫn còn một vài thiếu sót nhưng nó là kết quả của sự nỗ lực và cố gắng của các thành viên trong nhóm cũng như sự giúp đỡ từ bạn bè và Thầy. Nhóm rất mong nhận được sự góp ý từ phía Thầy nhằm rút ra được những kinh nghiệm quý báu và hoàn thiện vốn kiến thức của mình để có thể tiếp tục hoàn thành được những đồ án khác ở trong tương lai. 
+Lời cuối cùng, nhóm chúng em xin chúc quý Thầy thật nhiều sức khỏe và niềm vui để có thể tiếp tục giảng dạy và truyền đạt thật nhiều kiến thức bổ ích đến cho những sinh viên khác. Chúng em xin chân thành cảm ơn! 
 
 
 \section*{TÀI LIỆU THAM KHẢO}
