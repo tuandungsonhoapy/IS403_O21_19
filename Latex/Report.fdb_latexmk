@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1718858951.9291 "d:/New folder/IS403_O21_19/Latex/Report.tex" "Report.pdf" "Report" 1718858961.50516 0
+["pdflatex"] 1718860710.33927 "d:/New folder/IS403_O21_19/Latex/Report.tex" "Report.pdf" "Report" 1718860719.82794 0
   "Image/DatasetImg/LG_Boxplot.png" 1718858238.46181 43275 6fdc3b9cada628d19839db2d49d982da ""
   "Image/DatasetImg/LG_LineChart.png" 1718858238.46181 49848 060651cd779fb34965b4e6ab3af231e6 ""
   "Image/DatasetImg/SAMSUNG_Boxplot.png" 1718858238.46181 40226 64e763609dfdaf2041a87f94a3b8cd3f ""
@@ -59,6 +59,15 @@
   "Image/Light GBM/SS_8_2_60.png" 1718858238.62052 87198 cca4e943ed644ef6b8fbc4f7729ba961 ""
   "Image/Light GBM/SS_8_2_90.png" 1718858238.63617 64700 fb299abe8691711a3aaa6f2d582399f5 ""
   "Image/Light GBM/Sn_8_2_60.png" 1718858238.63617 68707 faddcfab64396fdd97c2fe4a14538b99 ""
+  "Image/Linear/Linear_LG_6_4.png" 1718859805.75806 92299 42609a624516048e0979f6e7491da9b9 ""
+  "Image/Linear/Linear_LG_7_3.png" 1718859723.4667 96414 235fd13219efb2b1344481c8129c3811 ""
+  "Image/Linear/Linear_LG_8_2.png" 1718859888.49234 93866 4b3d46a34627aa9992b77991ab3008bc ""
+  "Image/Linear/Linear_SAMSUNG_6_4.png" 1718860199.19899 99650 6dd88c3c0874a9fcdbb3e5c657dcd65f ""
+  "Image/Linear/Linear_SAMSUNG_7_3.png" 1718859965.09595 99160 435f549e19ab8128bd6c10772517cc85 ""
+  "Image/Linear/Linear_SAMSUNG_8_2.png" 1718860174.31437 96936 103460d767b6e7455bc431169be8a2a8 ""
+  "Image/Linear/Linear_SONY_6_4.png" 1718860140.54642 87356 a0ce3e68f85d10b89e44f10ec0c32afe ""
+  "Image/Linear/Linear_SONY_7_3.png" 1718860062.32288 92231 55181db5bdf19f250fa8ca7699860ebc ""
+  "Image/Linear/Linear_SONY_8_2.png" 1718860108.6829 92113 9a2f6a456506a421a15ff57d030d099b ""
   "Image/NBeat/N_BEAT_LG_6_4.png" 1718856560.9615 129062 9bac536b97459d6f5ba113193199f77d ""
   "Image/NBeat/N_BEAT_LG_7_3.png" 1718856112.1588 135278 c987a98eb015a7ff7ae392fca5589158 ""
   "Image/NBeat/N_BEAT_LG_8_2.png" 1718856510.65424 127848 02b3b70cc91797f29b549ab478c3c66c ""
@@ -107,8 +116,8 @@
   "Image/ket qua/LG.png" 1718858238.92146 36741 fb2ade772131e72041d96d743d574570 ""
   "Image/ket qua/SAMSUNG.png" 1718858238.92146 34431 bfa235ce3dac7384dc0fd7805f2267f6 ""
   "Image/ket qua/SONY.png" 1718858238.92393 25554 3bad4d4602e25181be1f0a71eb2b8914 ""
-  "Report.aux" 1718858961.02854 17023 79d0199465725be9f76940b7070619bb "pdflatex"
-  "Report.out" 1718858961.05521 6252 4b9c429a9c2a1c8dfc0890207db80c13 "pdflatex"
+  "Report.aux" 1718860719.38738 18213 aab1521dd8cd6995a1016ea5f2f77af0 "pdflatex"
+  "Report.out" 1718860719.40771 6408 43b15c99918adfb3333f71cb633604f0 "pdflatex"
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1717935334.60429 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1717935876.39375 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1717935619.41872 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -244,7 +253,7 @@
   "c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1717939533 5513072 5672c69cf1e0061764ebcb432d8ab7db ""
   "c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1717939785 8221513 c7609e2cfc06473dd12a449b3a4914e1 ""
   "c:/texlive/2024/texmf.cnf" 1717939497.20487 713 baa45e065482d44c4cd81b98ef72c63b ""
-  "d:/New folder/IS403_O21_19/Latex/Report.tex" 1718858933.09843 60418 4899d6d2dd1800c1a419dece6c7cd4a8 ""
+  "d:/New folder/IS403_O21_19/Latex/Report.tex" 1718860698.25544 62342 81a3529fa4833fdda60aa6b8c6d8c6d4 ""
   "image.png" 1718858239.34161 47681 b1ef9e9af869ecc2d436f0a59aa6c0d3 ""
   (generated)
   "Report.aux"
