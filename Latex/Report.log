@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.8)  20 JUN 2024 18:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.8)  20 JUN 2024 20:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -603,60 +603,6 @@ LaTeX Warning: Label `fig:1' multiply defined.
 
 
 LaTeX Warning: Label `fig:2' multiply defined.
-
-
-LaTeX Warning: Label `fig:1' multiply defined.
-
-
-LaTeX Warning: Label `fig:2' multiply defined.
-
-
-LaTeX Warning: Label `fig:3' multiply defined.
-
-
-LaTeX Warning: Label `fig:1' multiply defined.
-
-
-LaTeX Warning: Label `fig:2' multiply defined.
-
-
-LaTeX Warning: Label `fig:3' multiply defined.
-
-
-LaTeX Warning: Label `fig:1' multiply defined.
-
-
-LaTeX Warning: Label `fig:2' multiply defined.
-
-
-LaTeX Warning: Label `fig:3' multiply defined.
-
-
-LaTeX Warning: Label `fig:1' multiply defined.
-
-
-LaTeX Warning: Label `fig:2' multiply defined.
-
-
-LaTeX Warning: Label `fig:3' multiply defined.
-
-
-LaTeX Warning: Label `fig:1' multiply defined.
-
-
-LaTeX Warning: Label `fig:2' multiply defined.
-
-
-LaTeX Warning: Label `fig:3' multiply defined.
-
-
-LaTeX Warning: Label `fig:1' multiply defined.
-
-
-LaTeX Warning: Label `fig:2' multiply defined.
-
-
-LaTeX Warning: Label `fig:3' multiply defined.
 
 
 LaTeX Warning: Label `fig:1' multiply defined.
@@ -1537,224 +1483,104 @@ File: Image/NBeat/N_BEAT_SAMSUNG_8_2.png Graphic file (type png)
 <use Image/NBeat/N_BEAT_SAMSUNG_8_2.png>
 Package pdftex.def Info: Image/NBeat/N_BEAT_SAMSUNG_8_2.png  used on input line 952.
 (pdftex.def)             Requested size: 70.46037pt x 37.36047pt.
-<Image/Light GBM/LG_6_4_30.png, id=363, 612.03656pt x 431.36156pt>
-File: Image/Light GBM/LG_6_4_30.png Graphic file (type png)
-<use Image/Light GBM/LG_6_4_30.png>
-Package pdftex.def Info: Image/Light GBM/LG_6_4_30.png  used on input line 967.
-(pdftex.def)             Requested size: 70.46037pt x 49.65489pt.
-<Image/Light GBM/LG_7_3_30.png, id=364, 615.0478pt x 436.63126pt>
-File: Image/Light GBM/LG_7_3_30.png Graphic file (type png)
-<use Image/Light GBM/LG_7_3_30.png>
-Package pdftex.def Info: Image/Light GBM/LG_7_3_30.png  used on input line 973.
-(pdftex.def)             Requested size: 70.46037pt x 50.01498pt.
-<Image/Light GBM/LG_8_2_30.png, id=365, 621.07031pt x 422.32782pt>
-File: Image/Light GBM/LG_8_2_30.png Graphic file (type png)
-<use Image/Light GBM/LG_8_2_30.png>
-Package pdftex.def Info: Image/Light GBM/LG_8_2_30.png  used on input line 979.
-(pdftex.def)             Requested size: 70.46037pt x 47.91258pt.
-<Image/Light GBM/LG_6_4_60.png, id=366, 599.99156pt x 439.6425pt>
-File: Image/Light GBM/LG_6_4_60.png Graphic file (type png)
-<use Image/Light GBM/LG_6_4_60.png>
-Package pdftex.def Info: Image/Light GBM/LG_6_4_60.png  used on input line 990.
-(pdftex.def)             Requested size: 70.46037pt x 51.6278pt.
-<Image/Light GBM/LG_7_3_60.png, id=367, 590.205pt x 430.60875pt>
-File: Image/Light GBM/LG_7_3_60.png Graphic file (type png)
-<use Image/Light GBM/LG_7_3_60.png>
-Package pdftex.def Info: Image/Light GBM/LG_7_3_60.png  used on input line 996.
-(pdftex.def)             Requested size: 70.46037pt x 51.40141pt.
-<Image/Light GBM/LG_8_2_60.png, id=368, 589.4522pt x 417.81094pt>
-File: Image/Light GBM/LG_8_2_60.png Graphic file (type png)
-<use Image/Light GBM/LG_8_2_60.png>
-Package pdftex.def Info: Image/Light GBM/LG_8_2_60.png  used on input line 1002.
-(pdftex.def)             Requested size: 70.46037pt x 49.93752pt.
-<Image/Light GBM/LG_6_4_90.png, id=369, 589.4522pt x 422.32782pt>
-File: Image/Light GBM/LG_6_4_90.png Graphic file (type png)
-<use Image/Light GBM/LG_6_4_90.png>
-Package pdftex.def Info: Image/Light GBM/LG_6_4_90.png  used on input line 1013.
-(pdftex.def)             Requested size: 70.46037pt x 50.47737pt.
-<Image/Light GBM/LG_7_3_90.png, id=370, 631.60968pt x 444.15938pt>
-File: Image/Light GBM/LG_7_3_90.png Graphic file (type png)
-<use Image/Light GBM/LG_7_3_90.png>
-Package pdftex.def Info: Image/Light GBM/LG_7_3_90.png  used on input line 1019.
-(pdftex.def)             Requested size: 70.46037pt x 49.54897pt.
-<Image/Light GBM/LG_8_2_90.png, id=371, 594.72188pt x 426.09187pt>
-File: Image/Light GBM/LG_8_2_90.png Graphic file (type png)
-<use Image/Light GBM/LG_8_2_90.png>
-Package pdftex.def Info: Image/Light GBM/LG_8_2_90.png  used on input line 1025.
-(pdftex.def)             Requested size: 70.46037pt x 50.47865pt.
-<Image/Light GBM/SN_6_4_30.png, id=372, 627.09282pt x 430.60875pt>
-File: Image/Light GBM/SN_6_4_30.png Graphic file (type png)
-<use Image/Light GBM/SN_6_4_30.png>
-Package pdftex.def Info: Image/Light GBM/SN_6_4_30.png  used on input line 1036.
-(pdftex.def)             Requested size: 70.46037pt x 48.37897pt.
-<Image/Light GBM/SN_7_3_30.png, id=373, 624.08156pt x 459.21562pt>
-File: Image/Light GBM/SN_7_3_30.png Graphic file (type png)
-<use Image/Light GBM/SN_7_3_30.png>
-Package pdftex.def Info: Image/Light GBM/SN_7_3_30.png  used on input line 1042.
-(pdftex.def)             Requested size: 70.46037pt x 51.84521pt.
-<Image/Light GBM/SN_8_2_30.png, id=374, 617.30624pt x 415.5525pt>
-File: Image/Light GBM/SN_8_2_30.png Graphic file (type png)
-<use Image/Light GBM/SN_8_2_30.png>
-Package pdftex.def Info: Image/Light GBM/SN_8_2_30.png  used on input line 1048.
-(pdftex.def)             Requested size: 70.46037pt x 47.42928pt.
-<Image/Light GBM/SN_6_4_60.png, id=375, 563.10374pt x 431.36156pt>
-File: Image/Light GBM/SN_6_4_60.png Graphic file (type png)
-<use Image/Light GBM/SN_6_4_60.png>
-Package pdftex.def Info: Image/Light GBM/SN_6_4_60.png  used on input line 1059.
-(pdftex.def)             Requested size: 70.46037pt x 53.97272pt.
-<Image/Light GBM/SN_7_3_60.png, id=376, 621.82312pt x 440.39531pt>
-File: Image/Light GBM/SN_7_3_60.png Graphic file (type png)
-<use Image/Light GBM/SN_7_3_60.png>
-Package pdftex.def Info: Image/Light GBM/SN_7_3_60.png  used on input line 1065.
-(pdftex.def)             Requested size: 70.46037pt x 49.90184pt.
-<Image/Light GBM/Sn_8_2_60.png, id=377, 617.30624pt x 423.83344pt>
-File: Image/Light GBM/Sn_8_2_60.png Graphic file (type png)
-<use Image/Light GBM/Sn_8_2_60.png>
-Package pdftex.def Info: Image/Light GBM/Sn_8_2_60.png  used on input line 1071.
-(pdftex.def)             Requested size: 70.46037pt x 48.37442pt.
-<Image/Light GBM/SN_6_4_90.png, id=378, 567.62062pt x 408.02437pt>
-File: Image/Light GBM/SN_6_4_90.png Graphic file (type png)
-<use Image/Light GBM/SN_6_4_90.png>
-Package pdftex.def Info: Image/Light GBM/SN_6_4_90.png  used on input line 1083.
-(pdftex.def)             Requested size: 70.46037pt x 50.64804pt.
-File: Image/Light GBM/LG_7_3_90.png Graphic file (type png)
-<use Image/Light GBM/LG_7_3_90.png>
-Package pdftex.def Info: Image/Light GBM/LG_7_3_90.png  used on input line 1089.
-(pdftex.def)             Requested size: 70.46037pt x 49.54897pt.
-<Image/Light GBM/SN_8_2_90.png, id=379, 590.205pt x 440.39531pt>
-File: Image/Light GBM/SN_8_2_90.png Graphic file (type png)
-<use Image/Light GBM/SN_8_2_90.png>
-Package pdftex.def Info: Image/Light GBM/SN_8_2_90.png  used on input line 1095.
-(pdftex.def)             Requested size: 70.46037pt x 52.56964pt.
-<Image/Light GBM/SS_6_4__30.png, id=380, 600.74437pt x 425.33907pt>
-File: Image/Light GBM/SS_6_4__30.png Graphic file (type png)
-<use Image/Light GBM/SS_6_4__30.png>
-Package pdftex.def Info: Image/Light GBM/SS_6_4__30.png  used on input line 1107.
-(pdftex.def)             Requested size: 70.46037pt x 49.88322pt.
-<Image/Light GBM/SS_7_3_30.png, id=381, 643.6547pt x 462.97969pt>
-File: Image/Light GBM/SS_7_3_30.png Graphic file (type png)
-<use Image/Light GBM/SS_7_3_30.png>
-Package pdftex.def Info: Image/Light GBM/SS_7_3_30.png  used on input line 1113.
-(pdftex.def)             Requested size: 70.46037pt x 50.68066pt.
-<Image/Light GBM/SS_8_2_30.png, id=382, 602.25pt x 419.31656pt>
-File: Image/Light GBM/SS_8_2_30.png Graphic file (type png)
-<use Image/Light GBM/SS_8_2_30.png>
-Package pdftex.def Info: Image/Light GBM/SS_8_2_30.png  used on input line 1119.
-(pdftex.def)             Requested size: 70.46037pt x 49.05536pt.
-<Image/Light GBM/SS_6_4_60.png, id=383, 590.205pt x 424.58624pt>
-File: Image/Light GBM/SS_6_4_60.png Graphic file (type png)
-<use Image/Light GBM/SS_6_4_60.png>
-Package pdftex.def Info: Image/Light GBM/SS_6_4_60.png  used on input line 1130.
-(pdftex.def)             Requested size: 70.46037pt x 50.68253pt.
-<Image/Light GBM/SS_7_3_60.png, id=384, 594.72188pt x 416.30531pt>
-File: Image/Light GBM/SS_7_3_60.png Graphic file (type png)
-<use Image/Light GBM/SS_7_3_60.png>
-Package pdftex.def Info: Image/Light GBM/SS_7_3_60.png  used on input line 1136.
-(pdftex.def)             Requested size: 70.46037pt x 49.31924pt.
-<Image/Light GBM/SS_8_2_60.png, id=385, 599.23875pt x 425.33907pt>
-File: Image/Light GBM/SS_8_2_60.png Graphic file (type png)
-<use Image/Light GBM/SS_8_2_60.png>
-Package pdftex.def Info: Image/Light GBM/SS_8_2_60.png  used on input line 1142.
-(pdftex.def)             Requested size: 70.46037pt x 50.00655pt.
-<Image/Light GBM/SS_6_4_90.png, id=386, 614.295pt x 424.58624pt>
-File: Image/Light GBM/SS_6_4_90.png Graphic file (type png)
-<use Image/Light GBM/SS_6_4_90.png>
-Package pdftex.def Info: Image/Light GBM/SS_6_4_90.png  used on input line 1153.
-(pdftex.def)             Requested size: 70.46037pt x 48.70004pt.
-<Image/Light GBM/SS_7_3_90.png, id=387, 586.44093pt x 443.40656pt>
-File: Image/Light GBM/SS_7_3_90.png Graphic file (type png)
-<use Image/Light GBM/SS_7_3_90.png>
-Package pdftex.def Info: Image/Light GBM/SS_7_3_90.png  used on input line 1159.
-(pdftex.def)             Requested size: 70.46037pt x 53.27414pt.
-<Image/Light GBM/SS_8_2_90.png, id=388, 598.48593pt x 434.37282pt>
-File: Image/Light GBM/SS_8_2_90.png Graphic file (type png)
-<use Image/Light GBM/SS_8_2_90.png>
-Package pdftex.def Info: Image/Light GBM/SS_8_2_90.png  used on input line 1165.
-(pdftex.def)             Requested size: 70.46037pt x 51.13492pt.
-<Image/ket qua/LG.png, id=389, 699.8145pt x 226.446pt>
+<Image/Light GBM/LightGBM_LG_6_4.png, id=363, 730.22812pt x 473.51906pt>
+File: Image/Light GBM/LightGBM_LG_6_4.png Graphic file (type png)
+<use Image/Light GBM/LightGBM_LG_6_4.png>
+Package pdftex.def Info: Image/Light GBM/LightGBM_LG_6_4.png  used on input line 964.
+(pdftex.def)             Requested size: 70.46037pt x 45.68562pt.
+<Image/Light GBM/LightGBM_LG_7_3.png, id=364, 603.75563pt x 439.6425pt>
+File: Image/Light GBM/LightGBM_LG_7_3.png Graphic file (type png)
+<use Image/Light GBM/LightGBM_LG_7_3.png>
+Package pdftex.def Info: Image/Light GBM/LightGBM_LG_7_3.png  used on input line 970.
+(pdftex.def)             Requested size: 70.46037pt x 51.3058pt.
+<Image/Light GBM/LightGBM_LG_8_2.png, id=365, 642.14906pt x 427.5975pt>
+File: Image/Light GBM/LightGBM_LG_8_2.png Graphic file (type png)
+<use Image/Light GBM/LightGBM_LG_8_2.png>
+Package pdftex.def Info: Image/Light GBM/LightGBM_LG_8_2.png  used on input line 976.
+(pdftex.def)             Requested size: 70.46037pt x 46.91843pt.
+<Image/Light GBM/LightGBM_SONY_6_4.png, id=366, 577.40718pt x 408.02437pt>
+File: Image/Light GBM/LightGBM_SONY_6_4.png Graphic file (type png)
+<use Image/Light GBM/LightGBM_SONY_6_4.png>
+Package pdftex.def Info: Image/Light GBM/LightGBM_SONY_6_4.png  used on input line 987.
+(pdftex.def)             Requested size: 70.46037pt x 49.78885pt.
+<Image/Light GBM/Lightgbm_SONY_7_3.png, id=367, 593.21625pt x 456.20438pt>
+File: Image/Light GBM/Lightgbm_SONY_7_3.png Graphic file (type png)
+<use Image/Light GBM/Lightgbm_SONY_7_3.png>
+Package pdftex.def Info: Image/Light GBM/Lightgbm_SONY_7_3.png  used on input line 993.
+(pdftex.def)             Requested size: 70.46037pt x 54.18527pt.
+<Image/Light GBM/LightGBM_SONY_8_2.png, id=368, 591.71063pt x 446.41782pt>
+File: Image/Light GBM/LightGBM_SONY_8_2.png Graphic file (type png)
+<use Image/Light GBM/LightGBM_SONY_8_2.png>
+Package pdftex.def Info: Image/Light GBM/LightGBM_SONY_8_2.png  used on input line 999.
+(pdftex.def)             Requested size: 70.46037pt x 53.15912pt.
+<Image/Light GBM/LightGBM_SS_6_4.png, id=369, 602.25pt x 439.6425pt>
+File: Image/Light GBM/LightGBM_SS_6_4.png Graphic file (type png)
+<use Image/Light GBM/LightGBM_SS_6_4.png>
+Package pdftex.def Info: Image/Light GBM/LightGBM_SS_6_4.png  used on input line 1010.
+(pdftex.def)             Requested size: 70.46037pt x 51.43326pt.
+<Image/Light GBM/LightGBM_SS_7_3.png, id=370, 635.37375pt x 446.41782pt>
+File: Image/Light GBM/LightGBM_SS_7_3.png Graphic file (type png)
+<use Image/Light GBM/LightGBM_SS_7_3.png>
+Package pdftex.def Info: Image/Light GBM/LightGBM_SS_7_3.png  used on input line 1016.
+(pdftex.def)             Requested size: 70.46037pt x 49.50119pt.
+<Image/Light GBM/LightGBM_SS_8_2.png, id=371, 685.8122pt x 483.30562pt>
+File: Image/Light GBM/LightGBM_SS_8_2.png Graphic file (type png)
+<use Image/Light GBM/LightGBM_SS_8_2.png>
+Package pdftex.def Info: Image/Light GBM/LightGBM_SS_8_2.png  used on input line 1022.
+(pdftex.def)             Requested size: 70.46037pt x 49.65344pt.
+<Image/ket qua/LG.png, id=372, 699.8145pt x 226.446pt>
 File: Image/ket qua/LG.png Graphic file (type png)
 <use Image/ket qua/LG.png>
-Package pdftex.def Info: Image/ket qua/LG.png  used on input line 1175.
+Package pdftex.def Info: Image/ket qua/LG.png  used on input line 1032.
 (pdftex.def)             Requested size: 187.89914pt x 60.79915pt.
-<Image/ket qua/SONY.png, id=390, 602.25pt x 196.93575pt>
+<Image/ket qua/SONY.png, id=373, 602.25pt x 196.93575pt>
 File: Image/ket qua/SONY.png Graphic file (type png)
 <use Image/ket qua/SONY.png>
-Package pdftex.def Info: Image/ket qua/SONY.png  used on input line 1177.
+Package pdftex.def Info: Image/ket qua/SONY.png  used on input line 1034.
 (pdftex.def)             Requested size: 187.89914pt x 61.44308pt.
+<Image/ket qua/SAMSUNG.png, id=374, 688.37175pt x 223.43475pt>
+File: Image/ket qua/SAMSUNG.png Graphic file (type png)
+<use Image/ket qua/SAMSUNG.png>
+Package pdftex.def Info: Image/ket qua/SAMSUNG.png  used on input line 1036.
+(pdftex.def)             Requested size: 187.89914pt x 60.9896pt.
  [9
 pdfTeX warning (ext4): destination with the same identifier (name{figure.26}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1178 \subsubsection
-                     {MÔ HÌNH ĐÁNH GIÁ VỚI TẬP DỮ LIỆU SAMSUNG}
+l.1049 S
+        au khi thu thập dữ liệu, tôi bắt đầu mã hóa các dự ...
 pdfTeX warning (ext4): destination with the same identifier (name{figure.27}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1178 \subsubsection
-                     {MÔ HÌNH ĐÁNH GIÁ VỚI TẬP DỮ LIỆU SAMSUNG}
+l.1049 S
+        au khi thu thập dữ liệu, tôi bắt đầu mã hóa các dự ...
 pdfTeX warning (ext4): destination with the same identifier (name{figure.28}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1178 \subsubsection
-                     {MÔ HÌNH ĐÁNH GIÁ VỚI TẬP DỮ LIỆU SAMSUNG}
+l.1049 S
+        au khi thu thập dữ liệu, tôi bắt đầu mã hóa các dự ...
 pdfTeX warning (ext4): destination with the same identifier (name{figure.29}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1178 \subsubsection
-                     {MÔ HÌNH ĐÁNH GIÁ VỚI TẬP DỮ LIỆU SAMSUNG}
+l.1049 S
+        au khi thu thập dữ liệu, tôi bắt đầu mã hóa các dự ...
 pdfTeX warning (ext4): destination with the same identifier (name{figure.30}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1178 \subsubsection
-                     {MÔ HÌNH ĐÁNH GIÁ VỚI TẬP DỮ LIỆU SAMSUNG}
+l.1049 S
+        au khi thu thập dữ liệu, tôi bắt đầu mã hóa các dự ...
 pdfTeX warning (ext4): destination with the same identifier (name{figure.31}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1178 \subsubsection
-                     {MÔ HÌNH ĐÁNH GIÁ VỚI TẬP DỮ LIỆU SAMSUNG}
-pdfTeX warning (ext4): destination with the same identifier (name{figure.32}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.1178 \subsubsection
-                     {MÔ HÌNH ĐÁNH GIÁ VỚI TẬP DỮ LIỆU SAMSUNG}
-pdfTeX warning (ext4): destination with the same identifier (name{figure.33}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.1178 \subsubsection
-                     {MÔ HÌNH ĐÁNH GIÁ VỚI TẬP DỮ LIỆU SAMSUNG}
-pdfTeX warning (ext4): destination with the same identifier (name{figure.34}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.1178 \subsubsection
-                     {MÔ HÌNH ĐÁNH GIÁ VỚI TẬP DỮ LIỆU SAMSUNG}
-pdfTeX warning (ext4): destination with the same identifier (name{figure.35}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.1178 \subsubsection
-                     {MÔ HÌNH ĐÁNH GIÁ VỚI TẬP DỮ LIỆU SAMSUNG}
-pdfTeX warning (ext4): destination with the same identifier (name{figure.36}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.1178 \subsubsection
-                     {MÔ HÌNH ĐÁNH GIÁ VỚI TẬP DỮ LIỆU SAMSUNG}
-pdfTeX warning (ext4): destination with the same identifier (name{figure.37}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.1178 \subsubsection
-                     {MÔ HÌNH ĐÁNH GIÁ VỚI TẬP DỮ LIỆU SAMSUNG} <./Image/NBeat/N_BEAT_LG_6_4.png> <./Image/NBeat/N_BEAT_LG_7_3.png> <./Image/NBeat/N_BEAT_LG_8_2.png> <./Image/NBeat/N_BEAT_SONY_6_4.png> <./Image/NBeat/N_BEAT_SONY_7_3.png> <./Image/NBeat/N_BEAT_SONY_8_2.png> <./Image/NBeat/N_BEAT_SAMSUNG_6_4.png> <./Image/NBeat/N_BEAT_SAMSUNG_7_3.png> <./Image/NBeat/N_BEAT_SAMSUNG_8_2.png> <./Image/Light GBM/LG_6_4_30.png> <./Image/Light GBM/LG_7_3_30.png> <./Image/Light GBM/LG_8_2_30.png> <./Image/Light GBM/LG_6_4_60.png> <./Image/Light GBM/LG_7_3_60.png> <./Image/Light GBM/LG_8_2_60.png> <./Image/Light GBM/LG_6_4_90.png> <./Image/Light GBM/LG_7_3_90.png> <./Image/Light GBM/LG_8_2_90.png> <./Image/Light GBM/SN_6_4_30.png> <./Image/Light GBM/SN_7_3_30.png> <./Image/Light GBM/SN_8_2_30.png> <./Image/Light GBM/SN_6_4_60.png> <./Image/Light GBM/SN_7_3_60.png> <./Image/Light GBM/Sn_8_2_60.png> <./Image/Light GBM/SN_6_4_90.png> <./Image/Light GBM/SN_8_2_90.png> <./Image/Light GBM/SS_6_4__30.png> <./Image/Light GBM/SS_7_3_30.png> <./Image/Light GBM/SS_8_2_30.png> <./Image/Light GBM/SS_6_4_60.png> <./Image/Light GBM/SS_7_3_60.png> <./Image/Light GBM/SS_8_2_60.png> <./Image/Light GBM/SS_6_4_90.png> <./Image/Light GBM/SS_7_3_90.png> <./Image/Light GBM/SS_8_2_90.png> <./Image/ket qua/LG.png>]
-<Image/ket qua/SAMSUNG.png, id=443, 688.37175pt x 223.43475pt>
-File: Image/ket qua/SAMSUNG.png Graphic file (type png)
-<use Image/ket qua/SAMSUNG.png>
-Package pdftex.def Info: Image/ket qua/SAMSUNG.png  used on input line 1179.
-(pdftex.def)             Requested size: 187.89914pt x 60.9896pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1218--1219
+l.1049 S
+        au khi thu thập dữ liệu, tôi bắt đầu mã hóa các dự ... <./Image/NBeat/N_BEAT_LG_6_4.png> <./Image/NBeat/N_BEAT_LG_7_3.png> <./Image/NBeat/N_BEAT_LG_8_2.png> <./Image/NBeat/N_BEAT_SONY_6_4.png> <./Image/NBeat/N_BEAT_SONY_7_3.png> <./Image/NBeat/N_BEAT_SONY_8_2.png> <./Image/NBeat/N_BEAT_SAMSUNG_6_4.png> <./Image/NBeat/N_BEAT_SAMSUNG_7_3.png> <./Image/NBeat/N_BEAT_SAMSUNG_8_2.png> <./Image/Light GBM/LightGBM_LG_6_4.png> <./Image/Light GBM/LightGBM_LG_7_3.png> <./Image/Light GBM/LightGBM_LG_8_2.png> <./Image/Light GBM/LightGBM_SONY_6_4.png> <./Image/Light GBM/Lightgbm_SONY_7_3.png> <./Image/Light GBM/LightGBM_SONY_8_2.png> <./Image/Light GBM/LightGBM_SS_6_4.png> <./Image/Light GBM/LightGBM_SS_7_3.png> <./Image/Light GBM/LightGBM_SS_8_2.png> <./Image/ket qua/LG.png> <./Image/ket qua/SONY.png> <./Image/ket qua/SAMSUNG.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1075--1076
 []\T5/cmr/m/n/10 [4]: War-sono, Ed-win Rus-sel, Wa-mil-iana*,
  []
 
-[10 <./Image/ket qua/SONY.png> <./Image/ket qua/SAMSUNG.png>]
 
-[11] (Report.aux)
+
+[10] (Report.aux)
  ***********
 LaTeX2e <2024-06-01>
 L3 programming layer <2024-05-08>
@@ -1767,17 +1593,17 @@ Package rerunfilecheck Info: File `Report.out' has not changed.
 (rerunfilecheck)             Checksum: 43B15C99918ADFB3333F71CB633604F0;6408.
  ) 
 Here is how much of TeX's memory you used:
- 14145 strings out of 473938
- 229226 string characters out of 5743772
+ 14019 strings out of 473938
+ 225311 string characters out of 5743772
  1947893 words of memory out of 5000000
- 36668 multiletter control sequences out of 15000+600000
+ 36549 multiletter control sequences out of 15000+600000
  576604 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,14n,79p,1452b,672s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Le Anh Tuan Dung\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><E:/Miktek/fonts/type1/public/amsfonts/cm/cmbx10.pfb><E:/Miktek/fonts/type1/public/amsfonts/cm/cmex10.pfb><E:/Miktek/fonts/type1/public/amsfonts/cm/cmmi10.pfb><E:/Miktek/fonts/type1/public/amsfonts/cm/cmmi7.pfb><E:/Miktek/fonts/type1/public/amsfonts/cm/cmmib10.pfb><E:/Miktek/fonts/type1/public/amsfonts/cm/cmr10.pfb><E:/Miktek/fonts/type1/public/amsfonts/cm/cmr7.pfb><E:/Miktek/fonts/type1/public/amsfonts/cm/cmsy10.pfb><E:/Miktek/fonts/type1/public/amsfonts/cm/cmsy7.pfb><E:/Miktek/fonts/type1/vntex/vnr/vnbx10.pfb><E:/Miktek/fonts/type1/vntex/vnr/vnbx12.pfb><E:/Miktek/fonts/type1/vntex/vnr/vnr10.pfb><E:/Miktek/fonts/type1/vntex/vnr/vnr12.pfb><E:/Miktek/fonts/type1/vntex/vnr/vntt10.pfb>
-Output written on Report.pdf (11 pages, 7976394 bytes).
+Output written on Report.pdf (10 pages, 6822794 bytes).
 PDF statistics:
- 537 PDF objects out of 1000 (max. 8388607)
- 90 named destinations out of 1000 (max. 500000)
- 800 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 492 PDF objects out of 1000 (max. 8388607)
+ 83 named destinations out of 1000 (max. 500000)
+ 715 words of extra memory for PDF output out of 10000 (max. 10000000)
 
